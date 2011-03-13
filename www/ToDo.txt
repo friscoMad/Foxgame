@@ -1,0 +1,19 @@
+- Compactador de batallas.
+- Cambiar planetas por coordenadas en overview.
+- Hora de llegada en fleet3
+- Optimize for resources
+- Custom planets
+- Tiempo de finalización en overview.
+- Resaltado de Tops - Aliados - Enemigos
+- Cambiar imagenes de planetas
+- Boton de copiar en espionajes
+- Numeros en escombros
+- Recuperacion en caso de error al enviar la flota
+
+
+Descartado:
+
+- Accesos directos en las coordenadas de la pagina principal (en los
+mensajes de las flotas amigas/enemigas que estan en curso que salen en
+la portada)
+

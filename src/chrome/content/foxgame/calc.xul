@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://mozapps/skin/pref/pref.css" type="text/css"?>
+
+<!DOCTYPE dialog SYSTEM "chrome://foxgame2/locale/foxgame.dtd">
+
+<window class="dialog"
+	title="&foxgame.menu.calculator;"
+	orient="vertical"
+	autostretch="always"
+	buttons="accept"
+	onload="sizeToContent();init()"
+	onclose="save()"
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	
+<script type="application/x-javascript" src="chrome://foxgame2/content/foxgameCommon.js"/>	
+<script type="application/x-javascript" src="chrome://foxgame2/content/foxgameCalc.js"/>
+
+<grid>
+  <columns>
+    <column/>
+    <column/>
+    <column/>
+  </columns>
+
+  <rows>
+ 	<label value="&foxgame.calc.ratio;"/>
+  	<row>
+		<textbox id="fgRMetal" oninput="update_calc();"/>
+		<textbox id="fgRCrystal" oninput="update_calc();"/>
+		<textbox id="fgRDeut" oninput="update_calc();"/>  	
+  	</row>
+	<hbox>
+		<menulist id="fgSelectType"  sizetopopup="always" size="25" oncommand="update_type();">
+			<menupopup id="fgSelectTypePopup">
+				<menuitem id="selectmode0" value="Sell" label="&foxgame.calc.sell;" />
+				<menuitem id="selectmode1" value="Buy" label="&foxgame.calc.buy;" />
+			</menupopup>
+		</menulist>
+		<menulist id="fgSelectRes"  sizetopopup="always" size="25" oncommand="update_type();">
+			<menupopup id="fgSelectResPopup">
+				<menuitem id="selectres0" value="met" label="&foxgame.prefs.resources.metal;" />
+				<menuitem id="selectres1" value="crys" label="&foxgame.prefs.resources.crystal;" />
+				<menuitem id="selectres2" value="deut" label="&foxgame.prefs.resources.deut;" />			
+			</menupopup>
+		</menulist>	
+	</hbox>
+	  
+    <row>
+      <label control="fgMetal" value="&foxgame.prefs.resources.metal;"/>
+      <label control="fgCrystal" value="&foxgame.prefs.resources.crystal;"/>
+      <label control="fgDeut" value="&foxgame.prefs.resources.deut;"/>
+    </row>
+    <row>
+      <textbox id="fgMetal" oninput="update_calc();"/>
+      <textbox id="fgCrystal" oninput="update_calc();"/>
+      <textbox id="fgDeut" oninput="update_calc();"/>
+    </row>
+ 	<label id="lMix" value="&foxgame.calc.mix;"/>
+  	<row id="Mix">
+		<textbox id="fgMMetal" oninput="fixMix(1);update_calc();" onchange="fixMixAll();update_calc();"/>
+		<textbox id="fgMCrystal" oninput="fixMix(2);update_calc();" onchange="fixMixAll();update_calc();"/>
+		<textbox id="fgMDeut" oninput="fixMix(3);update_calc();" onchange="fixMixAll();update_calc();"/>  	
+  	</row>
+
+  </rows>
+</grid>
+</window>
+
+

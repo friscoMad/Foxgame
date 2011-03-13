@@ -1,0 +1,7 @@
+@CHARSET "UTF-8";
+
+@import url(chrome://global/skin/);
+
+#aboutContent label {
+	font-size: x-small;
+}

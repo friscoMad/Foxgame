@@ -1,0 +1,78 @@
+<!-- fr-FR -->
+
+<!ENTITY foxgame.prefs.preferences "Options FoxGame">
+<!ENTITY foxgame.prefs.removePlanets "Réduire le contenu de la page Galaxie">
+<!ENTITY foxgame.prefs.flotaTime "Afficher l'heure d'arrivée de la Flotte (aller et retour)">
+<!ENTITY foxgame.prefs.flotaReturnTime "Afficher l'heure de retour de la Flotte en cas de rappel">
+<!ENTITY foxgame.prefs.replicateDeleteOptions "Ajouter une deuxième barre d'effacement des Messages">
+<!ENTITY foxgame.prefs.selectUniverse "Sélection automatique d'un Univers">
+<!ENTITY foxgame.prefs.highlightPrivates "Mettre en surbrillance les Messages de joueurs">
+<!ENTITY foxgame.prefs.server "Serveur">
+<!ENTITY foxgame.prefs.universe "Univers">
+<!ENTITY foxgame.prefs.activate "Activer">
+<!ENTITY foxgame.prefs.buildingTime "Afficher l'heure de fin de construction au Chantier spatial">
+<!ENTITY foxgame.prefs.addOverviewTime "Afficher les heures des évènements dans la Vue générale">
+<!ENTITY foxgame.prefs.removeOverviewTime "Enlever les comptes à rebours dans la Vue générale">
+<!ENTITY foxgame.prefs.buildingsTime "Afficher l'heure de fin de construction des Bâtiments">
+<!ENTITY foxgame.prefs.researchTime "Afficher l'heure de fin de la Recherche">
+<!ENTITY foxgame.prefs.colorPicker "Sélection des Couleurs">
+<!ENTITY foxgame.prefs.colorPicker2 "Choisissez une couleur :">
+<!ENTITY foxgame.prefs.color "Couleur :">
+<!ENTITY foxgame.prefs.colorButton "Choisir">
+<!ENTITY foxgame.prefs.highlightAllyMessages "Mettre en surbrillance les Messages de votre alliance">
+<!ENTITY foxgame.prefs.highlightBigDebris "Mettre en surbrillance les grands Champs de débris">
+<!ENTITY foxgame.prefs.debrisMin "Taille Minimum à mettre en surbrillance :">
+<!ENTITY foxgame.prefs.infosDeltas "Afficher les différences entre les niveaux des bâtiments sur leur page d'informations.">
+<!ENTITY foxgame.prefs.autoCopy "Copie Auto : Quand un texte est sélectionné, s'il contient des coordonnées elles seront automatiquement utilisées comme objectif par défaut pour les prochaines flottes.">
+<!ENTITY foxgame.prefs.messageSignature "Signature des messages privés">
+<!ENTITY foxgame.prefs.msgSignText "Signature">
+<!ENTITY foxgame.prefs.type "Type">
+<!ENTITY foxgame.prefs.add "Ajouter">
+<!ENTITY foxgame.prefs.edit "Modifier">
+<!ENTITY foxgame.prefs.phalanxTime "Afficher l'heure dans les rapports de phalange.">
+<!ENTITY foxgame.prefs.milosButtons "Ajouter des boutons dans la page Galaxie pour envoyer les informations vers les bases de données.">
+<!ENTITY foxgame.prefs.statButtons "Ajouter des boutons dans la page Statistiques pour envoyer les informations vers les bases de données.">
+<!ENTITY foxgame.prefs.reportButtons "Ajouter des boutons dans les rapports d'espionnage pour envoyer les informations vers les bases de données.">
+<!ENTITY foxgame.tabs.dbs "Bases de données">
+<!ENTITY foxgame.prefs.selectDBType "Choisisez le type de BDD :">
+<!ENTITY foxgame.prefs.user "Nom d'utilisateur :">
+<!ENTITY foxgame.prefs.pass "Mot de passe :">
+<!ENTITY foxgame.prefs.ally "Alliance :">
+<!ENTITY foxgame.prefs.url "URL :">
+<!ENTITY foxgame.prefs.DBOptions "Paramètres de la base de données">
+
+<!ENTITY foxgame.prefs.replicateReportOptions "Ajouter une deuxième case 'Ne montrer qu'une partie du rapport d'espionnage' en haut">
+<!ENTITY foxgame.prefs.missionPreference "Ordre de priorité des missions">
+<!ENTITY foxgame.prefs.attack "Attaquer">
+<!ENTITY foxgame.prefs.spy "Espionnage">
+<!ENTITY foxgame.prefs.recollect "Exploiter">
+<!ENTITY foxgame.prefs.transport "Transporter">
+<!ENTITY foxgame.prefs.deploy "Stationner">
+<!ENTITY foxgame.prefs.delete "Supprimer">
+<!ENTITY foxgame.prefs.deleteAll "Remise à zéro">
+<!ENTITY foxgame.prefs.missionPreference.description "Si une liste de priorité est définie, FoxGame sélectionnera le type de mission en suivant l'ordre de cette liste. Au cas où la mission ayant la plus grande priorité n'est pas faisable il passera à la mission suivante et ainsi de suite.">
+<!ENTITY foxgame.prefs.selectTimeMode "Type d'horaire à utiliser :">
+<!ENTITY foxgame.prefs.clientTime "Heure locale">
+<!ENTITY foxgame.prefs.serverTime "Heure du serveur">
+<!ENTITY foxgame.prefs.commonTime "Heure locale / min et sec du serveur">
+<!ENTITY foxgame.prefs.serverDiffTime "Heure du serveur + X heures">
+<!ENTITY foxgame.prefs.selectTimeDiff "Décalage horaire">
+
+
+<!ENTITY foxgame.tabs.general "Général">
+<!ENTITY foxgame.tabs.time "Temps">
+<!ENTITY foxgame.about.title "À propos de FoxGame">
+
+<!-- The final string will be "Before" locale "After" -->
+<!ENTITY foxgame.about.translationByBefore "par :">
+<!ENTITY foxgame.about.translationByAfter " Traduction">
+<!-- The final string will be "Traducido a de-DE por: -->
+
+<!ENTITY foxgame.about.createdBy "Créé par :">
+<!ENTITY foxgame.about.iconDesign "Logo créé par :">
+<!ENTITY foxgame.about.iconDesigner "Pas de logo pour le moment">
+<!ENTITY foxgame.about.homePage "Page Web :">
+
+<!ENTITY foxgame.menu.configure "Configurer FoxGame">
+
+<!-- EOF -->

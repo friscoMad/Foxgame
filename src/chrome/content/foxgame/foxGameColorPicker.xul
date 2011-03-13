@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://mozapps/skin/pref/pref.css" type="text/css"?>
+
+<!DOCTYPE dialog SYSTEM "chrome://foxgame2/locale/foxgame.dtd">
+
+<dialog xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+	title="&foxgame.prefs.colorPicker;"
+	id="foxgame-colorPicker"
+	buttons="accept, cancel"
+	ondialogaccept="foxgame2_returnColor(); return foxgame2_saveColor();"
+	onload="foxgame2_initColor(); window.sizeToContent();"
+	orient="vertical"
+	autostretch="always"
+	persist="screenX screenY"
+	flex="1">
+
+    <script type="application/x-javascript" src="chrome://foxgame2/content/foxgameCommon.js" />
+    <script type="application/x-javascript" src="chrome://foxgame2/content/foxgameOptions.js" />
+
+
+	<hbox flex="1">
+		<vbox>
+			<groupbox>
+			<caption label="&foxgame.prefs.colorPicker2;" />
+				<vbox>
+ 					<hbox align="center">
+						<colorpicker id="fgColorPicker"/> 
+	    				</hbox>
+				</vbox>
+			</groupbox>
+	    </vbox>
+	</hbox>
+</dialog>
+

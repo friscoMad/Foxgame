@@ -1,0 +1,32 @@
+content foxgame2 jar:chrome/foxgame2.jar!/content/foxgame/
+content foxgame2 jar:chrome/foxgame2.jar!/content/foxgame/ contentaccessible=yes
+locale	foxgame2 cs-CZ jar:chrome/foxgame2.jar!/locale/cs-CZ/foxgame/
+locale	foxgame2 da-DK jar:chrome/foxgame2.jar!/locale/da-DK/foxgame/
+locale	foxgame2 de-DE jar:chrome/foxgame2.jar!/locale/de-DE/foxgame/
+locale	foxgame2 en-US jar:chrome/foxgame2.jar!/locale/en-US/foxgame/
+locale	foxgame2 es-ES jar:chrome/foxgame2.jar!/locale/es-ES/foxgame/
+locale	foxgame2 fr-FR jar:chrome/foxgame2.jar!/locale/fr-FR/foxgame/
+locale	foxgame2 hu-HU jar:chrome/foxgame2.jar!/locale/hu-HU/foxgame/
+locale	foxgame2 hr-HR jar:chrome/foxgame2.jar!/locale/hr-HR/foxgame/
+locale	foxgame2 it-IT jar:chrome/foxgame2.jar!/locale/it-IT/foxgame/
+locale	foxgame2 ja-JP jar:chrome/foxgame2.jar!/locale/ja-JP/foxgame/
+locale	foxgame2 ko-KR jar:chrome/foxgame2.jar!/locale/ko-KR/foxgame/
+locale	foxgame2 lt-LT jar:chrome/foxgame2.jar!/locale/lt-LT/foxgame/
+locale	foxgame2 lv-LV jar:chrome/foxgame2.jar!/locale/lv-LV/foxgame/
+locale	foxgame2 nl-NL jar:chrome/foxgame2.jar!/locale/nl-NL/foxgame/
+locale	foxgame2 nb-NO jar:chrome/foxgame2.jar!/locale/nb-NO/foxgame/
+locale	foxgame2 pl-PL jar:chrome/foxgame2.jar!/locale/pl-PL/foxgame/
+locale	foxgame2 pt-BR jar:chrome/foxgame2.jar!/locale/pt-BR/foxgame/
+locale	foxgame2 pt-PT jar:chrome/foxgame2.jar!/locale/pt-PT/foxgame/
+locale	foxgame2 ro-RO jar:chrome/foxgame2.jar!/locale/ro-RO/foxgame/
+locale	foxgame2 ru-RU jar:chrome/foxgame2.jar!/locale/ru-RU/foxgame/
+locale	foxgame2 sk-SK jar:chrome/foxgame2.jar!/locale/sk-SK/foxgame/
+locale	foxgame2 sl-SI jar:chrome/foxgame2.jar!/locale/sl-SI/foxgame/
+locale	foxgame2 sr-YU jar:chrome/foxgame2.jar!/locale/sr-YU/foxgame/
+locale	foxgame2 sv-SE jar:chrome/foxgame2.jar!/locale/sv-SE/foxgame/
+locale	foxgame2 tr-TR jar:chrome/foxgame2.jar!/locale/tr-TR/foxgame/
+locale	foxgame2 zh-CN jar:chrome/foxgame2.jar!/locale/zh-CN/foxgame/
+locale	foxgame2 zh-TW jar:chrome/foxgame2.jar!/locale/zh-TW/foxgame/
+skin foxgame2 classic/1.0 jar:chrome/foxgame2.jar!/skin/classic/
+overlay chrome://navigator/content/navigator.xul chrome://foxgame2/content/foxgameOverlay.xul
+overlay chrome://browser/content/browser.xul chrome://foxgame2/content/foxgameOverlay.xul

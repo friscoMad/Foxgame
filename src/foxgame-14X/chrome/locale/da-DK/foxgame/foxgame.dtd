@@ -1,0 +1,82 @@
+<!-- da-DK -->
+
+<!ENTITY foxgame.prefs.preferences "FoxGame Indstillinger">
+<!ENTITY foxgame.prefs.removePlanets "Reduceret galakse visning">
+<!ENTITY foxgame.prefs.flotaTime "Vis flådes begivenheds tider (1 og 2 destinationer)">
+<!ENTITY foxgame.prefs.flotaReturnTime "Vis flådes 'kald tilbage' tid">
+<!ENTITY foxgame.prefs.replicateDeleteOptions "Tilføj ekstra besked sletnings muligheder">
+<!ENTITY foxgame.prefs.selectUniverse "Vælg Univers">
+<!ENTITY foxgame.prefs.highlightPrivates "Fremhæv Private Beskeder">
+<!ENTITY foxgame.prefs.server "Server">
+<!ENTITY foxgame.prefs.universe "Univers">
+<!ENTITY foxgame.prefs.activate "Aktiver">
+<!ENTITY foxgame.prefs.buildingTime "Vis skibsværftets færdiggørelsestid">
+<!ENTITY foxgame.prefs.addOverviewTime "Vis begivenheds tider i oversigten">
+<!ENTITY foxgame.prefs.removeOverviewTime "Fjern nedtælling i oversigten">
+<!ENTITY foxgame.prefs.buildingsTime "Vis bygningers færdiggørelsestid">
+<!ENTITY foxgame.prefs.researchTime "Vis forsknings færdiggørelsestid">
+<!ENTITY foxgame.prefs.colorPicker "Farve Valg">
+<!ENTITY foxgame.prefs.colorPicker2 "Vælg en farve:">
+<!ENTITY foxgame.prefs.color "Farve:">
+<!ENTITY foxgame.prefs.colorButton "Vælg">
+<!ENTITY foxgame.prefs.highlightAllyMessages "Fremhæv Alliance Meddelelser">
+<!ENTITY foxgame.prefs.highlightBigDebris "Fremhæv Store Ruin Marker">
+<!ENTITY foxgame.prefs.debrisMin "Minimale størrelse at fremhæve:">
+
+<!ENTITY foxgame.prefs.addBuildingDeltas "Viser de tilbageværende/manglende råstoffer til hver bygning.">
+<!ENTITY foxgame.prefs.addResearchDeltas "Viser de tilbageværende/manglende råstoffer til hver forskning.">
+<!ENTITY foxgame.prefs.addHangarDeltas "Viser de tilbageværende/manglende råstoffer til hvert skib.">
+<!ENTITY foxgame.prefs.addDefenseDeltas "Viser de tilbageværende/manglende råstoffer til hvert forsvarsanlæg.">
+<!ENTITY foxgame.prefs.infosDeltas "Viser forskellen mellem hvert level i bygningsinformation.">
+<!ENTITY foxgame.prefs.autoCopy "AutoKopier: Hver gang en tekst er markeret vil der søges efter koordinater, hvis de er at finde, vil de vises som destination under flåde efterfølgende.">
+<!ENTITY foxgame.prefs.messageSignature "PM Signatur">
+<!ENTITY foxgame.prefs.msgSignText "Signatur">
+<!ENTITY foxgame.prefs.type "Type">
+<!ENTITY foxgame.prefs.add "Tilføj">
+<!ENTITY foxgame.prefs.edit "Redigér">
+<!ENTITY foxgame.prefs.phalanxTime "Vis tid i phalanx reporter.">
+<!ENTITY foxgame.prefs.milosButtons "Tilføj knapper under Galakse visning til at sende info til databasen.">
+<!ENTITY foxgame.prefs.statButtons "Tilføj knapper ved rang visning til at sende info til databasen.">
+<!ENTITY foxgame.prefs.reportButtons "Tilføj knapper til Spionage Rapporter til at sende info til databasen.">
+<!ENTITY foxgame.tabs.dbs "Databaser">
+<!ENTITY foxgame.prefs.selectDBType "Vælg DB type:">
+<!ENTITY foxgame.prefs.user "Brugernavn:">
+<!ENTITY foxgame.prefs.pass "Password:">
+<!ENTITY foxgame.prefs.ally "Alliance:">
+<!ENTITY foxgame.prefs.url "URL:">
+<!ENTITY foxgame.prefs.DBOptions "Database indstillinger">
+
+<!ENTITY foxgame.prefs.replicateReportOptions "Tilføj ekstra spionage rapport kontrol i toppen">
+<!ENTITY foxgame.prefs.missionPreference "Vælg mission type prioriteter">
+<!ENTITY foxgame.prefs.attack "Angrib">
+<!ENTITY foxgame.prefs.spy "Spioner">
+<!ENTITY foxgame.prefs.recollect "Recycle">
+<!ENTITY foxgame.prefs.transport "Transporter">
+<!ENTITY foxgame.prefs.deploy "Stationer">
+<!ENTITY foxgame.prefs.delete "Slet">
+<!ENTITY foxgame.prefs.deleteAll "Nulstil">
+<!ENTITY foxgame.prefs.missionPreference.description "FoxGame vil vælge den valgte missons type under mission udvælgelses skærmen. Hvis missionen med højeste priotet ikke bliver fundet, vil FoxGame prøve at vælge anden prioritet osv.">
+<!ENTITY foxgame.prefs.selectTimeMode "Vælg tidsvisning:">
+<!ENTITY foxgame.prefs.clientTime "Lokal tid">
+<!ENTITY foxgame.prefs.serverTime "Server tid">
+<!ENTITY foxgame.prefs.commonTime "Lokal timer/Server minutter og sekunder">
+<!ENTITY foxgame.prefs.serverDiffTime "Server tid + X timer">
+<!ENTITY foxgame.prefs.selectTimeDiff "Vælg din tidsforskel">
+
+<!ENTITY foxgame.tabs.general "Generelt">
+<!ENTITY foxgame.tabs.time "Tidsindstillinger">
+
+
+<!ENTITY foxgame.about.title "Om FoxGame">
+
+<!-- The final string will be "Before" locale "After" -->
+<!ENTITY foxgame.about.translationByBefore "">
+<!ENTITY foxgame.about.translationByAfter " Oversættelse:">
+<!-- The final string will be "Traducido a de-DE por: -->
+
+<!ENTITY foxgame.about.createdBy "Lavet af:">
+<!ENTITY foxgame.about.iconDesign "Ikon Design:">
+<!ENTITY foxgame.about.homePage "Hjemmeside:">
+
+<!ENTITY foxgame.menu.configure "Konfigurer FoxGame">
+<!-- EOF -->

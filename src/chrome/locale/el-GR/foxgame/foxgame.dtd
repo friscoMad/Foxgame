@@ -1,0 +1,112 @@
+<!ENTITY foxgame.about.title "Ðåñé ôï FoxGame">
+<!ENTITY foxgame.about.createdBy "Äçìéïõñãüò :">
+<!ENTITY foxgame.about.iconDesign "Ó÷åäéáóìüò Åéêüíùí :">
+<!ENTITY foxgame.about.homePage "Éóôïóåëßäá :">
+<!ENTITY foxgame.tabs.general "ÃåíéêÜ">
+<!ENTITY foxgame.tabs.time "ÐñïôéìÞóåéò ÷ñüíïõ">
+<!ENTITY foxgame.tabs.messages "ÎœÎ·Î½ÏÎ¼Î±Ï„Î±">
+<!ENTITY foxgame.tabs.galaxy "Î“Î±Î»Î±Î¾Î¯Î±Ï‚">
+<!ENTITY foxgame.tabs.userHighlight "Highlight">
+<!ENTITY foxgame.menu.configure "ÔñïðïðïéÞóôå ôï FoxGame">
+<!ENTITY foxgame.menu.calculator "Trade Calculator">
+<!ENTITY foxgame.title.preferences "FoxGame Preferences">
+<!-- el -->
+<!ENTITY foxgame.prefs.activate "Åíåñãïðïßçóç">
+<!ENTITY foxgame.prefs.add "ÐñïóèÞêç">
+<!ENTITY foxgame.prefs.edit "Åðåîåñãáóßá">
+<!ENTITY foxgame.prefs.delete "ÄéáãñáöÞ">
+<!ENTITY foxgame.prefs.up "ÎœÎµÏ„Î±ÎºÎ¯Î½Î·ÏƒÎµ Î•Ï€Î¬Î½Ï‰">
+<!ENTITY foxgame.prefs.down "ÎœÎµÏ„Î±ÎºÎ¯Î½Î·ÏƒÎµ ÎšÎ¬Ï„Ï‰">
+<!ENTITY foxgame.prefs.deleteAll "ÄéáãñáöÞ üëùí">
+<!ENTITY foxgame.prefs.color "×ñþìá :">
+<!-- The final string will be "Before" locale "After" -->
+<!ENTITY foxgame.prefs.hidePlanet "Hide planet image on most pages">
+<!ENTITY foxgame.prefs.hideOverviewPlanet "Hide planet image with all info on overview">
+<!ENTITY foxgame.prefs.showEnergyInfo "Î•Î¼Ï†Î¬Î½Î¹ÏƒÎ·Ï‚ ÎµÏ€Î¹Ï€Î»Î­Î¿Î½ Ï€Î»Î·ÏÎ¿Ï†Î¿ÏÎ¹ÏŽÎ½ ÎµÎ½Î­ÏÎ³ÎµÎ¹Î±Ï‚ ÏƒÏ„Î± ÎºÏ„Î¯ÏÎ¹Î±">
+<!ENTITY foxgame.prefs.showCargoNeeded "Î•Î¼Ï†Î¬Î½Î¹ÏƒÎ· Ï„Ï‰Î½ Ï€Î»Î¿Î¯Ï‰Î½ Ï€Î¿Ï… Î±Ï€Î±Î¹Ï„Î¿ÏÎ½Ï„Î±Î¹ Î³Î¹Î± Ï„Î·Î½ Î¼ÎµÏ„Î±Ï†Î¿ÏÎ¬ ÏŒÎ»Ï‰Î½ Ï„Ï‰Î½ Ï€ÏŒÏÏ‰Î½ ÏƒÏ„Î¿Î½ Ï€Î»Î±Î½Î®Ï„Î·">
+<!ENTITY foxgame.prefs.showFleetCargo "Î•Î¼Ï†Î¬Î½Î¹ÏƒÎ· Ï„Î·Ï‚ Ï‡Ï‰ÏÎ·Ï„Î¹ÎºÏŒÏ„Î·Ï„Î±Ï‚ Ï†Î¿ÏÏ„Î¯Î¿Ï… Ï„Î¿Ï… ÎµÏ€Î¹Î»ÎµÎ³Î¼Î­Î½Î¿Ï… ÏƒÏ„ÏŒÎ»Î¿Ï…">
+<!ENTITY foxgame.prefs.showRankDiffs "Î•Î¼Ï†Î¬Î½Î¹ÏƒÎ· Ï„Î¿Ï… Î±ÏÎ¹Î¸Î¼Î¿Ï Ï„Ï‰Î½ Î¸Î­ÏƒÎµÏ‰Î½, Ï€Î¿Ï… ÎºÎµÏÎ´Î¯ÏƒÎ¸Î·ÎºÎ±Î½ Î® Ï‡Î¬Î¸Î·ÎºÎ±Î½, ÏƒÏ„Î± ÏƒÏ„Î±Ï„Î¹ÏƒÏ„Î¹ÎºÎ¬">
+<!ENTITY foxgame.prefs.planetButtons "Î•Î¼Ï†Î¬Î½Î¹ÏƒÎ· ÎºÎ¿Ï…Î¼Ï€Î¹ÏŽÎ½ Î³Î¹Î± Ï€ÏÎ¿Î·Î³Î¿ÏÎ¼ÎµÎ½Î¿/ÎµÏ€ÏŒÎ¼ÎµÎ½Î¿ Ï€Î»Î±Î½Î®Ï„Î·">
+<!ENTITY foxgame.prefs.phalanxRangeInfo "Î ÏÎ¿ÏƒÎ¸Î®ÎºÎ· Ï„Î·Ï‚ Î±ÎºÏ„Î¯Î½Î±Ï‚ Ï„Î·Ï‚ Ï†Î¬Î»Î±Î³Î³Î±Ï‚ ÏƒÏ„Î·Î½ ÏƒÎµÎ»Î¯Î´Î± Ï„Ï‰Î½ ÎºÏ„Î¹ÏÎ¯Ï‰Î½">
+<!ENTITY foxgame.prefs.showProdPercent "Î•Î¼Ï†Î¬Î½Î¹ÏƒÎ· Ï€Î¿ÏƒÎ¿ÏƒÏ„Î¿Ï Î¿Î»Î¿ÎºÎ»Î®ÏÏ‰ÏƒÎ·Ï‚ Î³Î¹Î± Ï„Î± ÎºÏ„Î¯ÏÎ¹Î± ÎºÎ±Î¹ Ï„Î¹Ï‚ Î­ÏÎµÏ…Î½ÎµÏ‚">
+<!ENTITY foxgame.prefs.showEnergyResources "Î ÏÎ¿ÏƒÎ¸Î®ÎºÎ· Ï€Î»Î·ÏÎ¿Ï†Î¿ÏÎ¹ÏŽÎ½ ÎµÎ½Î­ÏÎ³ÎµÎ¹Î±Ï‚ ÏƒÏ„Î·Î½ ÎµÏ€Î¹Î»Î¿Î³Î® Ï€ÏŒÏÏ‰Î½">
+<!ENTITY foxgame.prefs.fleetOverviewInfo "Show flying resource overview on movements page">
+<!ENTITY foxgame.prefs.changePlanetList "Separate planets and moons on fleet sending select">
+<!ENTITY foxgame.prefs.addConstructionName "Show currently building name below planets in right sidebar">
+<!ENTITY foxgame.prefs.showEventList "Include event list on overview">
+<!ENTITY foxgame.prefs.autoCopy "Áõôüìáôç ÁíôéãñáöÞ: ¼ôáí Ýíá êåßìåíï åðéëÝãåôáé, øÜ÷íåé ãéá óõíôåôáãìÝíåò. Áí õðÜñ÷ïõí, èá åìöáíéóôïýí óáí óôü÷ïò ôïõ óôüëïõ ãéá ôçí åðüìåíç áðïóôïëÞ ðïõ èá åðéëåãåß.">
+<!ENTITY foxgame.prefs.autoCopyTooltip "ÎŒÏ€Î¿Ï„Îµ ÎµÏ€Î¹Î»Î­Î³ÎµÏ„Îµ Î­Î½Î± ÎºÎµÎ¯Î¼ÎµÎ½Î¿ (ÏƒÎµ Î¿Ï€Î¿Î¹Î±Î´Î®Ï€Î¿Ï„Îµ ÎºÎ±ÏÏ„Î­Î»Î± Ï„Î¿Ï… Firefox, Ï€Î±Î½Ï„Î¿Ï ÎµÎºÏ„ÏŒÏ‚ Î±Ï€ÏŒ Ï„Î± Ï‡ÎµÎ¹ÏÎ¹ÏƒÏ„Î®ÏÎ¹Î± ÎµÎ¹ÏƒÎ±Î³Ï‰Î³Î®Ï‚ Î´ÎµÎ´Î¿Î¼Î­Î½Ï‰Î½) Î¼Îµ ÏƒÏ…Î½Ï„ÎµÏ„Î±Î³Î¼Î­Î½ÎµÏ‚ ÏƒÎµ Î±Ï…Ï„ÏŒ, Ï„Î¿ Foxgame Î¸Î± Î±Ï€Î¿Î¸Î·ÎºÎµÏÏƒÎµÎ¹ Î±Ï…Ï„Î­Ï‚ Ï„Î¹Ï‚ ÏƒÏ…Î½Ï„ÎµÏ„Î±Î³Î¼Î­Î½ÎµÏ‚ ÎºÎ±Î¹ Î¸Î± Ï„Î¹Ï‚ Ï‡ÏÎ·ÏƒÎ¹Î¼Î¿Ï€Î¿Î¹Î®ÏƒÎµÎ¹ Î±ÏÎ³ÏŒÏ„ÎµÏÎ±, ÏŒÏ„Î±Î½ Î¼ÎµÏ„Î±Î²ÎµÎ¯Ï„Îµ ÏƒÏ„Î·Î½ Î¿Î¸ÏŒÎ½Î· Î±Ï€Î¿ÏƒÏ„Î¿Î»ÏŽÎ½, ÏŒÏ€Î¿Ï… Î¸Î± ÎµÎ¼Ï†Î±Î½Î¯Î¶Î¿Î½Ï„Î±Î½ Î¿Î¹ Ï€ÏÎ¿ÎºÎ±Î¸Î¿ÏÎ¹ÏƒÎ¼Î­Î½ÎµÏ‚ ÏƒÏ…Î½Ï„ÎµÏ„Î±Î³Î¼Î­Î½ÎµÏ‚ (Î´Î·Î»Î±Î´Î® ÏŒÏ€Î¿Ï„Îµ Î´ÎµÎ½ ÎµÏ€Î¹Î»Î­Î¾Î±Ï„Îµ ÏƒÏÎ½Î´ÎµÏƒÎ· Î±Ï€Î¿ÏƒÏ„Î¿Î»Î®Ï‚)">
+<!-- The final string will be "Traducido a de-DE por: -->
+<!ENTITY foxgame.prefs.selectUniverse "ÅðéëïãÞ Óýìðáíôïò">
+<!ENTITY foxgame.prefs.server "Server">
+<!ENTITY foxgame.prefs.universe "Óýìðáí">
+<!ENTITY foxgame.prefs.skinTitle "Use OGame skin">
+<!ENTITY foxgame.prefs.skinUrl "Skin URL:">
+<!ENTITY foxgame.prefs.missionPreference "ÅðéëïãÞ ðñïôåñáéïôÞôùí ãéá ôïõò ôýðïõò áðïóôïëþí">
+<!ENTITY foxgame.prefs.attack "Åðßèåóç">
+<!ENTITY foxgame.prefs.spy "Êáôáóêïðåßá">
+<!ENTITY foxgame.prefs.recollect "ÁíÜêôçóç">
+<!ENTITY foxgame.prefs.transport "ÌåôáöïñÜ">
+<!ENTITY foxgame.prefs.deploy "Óôáèìüò">
+<!ENTITY foxgame.prefs.conf "Î£Ï…Î¼Î¼Î±Ï‡Î¯Î±">
+<!ENTITY foxgame.prefs.exp "Î•ÎºÏƒÏ„ÏÎ±Ï„ÎµÎ¯Î±">
+<!ENTITY foxgame.prefs.update "Update">
+<!ENTITY foxgame.prefs.updateServerList "Download a new list of servers and universes from Foxgame Server">
+<!-- EOF -->
+<!ENTITY foxgame.prefs.removePlanets "ÌåéùìÝíç ÐñïâïëÞ Ãáëáîßá">
+<!ENTITY foxgame.prefs.addDebrisNumbers "Î•Î¼Ï†Î¬Î½Î¹ÏƒÎ· Ï„Î¿Ï… Î¼ÎµÎ³Î­Î¸Î¿Ï…Ï‚ ÏƒÏ…Î½Ï„ÏÎ¹Î¼Î¼Î¹ÏŽÎ½ Î±Î½Ï„Î¯ Ï„Î·Ï‚ ÎµÎ¹ÎºÏŒÎ½Î±Ï‚ ÏƒÏ…Î½Ï„ÏÎ¹Î¼Î¼Î¹ÏŽÎ½">
+<!ENTITY foxgame.prefs.showPlayerRank "Î•Î¼Ï†Î¬Î½Î¹ÏƒÎ· ÎºÎ±Ï„Î¬Ï„Î±Î¾Î·Ï‚ Ï„Ï‰Î½ Ï€Î±Î¹ÎºÏ„ÏŽÎ½ ÏƒÏ„Î¿Î½ Î³Î±Î»Î±Î¾Î¯Î±">
+<!ENTITY foxgame.prefs.showAllyRank "Î•Î¼Ï†Î¬Î½Î¹ÏƒÎ· ÎºÎ±Ï„Î¬Ï„Î±Î¾Î·Ï‚ ÏƒÏ…Î¼Î¼Î¬Ï‡Ï‰Î½ ÎºÎ±Î¹ Î¼ÎµÎ»ÏŽÎ½ ÏƒÏ„Î¿Î½ Î³Î±Î»Î±Î¾Î¯Î±">
+<!ENTITY foxgame.prefs.addSpySpace "Align vertically galaxy commands (spy, pm...)">
+<!ENTITY foxgame.prefs.highlightBigDebris "ÕðïãñÜììéóç ÌåãÜëùí Ðåäßùí Óõíôñéìéþí">
+<!ENTITY foxgame.prefs.debrisMin "ÅëÜ÷éóôï ìÝãåèïò ãéá õðïãñÜììéóç :">
+<!-- Messages -->
+<!ENTITY foxgame.prefs.fastReply "Î ÏÎ¿ÏƒÎ¸Î®ÎºÎ· ÎµÏ€Î¹Î»Î¿Î³ÏŽÎ½ Î³ÏÎ®Î³Î¿ÏÎ·Ï‚ Î±Ï€Î¬Î½Ï„Î·ÏƒÎ·Ï‚ ÏƒÏ„Î± PM ÎºÎ±Î¹ Ï„Î± ÎºÏ…ÎºÎ»Î¹ÎºÎ¬">
+<!ENTITY foxgame.prefs.dragoSimLink "Î ÏÎ¿ÏƒÎ¸Î®ÎºÎ· ÏƒÏÎ½Î´ÎµÏƒÎ¼Î¿Ï… Î³Î¹Î± Ï„Î¿ DragoSim ÏƒÏ„Î¹Ï‚ Î±Î½Î±Ï†Î¿ÏÎ­Ï‚ ÎºÎ±Ï„Î±ÏƒÎºÎ¿Ï€ÎµÎ¯Î±Ï‚">
+<!ENTITY foxgame.prefs.speedSimLink "Î ÏÎ¿ÏƒÎ¸Î®ÎºÎ· ÏƒÏÎ½Î´ÎµÏƒÎ¼Î¿Ï… Î³Î¹Î± Ï„Î¿ Î£Ï€ÎµÎµÎ´Î£Î¹Î¼ ÏƒÏ„Î¹Ï‚ Î±Î½Î±Ï†Î¿ÏÎ­Ï‚ ÎºÎ±Ï„Î±ÏƒÎºÎ¿Ï€ÎµÎ¯Î±Ï‚">
+<!ENTITY foxgame.prefs.addRaid "Î•Î¼Ï†Î¬Î½Î¹ÏƒÎ· Ï„Î¿Ï… Î¼ÎµÎ³Î­Î¸Î¿Ï…Ï‚ Ï„Î·Ï‚ ÎµÏ€Î¹Î´ÏÎ¿Î¼Î®Ï‚ ÎºÎ±Î¹ Ï„Î¿Ï… Î±ÏÎ¹Î¸Î¼Î¿Ï Ï„Ï‰Î½ Ï€Î»Î¿Î¯Ï‰Î½ Ï€Î¿Ï… Î±Ï€Î±Î¹Ï„Î¿ÏÎ½Ï„Î±Î¹">
+<!ENTITY foxgame.prefs.raidSize "Size of the ship:">
+<!ENTITY foxgame.prefs.messageSignature "ÕðïãñáöÞ Ðñïóùðéêþí ÌçíõìÜôùí">
+<!ENTITY foxgame.prefs.msgSignText "ÕðïãñáöÞ">
+<!-- Time/Date -->
+<!ENTITY foxgame.prefs.selectTimeMode "ÅðéëÝîôå ëåéôïõñãßá ÷ñüíïõ :">
+<!ENTITY foxgame.prefs.clientTime "Ôïðéêüò ÷ñüíïò">
+<!ENTITY foxgame.prefs.serverTime "Server ÷ñüíïõ">
+<!ENTITY foxgame.prefs.commonTime "ÔïðéêÞ þñá/Server ëåðôÜ êáé äåõôåñüëåðôá">
+<!ENTITY foxgame.prefs.serverDiffTime "¿ñá Server + X þñåò">
+<!ENTITY foxgame.prefs.selectTimeDiff "ÅðéëÝîôå ôç äéáöïñÜ þñáò">
+<!ENTITY foxgame.prefs.flotaTime "¸íäåéîç ÷ñüíïõ Üöéîçò óôüëïõ (áðïóôÜóåéò 1 êáé 2)">
+<!ENTITY foxgame.prefs.movementsTime "Show custom time and retreat time on movements page">
+<!ENTITY foxgame.prefs.eventListTime "Show custom time on event list">
+<!ENTITY foxgame.prefs.phalanxTime "¸íäåéîç ÷ñüíïõ óôéò áíáöïñÝò ÖÜëáããáò">
+<!ENTITY foxgame.prefs.shipyardTime "Show shipyard's queue finishing time">
+<!ENTITY foxgame.prefs.buildingsTime "¸íäåéîç áðïìÝíùíôïò ÷ñüíïõ êôéñéáêþí êáôáóêåõþí">
+<!ENTITY foxgame.prefs.researchTime "¸íäåéîç áðïìÝíùíôïò ÷ñüíïõ åñåõíþí">
+<!ENTITY foxgame.prefs.formatDate "ÎœÎ¿ÏÏ†Î® ÎÏÎ±Ï‚ &amp; Î—Î¼ÎµÏÎ¿Î¼Î·Î½Î¯Î±Ï‚">
+<!ENTITY foxgame.prefs.selectHourFormat "Î•Ï€Î¹Î»Î¿Î³Î® Î¼Î¿ÏÏ†Î®Ï‚ ÎÏÎ±Ï‚">
+<!ENTITY foxgame.prefs.hourFormat-24 "24Ï‰ÏÎ¿">
+<!ENTITY foxgame.prefs.hourFormat-12 "12Ï‰ÏÎ¿ (Î Îœ/ÎœÎœ)">
+<!ENTITY foxgame.prefs.personalFormat "ÎœÎ¿ÏÏ†Î® ÎºÎ±Ï„Î¬ Ï€Î±ÏÎ±Î³Î³ÎµÎ»Î¯Î±">
+<!ENTITY foxgame.prefs.typeHourFormat "Î Î»Î·ÎºÏ„ÏÎ¿Î»ÏŒÎ³Î·ÏƒÎ· Î¼Î¿ÏÏ†Î®Ï‚ ÎÏÎ±Ï‚">
+<!ENTITY foxgame.prefs.formatHelp "Î’Î¿Î®Î¸ÎµÎ¹Î± Î¼Î¿ÏÏ†Î®Ï‚">
+<!ENTITY foxgame.prefs.selectDateFormat "Î•Ï€Î¹Î»Î¿Î³Î® Î¼Î¿ÏÏ†Î®Ï‚ Î—Î¼ÎµÏÎ¿Î¼Î·Î½Î¯Î±Ï‚">
+<!ENTITY foxgame.prefs.dateFormat-dm "Î—Î¼Î­ÏÎ±/ÎœÎ®Î½Î±Ï‚">
+<!ENTITY foxgame.prefs.dateFormat-md "ÎœÎ®Î½Î±Ï‚/Î—Î¼Î­ÏÎ±">
+<!ENTITY foxgame.prefs.typeDateFormat "Î Î»Î·ÎºÏ„ÏÎ¿Î»ÏŒÎ³Î·ÏƒÎ· Î¼Î¿ÏÏ†Î®Ï‚ Î—Î¼ÎµÏÎ¿Î¼Î·Î½Î¯Î±Ï‚">
+<!-- User Highlight -->
+<!ENTITY foxgame.prefs.player "Player">
+<!ENTITY foxgame.prefs.alliance "Alliance">
+<!ENTITY foxgame.prefs.priority "Î ÏÎ¿Ï„ÎµÏÎ±Î¹ÏŒÏ„Î·Ï„Î±">
+<!ENTITY foxgame.prefs.name "Name">
+<!ENTITY foxgame.prefs.type "Ôýðïò">
+<!-- User Highlight dialog -->
+<!ENTITY foxgame.prefs.selectType "Select type">
+<!ENTITY foxgame.prefs.nameRegEx "Name (Supports regular expressions)">
+<!-- Calculator dialog -->
+<!ENTITY foxgame.calc.ratio "Ratio">
+<!ENTITY foxgame.calc.sell "Sell">
+<!ENTITY foxgame.calc.buy "Buy">
+<!ENTITY foxgame.prefs.resources.metal "ÎœÎ­Ï„Î±Î»Î»Î¿">
+<!ENTITY foxgame.prefs.resources.crystal "ÎšÏÏÏƒÏ„Î±Î»Î»Î¿">
+<!ENTITY foxgame.prefs.resources.deut "Î”ÎµÏ…Ï„Î­ÏÎ¹Î¿">
+<!ENTITY foxgame.calc.mix "Mix">

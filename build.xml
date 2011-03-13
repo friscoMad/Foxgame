@@ -1,0 +1,33 @@
+<project basedir="src" default="jar">
+
+    <target name="us">
+    	<delete dir="build"/>
+        <mkdir dir="build/chrome"/>
+        <zip destfile="build/chrome/foxgame.jar" compress="false" basedir="chrome" excludes="CVS*,Nuevo*,locale/**" />
+        <zip destfile="build/chrome/foxgame.jar" compress="false" basedir="chrome" includes="locale/en-US/**" update="true"/>    	
+    	<copy file="install-US.rdf" tofile="build/install.rdf"/>
+    	<copy file="install-US.js" tofile="build/install.js"/>
+    	<copy todir="build/defaults">
+    		<fileset dir="defaults"/>
+    	</copy>
+    	<copy file="chrome.manifest-US" tofile="build/chrome.manifest"/>    	
+    	<zip destfile="foxgame-US.xpi" basedir="build" excludes="CVS*" level="9"/>
+    	<delete dir="build"/>
+    </target>
+
+    <target name="main">
+    	<delete dir="build"/>    	
+        <mkdir dir="build/chrome"/>
+        <zip destfile="build/chrome/foxgame.jar" compress="false" basedir="chrome" excludes="CVS*,Nuevo*" />    	
+    	<copy file="install-GL.rdf" tofile="build/install.rdf"/>
+    	<copy file="install-GL.js" tofile="build/install.js"/>
+    	<copy todir="build/defaults">
+    		<fileset dir="defaults"/>
+    	</copy>
+    	<copy file="chrome.manifest-GL" tofile="build/chrome.manifest"/>    	
+    	<zip destfile="foxgame.xpi" basedir="build" excludes="CVS*" level="9"/>
+    	<delete dir="build"/>
+    </target>
+
+	<target name="jar" depends="main" />
+</project>

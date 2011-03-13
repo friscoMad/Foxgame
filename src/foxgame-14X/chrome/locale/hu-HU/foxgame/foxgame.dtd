@@ -1,0 +1,91 @@
+<!-- hu-HU -->
+
+<!ENTITY foxgame.prefs.preferences "FoxGame beállítások">
+<!ENTITY foxgame.prefs.removePlanets "Galaxis nézet karcsúsítása">
+<!ENTITY foxgame.prefs.flotaTime "Flotta érkezési ido megjelenítése (oda és vissza)">
+<!ENTITY foxgame.prefs.flotaReturnTime "Flotta visszahívási ido megjelenítése">
+<!ENTITY foxgame.prefs.replicateDeleteOptions "Egy második kiválasztós csík az üzenetek törlésére">
+<!ENTITY foxgame.prefs.selectUniverse "Univerzum automatikus választása">
+
+<!ENTITY foxgame.prefs.server "Szolgáltató">
+<!ENTITY foxgame.prefs.universe "Univerzum">
+<!ENTITY foxgame.prefs.activate "Aktiválás">
+<!ENTITY foxgame.prefs.buildingTime "Befejezési ido megjelenítése a Hajogyárban">
+<!ENTITY foxgame.prefs.addOverviewTime "Idok megjelenítése az Áttekintés oldalon">
+<!ENTITY foxgame.prefs.removeOverviewTime "Visszaszámlalás nélkül az Áttekintés oldalon">
+<!ENTITY foxgame.prefs.buildingsTime "Befejezési ido megjelenítése az Épületek oldalon">
+<!ENTITY foxgame.prefs.researchTime "Befejezési ido megjelenítése a Kutatás oldalon">
+
+<!ENTITY foxgame.prefs.infosDeltas "Épületszintek közötti különbségek az épületek leírásában.">
+<!ENTITY foxgame.prefs.autoCopy "Automatikus másolás: Ha kijelölt szövegben bolygópozíció található, akkor ez lesz automatikusan a célpont a flottaküldetésben.">
+<!ENTITY foxgame.prefs.messageSignature "Üzenetek aláírása">
+<!ENTITY foxgame.prefs.msgSignText "Aláírás">
+<!ENTITY foxgame.prefs.type "Típus">
+<!ENTITY foxgame.prefs.add "Hozzáadás">
+<!ENTITY foxgame.prefs.edit "Módositás">
+<!ENTITY foxgame.prefs.phalanxTime "Ido megjelenítése az érzékelophalanx jelentésekben.">
+<!ENTITY foxgame.prefs.milosButtons "Galaxis nézetben plusz gombok küldik az infót az adatbázisokba.">
+<!ENTITY foxgame.prefs.statButtons "Statisztikák oldalon plusz gombok küldik az infót az adatbázisokba.">
+<!ENTITY foxgame.prefs.reportButtons "Kémkedési jelentésekben plusz gombok küldik az infót az adatbázisokba.">
+<!ENTITY foxgame.tabs.dbs "Adatbázisok">
+<!ENTITY foxgame.prefs.selectDBType "Adatbázistípus választása:">
+<!ENTITY foxgame.prefs.user "Felhasználónév:">
+<!ENTITY foxgame.prefs.pass "Jelszó:">
+<!ENTITY foxgame.prefs.ally "Szövetség:">
+<!ENTITY foxgame.prefs.url "URL:">
+<!ENTITY foxgame.prefs.DBOptions "Adatbázis beállítások">
+
+<!ENTITY foxgame.prefs.replicateReportOptions "Egy második doboz felül a részleges kémkedési jelentések megjelenítésérol.">
+<!ENTITY foxgame.prefs.missionPreference "Flottaküldetések elsobbségi sorrendje">
+<!ENTITY foxgame.prefs.attack "Támadás">
+<!ENTITY foxgame.prefs.spy "Kémkedés">
+<!ENTITY foxgame.prefs.recollect "Szemétgyujtés">
+<!ENTITY foxgame.prefs.transport "Szállítás">
+<!ENTITY foxgame.prefs.deploy "Elhelyezés">
+<!ENTITY foxgame.prefs.delete "Töröl">
+<!ENTITY foxgame.prefs.deleteAll "Ürít">
+<!ENTITY foxgame.prefs.missionPreference.description "A Foxgame kiválasztja a flottaküldetés típusát az elsobbségi sorrend szerint. Ha nem végezheto el a legmagasabb elsobbségu küldetés, akkor megpróbálja kiválasztani a következot, és így tovább.">
+<!ENTITY foxgame.prefs.selectTimeMode "Idotípus kiválasztása:">
+<!ENTITY foxgame.prefs.clientTime "Helyi ido">
+<!ENTITY foxgame.prefs.serverTime "Szolgáltató ideje">
+<!ENTITY foxgame.prefs.commonTime "Helyi óra/Szolgáltató perc és másodperc">
+<!ENTITY foxgame.prefs.serverDiffTime "Szolgáltató ideje + X óra">
+<!ENTITY foxgame.prefs.selectTimeDiff "Idoeltolodás kiválasztása">
+
+<!ENTITY foxgame.tabs.general "Általános">
+<!ENTITY foxgame.tabs.time "Ido beállítások">
+
+
+<!ENTITY foxgame.about.title "A FoxGame-rol">
+
+<!-- The final string will be "Before" locale "After" -->
+<!ENTITY foxgame.about.translationByBefore "">
+<!ENTITY foxgame.about.translationByAfter " fordítás:">
+<!-- The final string will be "Traducido a de-DE por: -->
+
+<!ENTITY foxgame.about.createdBy "Írta:">
+<!ENTITY foxgame.about.iconDesign "Ikon készítés:">
+<!ENTITY foxgame.about.homePage "Weboldal:">
+
+<!ENTITY foxgame.menu.configure "FoxGame konfigurálás">
+
+<!ENTITY foxgame.prefs.highlightMessages "Üzenetek színesítése">
+<!ENTITY foxgame.prefs.MsgColorPM "Magánüzenetek színe:">
+<!ENTITY foxgame.prefs.MsgColorAlly "Szövetség színe:">
+<!ENTITY foxgame.prefs.MsgColorEnemyEsp "Ellenség kémkedési jelentés színe:">
+<!ENTITY foxgame.prefs.MsgColorRepEsp "Kémkedési jelentés színe:">
+<!ENTITY foxgame.prefs.MsgColorRepCR "Csatajelentés színe:">
+<!ENTITY foxgame.prefs.MsgColorRepHarvest "Szemétgyujtési jelentés színe:">
+<!ENTITY foxgame.prefs.MsgColorFleetReturn "Flotta hazaérkezési jelentés színe:">
+
+<!ENTITY foxgame.prefs.highlightPrivates "Magánüzenetek színesítése">
+<!ENTITY foxgame.prefs.highlightAllyMessages "Szövetségi üzenetek színesítése">
+<!ENTITY foxgame.prefs.highlightBigDebris "Nagy roncsmezok színesítése">
+<!ENTITY foxgame.prefs.colorPicker "Színválasztás">
+<!ENTITY foxgame.prefs.colorPicker2 "Válasszon egy színt:">
+<!ENTITY foxgame.prefs.color "Szín:">
+<!ENTITY foxgame.prefs.colorButton "Választás">
+<!ENTITY foxgame.prefs.debrisMin "Minimális méret a színesítésre:">
+
+
+<!-- EOF -->

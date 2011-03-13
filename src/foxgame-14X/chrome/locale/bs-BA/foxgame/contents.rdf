@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RDF:RDF xmlns:chrome="http://www.mozilla.org/rdf/chrome#"
+         xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+      <RDF:Seq about="urn:mozilla:locale:root">
+        <RDF:li resource="urn:mozilla:locale:bs-BA"/>
+        <RDF:li resource="urn:mozilla:locale:sr-CS"/>
+        <RDF:li resource="urn:mozilla:locale:hr-HR"/>
+      </RDF:Seq>
+    
+      <RDF:Description about="urn:mozilla:locale:bs-BA" chrome:name="bs-BA">
+        <chrome:packages>
+          <RDF:Seq about="urn:mozilla:locale:bs-BA:packages">
+            <RDF:li resource="urn:mozilla:locale:bs-BA:foxgame"/>
+          </RDF:Seq>
+        </chrome:packages>
+      </RDF:Description>
+
+      <RDF:Description about="urn:mozilla:locale:sr-CS" chrome:name="bs-BA">
+        <chrome:packages>
+          <RDF:Seq about="urn:mozilla:locale:sr-CS:packages">
+            <RDF:li resource="urn:mozilla:locale:sr-CS:foxgame"/>
+          </RDF:Seq>
+        </chrome:packages>
+      </RDF:Description>
+
+      <RDF:Description about="urn:mozilla:locale:hr-HR" chrome:name="bs-BA">
+        <chrome:packages>
+          <RDF:Seq about="urn:mozilla:locale:hr-HR:packages">
+            <RDF:li resource="urn:mozilla:locale:hr-HR:foxgame"/>
+          </RDF:Seq>
+        </chrome:packages>
+      </RDF:Description>
+
+
+</RDF:RDF>

@@ -1,0 +1,78 @@
+<!-- tr-TR -->
+
+<!ENTITY foxgame.prefs.preferences "FoxGame Tercihler">
+<!ENTITY foxgame.prefs.removePlanets "Sadelestirilmis galaksi ekrani">
+<!ENTITY foxgame.prefs.flotaTime "Filo varis saatlerini goster(tek ve cift yonlu)">
+<!ENTITY foxgame.prefs.flotaReturnTime "Geri cagirma donus saatini goster">
+<!ENTITY foxgame.prefs.replicateDeleteOptions "Ek mesaj silme tuslarini ekle">
+<!ENTITY foxgame.prefs.selectUniverse "Evren sec">
+<!ENTITY foxgame.prefs.highlightPrivates "Ozel mesajlari renklendir">
+<!ENTITY foxgame.prefs.server "Sunucu">
+<!ENTITY foxgame.prefs.universe "Evren">
+<!ENTITY foxgame.prefs.activate "Calistir">
+<!ENTITY foxgame.prefs.buildingTime "Insaat yapilis saatini goster">
+<!ENTITY foxgame.prefs.addOverviewTime "Genel gorunuste olay saatini goster">
+<!ENTITY foxgame.prefs.removeOverviewTime "Genel gorunumden geri sayimi kaldir">
+<!ENTITY foxgame.prefs.buildingsTime "Bina insaati bitis saatini goster">
+<!ENTITY foxgame.prefs.researchTime "Arastirma bitis saatini goster">
+<!ENTITY foxgame.tabs.general "Genel">
+<!ENTITY foxgame.tabs.time "Zaman Secenekleri">
+<!ENTITY foxgame.prefs.colorPicker "Renk Secimi">
+<!ENTITY foxgame.prefs.colorPicker2 "Bir renk secin:">
+<!ENTITY foxgame.prefs.color "Renk:">
+<!ENTITY foxgame.prefs.colorButton "Secin">
+<!ENTITY foxgame.prefs.highlightAllyMessages "Ittifak mesajlarini renklendir">
+<!ENTITY foxgame.prefs.highlightBigDebris "Buyuk Harabe alanlarini belirginlestir">
+<!ENTITY foxgame.prefs.debrisMin "belirginlestirme icin en kucuk boyut:">
+
+<!ENTITY foxgame.prefs.infosDeltas "Bina bilgilerinde bina kademesi farklarini goster.">
+<!ENTITY foxgame.prefs.autoCopy "OtomatikKopya: Bir metin kopyalandiginda eger icinde hedef koordinati varsa filo gonderme ekranina otomatik olarak ekle.">
+<!ENTITY foxgame.prefs.messageSignature "Kisisel imza ">
+<!ENTITY foxgame.prefs.msgSignText "Imza">
+<!ENTITY foxgame.prefs.type "Yaz">
+<!ENTITY foxgame.prefs.add "Ekle">
+<!ENTITY foxgame.prefs.edit "Duzenle">
+<!ENTITY foxgame.prefs.phalanxTime "Radar taramasinda saati goster.">
+<!ENTITY foxgame.prefs.milosButtons "Galaksi ekranina veri iletim tuslarini ekle.">
+<!ENTITY foxgame.prefs.statButtons "Istatistiklerde veri iletim tuslarini ekle.">
+<!ENTITY foxgame.prefs.reportButtons "Sonda raporlarina veri iletim tuslarini ekle.">
+<!ENTITY foxgame.tabs.dbs "Veritabanlari">
+<!ENTITY foxgame.prefs.selectDBType "Veritabani turu:">
+<!ENTITY foxgame.prefs.user "Kullanici:">
+<!ENTITY foxgame.prefs.pass "Sifre:">
+<!ENTITY foxgame.prefs.ally "Ittifak:">
+<!ENTITY foxgame.prefs.url "URL:">
+<!ENTITY foxgame.prefs.DBOptions "Veritabani Ayarlari">
+
+<!ENTITY foxgame.prefs.replicateReportOptions "Sayfa basina ekstra sonda raporu secenegi ekle">
+<!ENTITY foxgame.prefs.missionPreference "Gorev turu onceliklerini sec">
+<!ENTITY foxgame.prefs.attack "Saldir">
+<!ENTITY foxgame.prefs.spy "Casusluk">
+<!ENTITY foxgame.prefs.recollect "Sokmek">
+<!ENTITY foxgame.prefs.transport "Nakliye">
+<!ENTITY foxgame.prefs.deploy "Konuslandir">
+<!ENTITY foxgame.prefs.delete "Sil">
+<!ENTITY foxgame.prefs.deleteAll "Sifirla">
+<!ENTITY foxgame.prefs.missionPreference.description "Oncelik listesi tanimlandiginda FOxgame oyun ekraninda oncelikli olan secenegi isaretli hale getirecektir. Eger tanimli ilk secenek bulunmazsa ikinci oncelikli secenek isaretlenecek vs.">
+<!ENTITY foxgame.prefs.selectTimeMode "Zaman modunu seciniz:">
+<!ENTITY foxgame.prefs.clientTime "Yerel saat">
+<!ENTITY foxgame.prefs.serverTime "Sunucu zamani">
+<!ENTITY foxgame.prefs.commonTime " Yerel saat/sunucu dak + san.">
+<!ENTITY foxgame.prefs.serverDiffTime "Sunucu saati + X saat">
+<!ENTITY foxgame.prefs.selectTimeDiff "Zaman farkini seciniz">
+
+<!ENTITY foxgame.about.title "FoxGame Hakkinda">
+
+<!-- The final string will be "Before" locale "After" -->
+<!ENTITY foxgame.about.translationByBefore "">
+<!ENTITY foxgame.about.translationByAfter " Ceviri:">
+<!-- The final string will be "Traducido a de-DE por: -->
+
+<!ENTITY foxgame.about.createdBy "Yaratici:">
+<!ENTITY foxgame.about.iconDesign "Ikon Dizayn:">
+<!ENTITY foxgame.about.iconDesigner "henuz ikon yok">
+<!ENTITY foxgame.about.homePage "Web sayfasi:">
+
+<!ENTITY foxgame.menu.configure "FoxGame'yi ayarla">
+
+<!-- EOF -->

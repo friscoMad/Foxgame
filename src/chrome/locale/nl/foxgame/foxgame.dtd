@@ -1,0 +1,112 @@
+<!ENTITY foxgame.about.title "Over FoxGame">
+<!ENTITY foxgame.about.createdBy "Gemaakt door:">
+<!ENTITY foxgame.about.iconDesign "Pictogramontwerp:">
+<!ENTITY foxgame.about.homePage "Webpagina:">
+<!ENTITY foxgame.tabs.general "Algemeen">
+<!ENTITY foxgame.tabs.time "Tijd/Datum">
+<!ENTITY foxgame.tabs.messages "Berichten">
+<!ENTITY foxgame.tabs.galaxy "Melkweg">
+<!ENTITY foxgame.tabs.userHighlight "Accentueren">
+<!ENTITY foxgame.menu.configure "FoxGame Configureren">
+<!ENTITY foxgame.menu.calculator "Handelsrekenmachine">
+<!ENTITY foxgame.title.preferences "FoxGame Voorkeuren">
+<!-- Common -->
+<!ENTITY foxgame.prefs.activate "Activeren">
+<!ENTITY foxgame.prefs.add "Toevoegen">
+<!ENTITY foxgame.prefs.edit "Bewerken">
+<!ENTITY foxgame.prefs.delete "Verwijderen">
+<!ENTITY foxgame.prefs.up "Omhoog">
+<!ENTITY foxgame.prefs.down "Omlaag">
+<!ENTITY foxgame.prefs.deleteAll "Reset">
+<!ENTITY foxgame.prefs.color "Kleur:">
+<!-- General 1 -->
+<!ENTITY foxgame.prefs.hidePlanet "Planeetafbeelding op meeste pagina’s verbergen">
+<!ENTITY foxgame.prefs.hideOverviewPlanet "Planeetafbeelding met alle informatie op overzicht verbergen">
+<!ENTITY foxgame.prefs.showEnergyInfo "Extra energie-informatie bij gebouwen weergeven">
+<!ENTITY foxgame.prefs.showCargoNeeded "Het aantal schepen weergeven dat nodig is om alle grondstoffen van een planeet te halen">
+<!ENTITY foxgame.prefs.showFleetCargo "Ladingscapaciteit van geselecteerde vloot weergeven">
+<!ENTITY foxgame.prefs.showRankDiffs "Aantal gestegen of gedaalde plekken in statistieken weergeven">
+<!ENTITY foxgame.prefs.planetButtons "Knoppen vorige/volgende planeet toevoegen">
+<!ENTITY foxgame.prefs.phalanxRangeInfo "Phalanxbereik toevoegen in gebouwenpagina">
+<!ENTITY foxgame.prefs.showProdPercent "Afrondingspercentage weergeven bij gebouwen en onderzoeken">
+<!ENTITY foxgame.prefs.showEnergyResources "Energie-informatie toevoegen aan grondstofmenu">
+<!ENTITY foxgame.prefs.fleetOverviewInfo "Laat alle grondstoffen zien dat in schepen zit op de vlootbeweging pagina">
+<!ENTITY foxgame.prefs.changePlanetList "Planeten en manen scheiden bij selecteren vloot versturen">
+<!ENTITY foxgame.prefs.addConstructionName "Laat in de rechter zijbalk zien wat er momenteel gebouwd word">
+<!ENTITY foxgame.prefs.showEventList "Gebeurtenissenlijst op overzichtpagina toevoegen">
+<!ENTITY foxgame.prefs.autoCopy "AutoCopy: Selecteer automatisch de bestemming voor missies gebaseerd op de laatst gekopieerde coördinaten">
+<!ENTITY foxgame.prefs.autoCopyTooltip "Wanneer u een tekst selecteert (in een willekeurig Firefoxtabblad, overal behalve invoervelden) met coördinaten erin slaat Foxgame die coördinaten op en gebruikt ze laten wanneer u naar het missiescherm gaat en wanneer de standaardcoördinaten zouden worden weergegeven (tenminste, als u niet hebt geklikt in een missiekoppeling).">
+<!-- General 2 -->
+<!ENTITY foxgame.prefs.selectUniverse "Universum Selecteren">
+<!ENTITY foxgame.prefs.server "Server">
+<!ENTITY foxgame.prefs.universe "Universum">
+<!ENTITY foxgame.prefs.skinTitle "OGame-Skin gebruiken">
+<!ENTITY foxgame.prefs.skinUrl "Skin-URL:">
+<!ENTITY foxgame.prefs.missionPreference "Missietypeprioriteiten kiezen">
+<!ENTITY foxgame.prefs.attack "Aanvallen">
+<!ENTITY foxgame.prefs.spy "Spionage">
+<!ENTITY foxgame.prefs.recollect "Puinruimen">
+<!ENTITY foxgame.prefs.transport "Transporteren">
+<!ENTITY foxgame.prefs.deploy "Plaatsing">
+<!ENTITY foxgame.prefs.conf "Confederatie">
+<!ENTITY foxgame.prefs.exp "Expeditie">
+<!ENTITY foxgame.prefs.update "Bijwerken">
+<!ENTITY foxgame.prefs.updateServerList "Download een nieuw lijst met servers en universa van de Foxgame-server">
+<!-- Galaxy -->
+<!ENTITY foxgame.prefs.removePlanets "Beperkte melkwegweergave">
+<!ENTITY foxgame.prefs.addDebrisNumbers "Puinveldgrootte weergeven in plaats van puinafbeelding">
+<!ENTITY foxgame.prefs.showPlayerRank "Spelersplaatsen weergeven in melkweg">
+<!ENTITY foxgame.prefs.showAllyRank "Alliantie leden/plaatsen weergeven in melkweg">
+<!ENTITY foxgame.prefs.addSpySpace "Melkwegopdrachten (spioneren, bericht verzenden, …) verticaal uitlijnen">
+<!ENTITY foxgame.prefs.highlightBigDebris "Grote puinvelden accentueren">
+<!ENTITY foxgame.prefs.debrisMin "Minimale accentueringsgrootte:">
+<!-- Messages -->
+<!ENTITY foxgame.prefs.fastReply "Snel-antwoorden-opties toevoegen aan PM’s en RP’s">
+<!ENTITY foxgame.prefs.dragoSimLink "Koppeling naar DragoSim toevoegen in spionagerapporten">
+<!ENTITY foxgame.prefs.speedSimLink "Koppeling naar SpeedSim toevoegen in spionagerapporten">
+<!ENTITY foxgame.prefs.addRaid "Raidomvang en het aantal benodigde schepen weergeven">
+<!ENTITY foxgame.prefs.raidSize "Schipgrootte:">
+<!ENTITY foxgame.prefs.messageSignature "Berichthandtekening">
+<!ENTITY foxgame.prefs.msgSignText "Handtekening:">
+<!-- Time/Date -->
+<!ENTITY foxgame.prefs.selectTimeMode "Kies tijdsmodus:">
+<!ENTITY foxgame.prefs.clientTime "Lokale tijd">
+<!ENTITY foxgame.prefs.serverTime "Servertijd">
+<!ENTITY foxgame.prefs.commonTime "Lokaal uur / Server min en sec">
+<!ENTITY foxgame.prefs.serverDiffTime "Servertijd + X uur">
+<!ENTITY foxgame.prefs.selectTimeDiff "Selecteer uw tijdsverschil">
+<!ENTITY foxgame.prefs.flotaTime "Aangepaste tijden op vlootpagina’s weergeven">
+<!ENTITY foxgame.prefs.movementsTime "Aangepaste tijd en terugtrektijd weergeven op bewegingenpagina">
+<!ENTITY foxgame.prefs.eventListTime "Aangepaste tijd op gebeurtenissenlijst weergeven">
+<!ENTITY foxgame.prefs.phalanxTime "Aangepaste tijd weergeven in Phalanxrapporten.">
+<!ENTITY foxgame.prefs.shipyardTime "Eindtijd werf weergeven">
+<!ENTITY foxgame.prefs.buildingsTime "Bouwafrondingstijdstip weergeven">
+<!ENTITY foxgame.prefs.researchTime "Onderzoeksafrondingstijdstip weergeven">
+<!ENTITY foxgame.prefs.formatDate "Tijds- &amp; Datumopmaak">
+<!ENTITY foxgame.prefs.selectHourFormat "Selecteer tijdsopmaak">
+<!ENTITY foxgame.prefs.hourFormat-24 "24U">
+<!ENTITY foxgame.prefs.hourFormat-12 "12U (AM/PM)">
+<!ENTITY foxgame.prefs.personalFormat "Aangepaste opmaak">
+<!ENTITY foxgame.prefs.typeHourFormat "Type tijdsopmaak">
+<!ENTITY foxgame.prefs.formatHelp "Hulp bij opmaak">
+<!ENTITY foxgame.prefs.selectDateFormat "Selecteer datumopmaak">
+<!ENTITY foxgame.prefs.dateFormat-dm "Dag/Maand">
+<!ENTITY foxgame.prefs.dateFormat-md "Maand/Dag">
+<!ENTITY foxgame.prefs.typeDateFormat "Type datumopmaak">
+<!-- User Highlight -->
+<!ENTITY foxgame.prefs.player "Speler">
+<!ENTITY foxgame.prefs.alliance "Alliantie">
+<!ENTITY foxgame.prefs.priority "Prioriteit">
+<!ENTITY foxgame.prefs.name "Naam">
+<!ENTITY foxgame.prefs.type "Type">
+<!-- User Highlight dialog -->
+<!ENTITY foxgame.prefs.selectType "Selecteer type">
+<!ENTITY foxgame.prefs.nameRegEx "Naam (ondersteunt reguliere expressies)">
+<!-- Calculator dialog -->
+<!ENTITY foxgame.calc.ratio "Ratio">
+<!ENTITY foxgame.calc.sell "Verkopen">
+<!ENTITY foxgame.calc.buy "Kopen">
+<!ENTITY foxgame.prefs.resources.metal "Metaal">
+<!ENTITY foxgame.prefs.resources.crystal "Kristal">
+<!ENTITY foxgame.prefs.resources.deut "Deuterium">
+<!ENTITY foxgame.calc.mix "Mix">

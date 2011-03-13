@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://mozapps/skin/pref/pref.css" type="text/css"?>
+
+<!DOCTYPE dialog SYSTEM "chrome://foxgame2/locale/foxgame.dtd">
+
+<dialog xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+	title="&foxgame.prefs.selectUniverse;"
+	id="foxgame-tree"
+	buttons="accept, cancel"
+	ondialogaccept="return devolver_resultado();"
+	onload="iniciar(); window.sizeToContent();"
+	orient="vertical"
+	autostretch="always"
+	persist="screenX screenY"
+	flex="1">
+
+<script type="application/x-javascript" src="chrome://foxgame2/content/foxgameCommon.js"/>
+<script type="application/x-javascript" src="chrome://foxgame2/content/foxgameOptions.js"/>
+
+<script>
+function iniciar() {
+	var datos = window.arguments[0];
+	try {
+		foxgame2_fillListFromXml("fgServerPopup", "fgServer-", foxgame2_UniversesXml, "index", "url", "url");
+		if (typeof datos.server != "undefined") {
+			document.getElementById("fgServer").selectedItem = document.getElementById("fgServer-" + datos.server);
+			foxgame2_loadUnis();
+			if (typeof datos.uni != "undefined") 
+				document.getElementById("fgUni").selectedItem=document.getElementById("fgUni-" + datos.uni);
+		}
+		window.sizeToContent();
+
+	} catch (e) {
+		foxgame2_debug(e);
+	}
+}
+function devolver_resultado() {
+	var result = window.arguments[1];
+	try {
+		if (document.getElementById("fgServer").value  == '' || document.getElementById("fgUni").value == '')
+			return false;
+		result.server = document.getElementById("fgServer").value;
+		result.uni = document.getElementById("fgUni").value;
+		return true; 
+	} catch (e) {
+		foxgame2_debug(e);
+		return true;
+	}
+}
+</script>
+
+	<vbox flex="1">
+		<hbox>
+			<groupbox>
+				<caption label="&foxgame.prefs.selectUniverse;"/>
+				<vbox>
+ 					<hbox align="center">
+						<menulist sizetopopup="always" size="35" id="fgServer" oncommand="foxgame2_loadUnis(); window.sizeToContent();" label="&foxgame.prefs.server;">
+   						<menupopup id="fgServerPopup">
+	     					</menupopup>
+						</menulist>
+						<menulist sizetopopup="always" size="35" id="fgUni" label="&foxgame.prefs.universe;" oncommand=" window.sizeToContent();">
+   						<menupopup id="fgUniPopup">
+	     					</menupopup>
+						</menulist>
+    					</hbox>
+				</vbox>
+			</groupbox>
+		</hbox>
+	</vbox>
+</dialog>

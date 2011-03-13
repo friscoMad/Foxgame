@@ -1,0 +1,112 @@
+<!ENTITY foxgame.about.title "關於FoxGame">
+<!ENTITY foxgame.about.createdBy "程式原作:">
+<!ENTITY foxgame.about.iconDesign "圖示設計:">
+<!ENTITY foxgame.about.homePage "網站:">
+<!ENTITY foxgame.tabs.general "一般">
+<!ENTITY foxgame.tabs.time "時間/日期設定">
+<!ENTITY foxgame.tabs.messages "訊息設定">
+<!ENTITY foxgame.tabs.galaxy "銀河系設定">
+<!ENTITY foxgame.tabs.userHighlight "高亮度/強調">
+<!ENTITY foxgame.menu.configure "設置FoxGame">
+<!ENTITY foxgame.menu.calculator "貿易計算機">
+<!ENTITY foxgame.title.preferences "FoxGame 個人化設定">
+<!-- Common -->
+<!ENTITY foxgame.prefs.activate "啟動">
+<!ENTITY foxgame.prefs.add "新增">
+<!ENTITY foxgame.prefs.edit "修改">
+<!ENTITY foxgame.prefs.delete "刪除">
+<!ENTITY foxgame.prefs.up "向上移">
+<!ENTITY foxgame.prefs.down "向下移">
+<!ENTITY foxgame.prefs.deleteAll "重設">
+<!ENTITY foxgame.prefs.color "顏色:">
+<!-- General 1 -->
+<!ENTITY foxgame.prefs.hidePlanet "在大多數的頁面隱藏星球圖片(中間的大圖)">
+<!ENTITY foxgame.prefs.hideOverviewPlanet "在概況頁隱藏星球圖片(中間的大圖)及其所包含的資訊">
+<!ENTITY foxgame.prefs.showEnergyInfo "在建築頁顯示能量預估">
+<!ENTITY foxgame.prefs.showCargoNeeded "在艦隊頁中顯示運輸該星球所有資源的相關船艦需求量">
+<!ENTITY foxgame.prefs.showFleetCargo "顯示已被選擇的船艦裝載量">
+<!ENTITY foxgame.prefs.showRankDiffs "統計頁面直接顯示排名升降幅度">
+<!ENTITY foxgame.prefs.planetButtons "在星球選單增設快速切換鈕">
+<!ENTITY foxgame.prefs.phalanxRangeInfo "月球的建築頁註記感應密集陣範圍">
+<!ENTITY foxgame.prefs.showProdPercent "顯示建築、研究的完成進度">
+<!ENTITY foxgame.prefs.showEnergyResources "在資源運作百分比中增設能量評估">
+<!ENTITY foxgame.prefs.fleetOverviewInfo "在艦隊移動頁顯示飛行中的資源概況">
+<!ENTITY foxgame.prefs.changePlanetList "在艦隊發送頁分離星球、月球的捷徑項目">
+<!ENTITY foxgame.prefs.addConstructionName "在右側邊欄中的星球下方顯示目前施工中的建築名稱">
+<!ENTITY foxgame.prefs.showEventList "在概況頁中整合艦隊事件清單(建議可配合 在概況頁隱藏星球圖片 功能使用)">
+<!ENTITY foxgame.prefs.autoCopy "自動複製:">
+<!ENTITY foxgame.prefs.autoCopyTooltip "每當您選擇含有座標的文字(除了輸入控制的任何FireFox標籤) FoxGame 將會儲存該座標，之後當您前往艦隊發送頁面時，它將被顯示在目的地座標欄位中 (每當您尚未進入艦隊任務頁面之前) 。意即不論在任何地方，只要被選擇的文字是坐標！那它將會自動填入之後的艦隊任務，所屬的目的地欄位內！">
+<!-- General 2 -->
+<!ENTITY foxgame.prefs.selectUniverse "選擇宇宙">
+<!ENTITY foxgame.prefs.server "伺服器">
+<!ENTITY foxgame.prefs.universe "宇宙">
+<!ENTITY foxgame.prefs.skinTitle "使用 OGame 外觀">
+<!ENTITY foxgame.prefs.skinUrl "外觀路徑:">
+<!ENTITY foxgame.prefs.missionPreference "選擇預設任務的排列順序">
+<!ENTITY foxgame.prefs.attack "攻擊">
+<!ENTITY foxgame.prefs.spy "間諜">
+<!ENTITY foxgame.prefs.recollect "回收">
+<!ENTITY foxgame.prefs.transport "運輸">
+<!ENTITY foxgame.prefs.deploy "派遣">
+<!ENTITY foxgame.prefs.conf "聯合攻擊">
+<!ENTITY foxgame.prefs.exp "探索">
+<!ENTITY foxgame.prefs.update "更新">
+<!ENTITY foxgame.prefs.updateServerList "從 Foxgame 伺服器 下載新的伺服器清單及宇宙">
+<!-- Galaxy -->
+<!ENTITY foxgame.prefs.removePlanets "簡化銀河系的介面">
+<!ENTITY foxgame.prefs.addDebrisNumbers "戰場廢墟直接以數字顯示">
+<!ENTITY foxgame.prefs.showPlayerRank "直接顯示玩家排名">
+<!ENTITY foxgame.prefs.showAllyRank "直接顯示聯盟排名與成員數">
+<!ENTITY foxgame.prefs.addSpySpace "重新排列銀河系指令按鈕 (間諜、私人訊息...)">
+<!ENTITY foxgame.prefs.highlightBigDebris "強調巨大的戰場廢墟">
+<!ENTITY foxgame.prefs.debrisMin "被強調的最低數量:">
+<!-- Messages -->
+<!ENTITY foxgame.prefs.fastReply "在個人訊息、群組訊息中增加快速回覆功能">
+<!ENTITY foxgame.prefs.dragoSimLink "在間諜報告中增設DragoSim連結">
+<!ENTITY foxgame.prefs.speedSimLink "在間諜報告中增設SpeedSim連結">
+<!ENTITY foxgame.prefs.addRaid "間諜報告中顯示資源總計與裝載掠奪資源的船艦需求量">
+<!ENTITY foxgame.prefs.raidSize "請輸入該船艦的單一裝載量:">
+<!ENTITY foxgame.prefs.messageSignature "訊息中增設個人簽名">
+<!ENTITY foxgame.prefs.msgSignText "個人簽名">
+<!-- Time/Date -->
+<!ENTITY foxgame.prefs.selectTimeMode "選擇時間模式:">
+<!ENTITY foxgame.prefs.clientTime "本地時間">
+<!ENTITY foxgame.prefs.serverTime "伺服器時間">
+<!ENTITY foxgame.prefs.commonTime "本地的小時/伺服器的分鐘和秒">
+<!ENTITY foxgame.prefs.serverDiffTime "伺服器時間 + X小時">
+<!ENTITY foxgame.prefs.selectTimeDiff "選擇您的時間差距(時差)">
+<!ENTITY foxgame.prefs.flotaTime "艦隊發送頁顯示艦隊的抵達時間 (抵達和返回)">
+<!ENTITY foxgame.prefs.movementsTime "在艦隊移動頁顯示自訂的慣用時間與撤退時間">
+<!ENTITY foxgame.prefs.eventListTime "在事件清單中顯示自訂的慣用時間">
+<!ENTITY foxgame.prefs.phalanxTime "在感應密集陣的報告中顯示時間">
+<!ENTITY foxgame.prefs.shipyardTime "顯示造船廠的排程完成時間">
+<!ENTITY foxgame.prefs.buildingsTime "顯示建築的完成時間">
+<!ENTITY foxgame.prefs.researchTime "顯示研究的完成時間">
+<!ENTITY foxgame.prefs.formatDate "時間與日期的顯示模式">
+<!ENTITY foxgame.prefs.selectHourFormat "選擇時間的顯示類型">
+<!ENTITY foxgame.prefs.hourFormat-24 "24時制">
+<!ENTITY foxgame.prefs.hourFormat-12 "12時制(AM/PM)">
+<!ENTITY foxgame.prefs.personalFormat "個人化顯示模式">
+<!ENTITY foxgame.prefs.typeHourFormat "時間的顯示類型">
+<!ENTITY foxgame.prefs.formatHelp "顯示模式的說明與協助">
+<!ENTITY foxgame.prefs.selectDateFormat "選擇日期的顯示方式">
+<!ENTITY foxgame.prefs.dateFormat-dm "日/月">
+<!ENTITY foxgame.prefs.dateFormat-md "月/日">
+<!ENTITY foxgame.prefs.typeDateFormat "日期的顯示方式">
+<!-- User Highlight -->
+<!ENTITY foxgame.prefs.player "玩家">
+<!ENTITY foxgame.prefs.alliance "聯盟">
+<!ENTITY foxgame.prefs.priority "順位">
+<!ENTITY foxgame.prefs.name "名稱">
+<!ENTITY foxgame.prefs.type "類型">
+<!-- User Highlight dialog -->
+<!ENTITY foxgame.prefs.selectType "選擇目標類型">
+<!ENTITY foxgame.prefs.nameRegEx "目標名稱 (支援 正規表示式)">
+<!-- Calculator dialog -->
+<!ENTITY foxgame.calc.ratio "交易比例">
+<!ENTITY foxgame.calc.sell "銷售">
+<!ENTITY foxgame.calc.buy "購買">
+<!ENTITY foxgame.prefs.resources.metal "金屬">
+<!ENTITY foxgame.prefs.resources.crystal "晶體">
+<!ENTITY foxgame.prefs.resources.deut "重氫">
+<!ENTITY foxgame.calc.mix "混合(請自行調整組成百分比)">

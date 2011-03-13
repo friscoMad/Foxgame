@@ -1,0 +1,112 @@
+<!ENTITY foxgame.about.title "Par Foxgame">
+<!ENTITY foxgame.about.createdBy "Izstrādāts:">
+<!ENTITY foxgame.about.iconDesign "Attēlu dizains:">
+<!ENTITY foxgame.about.homePage "Mājaslapa:">
+<!ENTITY foxgame.tabs.general "Kopskats">
+<!ENTITY foxgame.tabs.time "Laika uzstādījumi">
+<!ENTITY foxgame.tabs.messages "Vēstules">
+<!ENTITY foxgame.tabs.galaxy "Galaktika">
+<!ENTITY foxgame.tabs.userHighlight "Highlight">
+<!ENTITY foxgame.menu.configure "Foxgame konfigurācija">
+<!ENTITY foxgame.menu.calculator "Trade Calculator">
+<!ENTITY foxgame.title.preferences "FoxGame Preferences">
+<!-- Common -->
+<!ENTITY foxgame.prefs.activate "Aktivēt">
+<!ENTITY foxgame.prefs.add "Pievienot">
+<!ENTITY foxgame.prefs.edit "Labot">
+<!ENTITY foxgame.prefs.delete "Izdzēst">
+<!ENTITY foxgame.prefs.up "Augšup">
+<!ENTITY foxgame.prefs.down "Lejup">
+<!ENTITY foxgame.prefs.deleteAll "Notīrīt">
+<!ENTITY foxgame.prefs.color "Krāsa:">
+<!-- General 1 -->
+<!ENTITY foxgame.prefs.hidePlanet "Hide planet image on most pages">
+<!ENTITY foxgame.prefs.hideOverviewPlanet "Hide planet image with all info on overview">
+<!ENTITY foxgame.prefs.showEnergyInfo "Parādīt papildus enerģijas statusu Celtnes logā">
+<!ENTITY foxgame.prefs.showCargoNeeded "Parādīt nepieciešamu kuģu skaitu, kas var izvēst visus resursus no planētas">
+<!ENTITY foxgame.prefs.showFleetCargo "Parādīt izvēlētas flotes ietilpību">
+<!ENTITY foxgame.prefs.showRankDiffs "Parādīt spēlētāju statistikas izmaiņas">
+<!ENTITY foxgame.prefs.planetButtons "Pievienot pogas iepriekšējās/nākamas planētas apmeklēšanai">
+<!ENTITY foxgame.prefs.phalanxRangeInfo "Pievienot falangas sensora aizsniegšanas attālumu Celtnes logā uz Mēness">
+<!ENTITY foxgame.prefs.showProdPercent "Radīt procentus no uzcelta/izpētīta">
+<!ENTITY foxgame.prefs.showEnergyResources "Pievienot informāciju par enerģijas statusu Resursu logā">
+<!ENTITY foxgame.prefs.fleetOverviewInfo "Show flying resource overview on movements page">
+<!ENTITY foxgame.prefs.changePlanetList "Separate planets and moons on fleet sending select">
+<!ENTITY foxgame.prefs.addConstructionName "Show currently building name below planets in right sidebar">
+<!ENTITY foxgame.prefs.showEventList "Include event list on overview">
+<!ENTITY foxgame.prefs.autoCopy "Autokopēšana: mērķa koordinātes automātiski ierakstās flotes sūtīšanas logā, pamatojoties uz pēdējām nokopētām/iezīmētām koordinātēm">
+<!ENTITY foxgame.prefs.autoCopyTooltip "Kad jūs kopējāt vai iezīmējat jebkādu tekstu, kas satur koordinātes, Foxgame tās iegaumē un automātiski ieliek flotes izvēles logā, lai jums būtu vieglāk un nevajadzētu visu laiku atcerēties, vai pierakstīt koordinātes.">
+<!-- General 2 -->
+<!ENTITY foxgame.prefs.selectUniverse "Izvēlēties Visumu">
+<!ENTITY foxgame.prefs.server "Serveris">
+<!ENTITY foxgame.prefs.universe "Visums">
+<!ENTITY foxgame.prefs.skinTitle "Use OGame skin">
+<!ENTITY foxgame.prefs.skinUrl "Skin URL:">
+<!ENTITY foxgame.prefs.missionPreference "Izvēlēties uzdevumu prioritātes">
+<!ENTITY foxgame.prefs.attack "Uzbrukums">
+<!ENTITY foxgame.prefs.spy "Spiegošana">
+<!ENTITY foxgame.prefs.recollect "Pārstrādāt">
+<!ENTITY foxgame.prefs.transport "Transports">
+<!ENTITY foxgame.prefs.deploy "AKS Aizsardzība">
+<!ENTITY foxgame.prefs.conf "AKS Uzbrukums">
+<!ENTITY foxgame.prefs.exp "Ekspedīcija">
+<!ENTITY foxgame.prefs.update "Update">
+<!ENTITY foxgame.prefs.updateServerList "Download a new list of servers and universes from Foxgame Server">
+<!-- Galaxy -->
+<!ENTITY foxgame.prefs.removePlanets "Kompakts galaktikas apskats">
+<!ENTITY foxgame.prefs.addDebrisNumbers "AL radīt skaitļos, nevis kā attēlu">
+<!ENTITY foxgame.prefs.showPlayerRank "Parādīt spēlētāju statistiku Galaktikas logā">
+<!ENTITY foxgame.prefs.showAllyRank "Parādīt alianšu statistiku Galaktikas logā">
+<!ENTITY foxgame.prefs.addSpySpace "Align vertically galaxy commands (spy, pm...)">
+<!ENTITY foxgame.prefs.highlightBigDebris "Iezīmēt lielus AL">
+<!ENTITY foxgame.prefs.debrisMin "Minimālais AL daudzums iezīmēšanai:">
+<!-- Messages -->
+<!ENTITY foxgame.prefs.fastReply "Pievienot ātras atbildēšanas iespējas personīgām vēstulēm un riņķa vēstulēm">
+<!ENTITY foxgame.prefs.dragoSimLink "Pievienot linku uz DragoSim spiegošanas atskaitēs">
+<!ENTITY foxgame.prefs.speedSimLink "Pievienot linku uz SpeedSim spiegošanas atskaitēs">
+<!ENTITY foxgame.prefs.addRaid "Parādīt nepieciešamu transporta kuģu daudzumu uzbrukumam">
+<!ENTITY foxgame.prefs.raidSize "Size of the ship:">
+<!ENTITY foxgame.prefs.messageSignature "Paraksts vēstulēs">
+<!ENTITY foxgame.prefs.msgSignText "Paraksts">
+<!-- Time/Date -->
+<!ENTITY foxgame.prefs.selectTimeMode "Izvēlēties vēlamu laika režīmu:">
+<!ENTITY foxgame.prefs.clientTime "Vietējais laiks">
+<!ENTITY foxgame.prefs.serverTime "Servera laiks">
+<!ENTITY foxgame.prefs.commonTime "Vietējais laiks/servera minūtes un sekundes">
+<!ENTITY foxgame.prefs.serverDiffTime "Servera laiks + X stundas">
+<!ENTITY foxgame.prefs.selectTimeDiff "Uzrādiet jūsu laika starpību">
+<!ENTITY foxgame.prefs.flotaTime "Parādīt flotes ierāšanas laiku (1 un 2 pusē)">
+<!ENTITY foxgame.prefs.movementsTime "Show custom time and retreat time on movements page">
+<!ENTITY foxgame.prefs.eventListTime "Show custom time on event list">
+<!ENTITY foxgame.prefs.phalanxTime "Parādīt laiku falangas sensora atskaitēs.">
+<!ENTITY foxgame.prefs.shipyardTime "Show shipyard's queue finishing time">
+<!ENTITY foxgame.prefs.buildingsTime "Parādīt celtnes uzbūvēšanas beigu laiku">
+<!ENTITY foxgame.prefs.researchTime "Parādīt pētniecības beigu laiku">
+<!ENTITY foxgame.prefs.formatDate "Laika un datuma formāts">
+<!ENTITY foxgame.prefs.selectHourFormat "Izvēlēties laika formātu">
+<!ENTITY foxgame.prefs.hourFormat-24 "24 stundas">
+<!ENTITY foxgame.prefs.hourFormat-12 "12 stundas (AM/PM)">
+<!ENTITY foxgame.prefs.personalFormat "Savs formāts">
+<!ENTITY foxgame.prefs.typeHourFormat "Ierakstiet laika formātu">
+<!ENTITY foxgame.prefs.formatHelp "Palīdzība pa formātiem">
+<!ENTITY foxgame.prefs.selectDateFormat "Izvēlēties datuma formātu">
+<!ENTITY foxgame.prefs.dateFormat-dm "Diena/Mēnesis">
+<!ENTITY foxgame.prefs.dateFormat-md "Mēnesis/Diena">
+<!ENTITY foxgame.prefs.typeDateFormat "Ierakstiet datuma formātu">
+<!-- User Highlight -->
+<!ENTITY foxgame.prefs.player "Player">
+<!ENTITY foxgame.prefs.alliance "Alliance">
+<!ENTITY foxgame.prefs.priority "Prioritāte">
+<!ENTITY foxgame.prefs.name "Name">
+<!ENTITY foxgame.prefs.type "Veids">
+<!-- User Highlight dialog -->
+<!ENTITY foxgame.prefs.selectType "Select type">
+<!ENTITY foxgame.prefs.nameRegEx "Name (Supports regular expressions)">
+<!-- Calculator dialog -->
+<!ENTITY foxgame.calc.ratio "Ratio">
+<!ENTITY foxgame.calc.sell "Sell">
+<!ENTITY foxgame.calc.buy "Buy">
+<!ENTITY foxgame.prefs.resources.metal "Metāls">
+<!ENTITY foxgame.prefs.resources.crystal "Kristāls">
+<!ENTITY foxgame.prefs.resources.deut "Deitērijs">
+<!ENTITY foxgame.calc.mix "Mix">

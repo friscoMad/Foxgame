@@ -1,0 +1,112 @@
+<!ENTITY foxgame.about.title "Despre">
+<!ENTITY foxgame.about.createdBy "Creat de:">
+<!ENTITY foxgame.about.iconDesign "Design iconiţă:">
+<!ENTITY foxgame.about.homePage "Pagina Web:">
+<!ENTITY foxgame.tabs.general "General">
+<!ENTITY foxgame.tabs.time "Setări dată/oră">
+<!ENTITY foxgame.tabs.messages "Mesaje">
+<!ENTITY foxgame.tabs.galaxy "Galaxie">
+<!ENTITY foxgame.tabs.userHighlight "Highlight">
+<!ENTITY foxgame.menu.configure "Configurează FoxGame">
+<!ENTITY foxgame.menu.calculator "Trade Calculator">
+<!ENTITY foxgame.title.preferences "FoxGame Preferences">
+<!-- Common -->
+<!ENTITY foxgame.prefs.activate "Activează">
+<!ENTITY foxgame.prefs.add "Adaugă">
+<!ENTITY foxgame.prefs.edit "Editează">
+<!ENTITY foxgame.prefs.delete "Şterge">
+<!ENTITY foxgame.prefs.up "Mută sus">
+<!ENTITY foxgame.prefs.down "Mută jos">
+<!ENTITY foxgame.prefs.deleteAll "Resetează">
+<!ENTITY foxgame.prefs.color "Culoare:">
+<!-- General 1 -->
+<!ENTITY foxgame.prefs.hidePlanet "Hide planet image on most pages">
+<!ENTITY foxgame.prefs.hideOverviewPlanet "Hide planet image with all info on overview">
+<!ENTITY foxgame.prefs.showEnergyInfo "Arată starea energiei la clădiri">
+<!ENTITY foxgame.prefs.showCargoNeeded "Arată numărul necesar de nave pentru a transporta toate resursele de pe planetă">
+<!ENTITY foxgame.prefs.showFleetCargo "Afişează capacitatea de stocare a flotei selectate">
+<!ENTITY foxgame.prefs.showRankDiffs "Arată numărul de rank-uri câştigate sau pierdute în pagina de statistici">
+<!ENTITY foxgame.prefs.planetButtons "Arată butoanele pentru planeta precedentă/următoare">
+<!ENTITY foxgame.prefs.phalanxRangeInfo "Adaugă distanţa de phalanx în pagina Clădiri">
+<!ENTITY foxgame.prefs.showProdPercent "Afişează procentajul de terminare a cladirilor şi a cercetărilor">
+<!ENTITY foxgame.prefs.showEnergyResources "Adaugă starea energiei în selectorul de resurse">
+<!ENTITY foxgame.prefs.fleetOverviewInfo "Show flying resource overview on movements page">
+<!ENTITY foxgame.prefs.changePlanetList "Separate planets and moons on fleet sending select">
+<!ENTITY foxgame.prefs.addConstructionName "Show currently building name below planets in right sidebar">
+<!ENTITY foxgame.prefs.showEventList "Include event list on overview">
+<!ENTITY foxgame.prefs.autoCopy "AutoCopiere: Oricând un text este selectat, se caută format coordonate planetă. Dacă este coordonată, va apărea ca destinaţie în meniu misiune flotă.">
+<!ENTITY foxgame.prefs.autoCopyTooltip "Oricând slectezi un text (în orice fereastră Firefox, oriunde exceptând controalele de tip input) cu coordonate în el, Foxgame va stoca acele coordonate pentru o folosire ulterioară când mergi la pagina de misiuni şi când sunt afisate coordonatele de bază (asta se întamplă oricând nu ai dat click pe nici un link cu o misiune).">
+<!-- General 2 -->
+<!ENTITY foxgame.prefs.selectUniverse "Selecteză universul">
+<!ENTITY foxgame.prefs.server "Server">
+<!ENTITY foxgame.prefs.universe "Universul">
+<!ENTITY foxgame.prefs.skinTitle "Use OGame skin">
+<!ENTITY foxgame.prefs.skinUrl "Skin URL:">
+<!ENTITY foxgame.prefs.missionPreference "Alegere priorităţile misiunilor">
+<!ENTITY foxgame.prefs.attack "Atacă">
+<!ENTITY foxgame.prefs.spy "Spionează">
+<!ENTITY foxgame.prefs.recollect "Colectează">
+<!ENTITY foxgame.prefs.transport "Transportă">
+<!ENTITY foxgame.prefs.deploy "Staţionează">
+<!ENTITY foxgame.prefs.conf "Confederaţie">
+<!ENTITY foxgame.prefs.exp "Expediţii">
+<!ENTITY foxgame.prefs.update "Update">
+<!ENTITY foxgame.prefs.updateServerList "Download a new list of servers and universes from Foxgame Server">
+<!-- Galaxy -->
+<!ENTITY foxgame.prefs.removePlanets "Vedere redusă pentru galaxie">
+<!ENTITY foxgame.prefs.addDebrisNumbers "Arată dimensiunea câmpului de rămăşiţe în loc de imaginea câmpului de rămăşiţe">
+<!ENTITY foxgame.prefs.showPlayerRank "Arată rank-urile jucătorilor în galaxie">
+<!ENTITY foxgame.prefs.showAllyRank "Arată rank-urile alianţelor în galaxie">
+<!ENTITY foxgame.prefs.addSpySpace "Align vertically galaxy commands (spy, pm...)">
+<!ENTITY foxgame.prefs.highlightBigDebris "Marchează câmpurile mari de rămăşiţe">
+<!ENTITY foxgame.prefs.debrisMin "Cantitatea minimă de marcat:">
+<!-- Messages -->
+<!ENTITY foxgame.prefs.fastReply "Adaugă opţiuni de trimitere rapidă de PM şi Circulare">
+<!ENTITY foxgame.prefs.dragoSimLink "Adaugă link la DragoSim în rapoartele de spionaj">
+<!ENTITY foxgame.prefs.speedSimLink "Adaugă link la SpeedSim în rapoartele de spionaj">
+<!ENTITY foxgame.prefs.addRaid "Arată cantitatea de resurse de jefuit şi numărul de nave necesare">
+<!ENTITY foxgame.prefs.raidSize "Size of the ship:">
+<!ENTITY foxgame.prefs.messageSignature "Semnătură PM">
+<!ENTITY foxgame.prefs.msgSignText "Semnătură">
+<!-- Time/Date -->
+<!ENTITY foxgame.prefs.selectTimeMode "Alege modul de afişare a timpului:">
+<!ENTITY foxgame.prefs.clientTime "Ora locală">
+<!ENTITY foxgame.prefs.serverTime "Ora server">
+<!ENTITY foxgame.prefs.commonTime "Ora locală/server minute şi secunde">
+<!ENTITY foxgame.prefs.serverDiffTime "Ora server +X ore">
+<!ENTITY foxgame.prefs.selectTimeDiff "Alege diferenţa de fus orar">
+<!ENTITY foxgame.prefs.flotaTime "Arată timp de parcurs al flotei (dus şi dus-întors)">
+<!ENTITY foxgame.prefs.movementsTime "Show custom time and retreat time on movements page">
+<!ENTITY foxgame.prefs.eventListTime "Show custom time on event list">
+<!ENTITY foxgame.prefs.phalanxTime "Arată ora în raportul phalanx.">
+<!ENTITY foxgame.prefs.shipyardTime "Show shipyard's queue finishing time">
+<!ENTITY foxgame.prefs.buildingsTime "Arată data de finalizare a construcţiei clădirilor">
+<!ENTITY foxgame.prefs.researchTime "Arată data de finalizare a cercetărilor">
+<!ENTITY foxgame.prefs.formatDate "Formatul timp &amp; dată">
+<!ENTITY foxgame.prefs.selectHourFormat "Selectează formatul datei">
+<!ENTITY foxgame.prefs.hourFormat-24 "24H">
+<!ENTITY foxgame.prefs.hourFormat-12 "12H (AM/PM)">
+<!ENTITY foxgame.prefs.personalFormat "Format personalizat">
+<!ENTITY foxgame.prefs.typeHourFormat "Introdu formatul timpului">
+<!ENTITY foxgame.prefs.formatHelp "Ajutor în alegerea formatului">
+<!ENTITY foxgame.prefs.selectDateFormat "Selectează formatul datei">
+<!ENTITY foxgame.prefs.dateFormat-dm "Zi/Lună">
+<!ENTITY foxgame.prefs.dateFormat-md "Lună/Zi">
+<!ENTITY foxgame.prefs.typeDateFormat "Introdu formatul datei">
+<!-- User Highlight -->
+<!ENTITY foxgame.prefs.player "Player">
+<!ENTITY foxgame.prefs.alliance "Alliance">
+<!ENTITY foxgame.prefs.priority "Prioritate">
+<!ENTITY foxgame.prefs.name "Name">
+<!ENTITY foxgame.prefs.type "Tip">
+<!-- User Highlight dialog -->
+<!ENTITY foxgame.prefs.selectType "Select type">
+<!ENTITY foxgame.prefs.nameRegEx "Name (Supports regular expressions)">
+<!-- Calculator dialog -->
+<!ENTITY foxgame.calc.ratio "Ratio">
+<!ENTITY foxgame.calc.sell "Sell">
+<!ENTITY foxgame.calc.buy "Buy">
+<!ENTITY foxgame.prefs.resources.metal "Metal">
+<!ENTITY foxgame.prefs.resources.crystal "Cristal">
+<!ENTITY foxgame.prefs.resources.deut "Deuteriu">
+<!ENTITY foxgame.calc.mix "Mix">

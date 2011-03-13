@@ -1,0 +1,79 @@
+<!-- ru-RU -->
+
+<!ENTITY foxgame.prefs.preferences "Настройка FoxGame">
+<!ENTITY foxgame.prefs.removePlanets "Сокращенный обзор галактики">
+<!ENTITY foxgame.prefs.flotaTime "Показывать время прибытия флота (в 1 и в 2 стороны)">
+<!ENTITY foxgame.prefs.flotaReturnTime "Показывать время до возвращения флота">
+<!ENTITY foxgame.prefs.replicateDeleteOptions "Добавить дополнительные возможности удаления сообщений">
+<!ENTITY foxgame.prefs.selectUniverse "Выбор вселенной">
+<!ENTITY foxgame.prefs.highlightPrivates "Подсветка личных сообщений">
+<!ENTITY foxgame.prefs.server "Сервер">
+<!ENTITY foxgame.prefs.universe "Вселенная">
+<!ENTITY foxgame.prefs.activate "Активировать">
+<!ENTITY foxgame.prefs.buildingTime "Показывать время окончания очереди работ на верфи">
+<!ENTITY foxgame.prefs.addOverviewTime "Показывать время свершения события в обзоре">
+<!ENTITY foxgame.prefs.removeOverviewTime "Убрать обратный отсчет времени в обзоре">
+<!ENTITY foxgame.prefs.buildingsTime "Показывать время окончания строительства">
+<!ENTITY foxgame.prefs.researchTime "Показывать время окончания исследования">
+<!ENTITY foxgame.prefs.colorPicker "Выбор цвета">
+<!ENTITY foxgame.prefs.colorPicker2 "Подберите цвет:">
+<!ENTITY foxgame.prefs.color "Цвет:">
+<!ENTITY foxgame.prefs.colorButton "Выбор">
+<!ENTITY foxgame.prefs.highlightAllyMessages "Подсветка сообщений вашего альянса">
+<!ENTITY foxgame.prefs.highlightBigDebris "Подсветка больших полей обломков">
+<!ENTITY foxgame.prefs.debrisMin "Минимальный размер поля, которое будет подсвечиваться:">
+
+<!ENTITY foxgame.prefs.infosDeltas "Показывать разницу между уровнями построек в меню построек">
+<!ENTITY foxgame.prefs.autoCopy "Автокопирование: Когда выделяется текст, происходит поиск координат и если они существуют, то впоследствии они появляются как пункт назначения прибытия флота.">
+<!ENTITY foxgame.prefs.messageSignature "Подпись в сообщениях">
+<!ENTITY foxgame.prefs.msgSignText "Подпись">
+<!ENTITY foxgame.prefs.type "Тип">
+<!ENTITY foxgame.prefs.add "Добавить">
+<!ENTITY foxgame.prefs.edit "Редактировать">
+<!ENTITY foxgame.prefs.phalanxTime "Показывать время в отчетах сканирования фалангой.">
+<!ENTITY foxgame.prefs.milosButtons "Добавить кнопки в обзоре галактики для сохранения информации в базе данных.">
+<!ENTITY foxgame.prefs.statButtons "Добавить кнопки в меню рангов для сохранения информации в базе данных.">
+<!ENTITY foxgame.prefs.reportButtons "Добавить кнопки в шпионские доклады для сохранения информации в базе данных.">
+<!ENTITY foxgame.tabs.dbs "Базы данных">
+<!ENTITY foxgame.prefs.selectDBType "Выбрать тип БД:">
+<!ENTITY foxgame.prefs.user "Пользователь:">
+<!ENTITY foxgame.prefs.pass "Пароль:">
+<!ENTITY foxgame.prefs.ally "Альянс:">
+<!ENTITY foxgame.prefs.url "URL:">
+<!ENTITY foxgame.prefs.DBOptions "Настройки Базы данных">
+
+<!ENTITY foxgame.prefs.replicateReportOptions "Добавить дополнительный контроль шпионских докладов вверху страницы сообщений.">
+<!ENTITY foxgame.prefs.missionPreference "Выберите приоритеты для типов миссий">
+<!ENTITY foxgame.prefs.attack "Атака">
+<!ENTITY foxgame.prefs.spy "Шпионаж">
+<!ENTITY foxgame.prefs.recollect "Переработать">
+<!ENTITY foxgame.prefs.transport "Транспорт">
+<!ENTITY foxgame.prefs.deploy "Держаться">
+<!ENTITY foxgame.prefs.delete "Удалить">
+<!ENTITY foxgame.prefs.deleteAll "Очистить">
+<!ENTITY foxgame.prefs.missionPreference.description "Foxgame выберет желаемый тип миссии в меню миссий. Если миссия с большим приоритетом не найдена, Foxgame попытается выбрать вторую по приоритетности миссию и т.д.">
+<!ENTITY foxgame.prefs.selectTimeMode "Выберите режим отображения времени:">
+<!ENTITY foxgame.prefs.clientTime "Местное время">
+<!ENTITY foxgame.prefs.serverTime "Серверное время">
+<!ENTITY foxgame.prefs.commonTime "Часы по местному времени/Минуты и секунды по серверному">
+<!ENTITY foxgame.prefs.serverDiffTime "Серверное время + Х часов">
+<!ENTITY foxgame.prefs.selectTimeDiff "Выберите свою разницу во времени">
+
+<!ENTITY foxgame.tabs.general "Общие">
+<!ENTITY foxgame.tabs.time "Настройки времени">
+
+
+<!ENTITY foxgame.about.title "О FoxGame">
+
+<!-- The final string will be "До" locale "После" -->
+<!ENTITY foxgame.about.translationByBefore "">
+<!ENTITY foxgame.about.translationByAfter "Перевод:">
+<!-- The final string will be "Traducido a de-DE por: -->
+
+<!ENTITY foxgame.about.createdBy "Разработано:">
+<!ENTITY foxgame.about.iconDesign "Дизайн пиктограмм:">
+<!ENTITY foxgame.about.homePage "Web страница:">
+
+<!ENTITY foxgame.menu.configure "Настройка FoxGame">
+
+<!-- EOF -->

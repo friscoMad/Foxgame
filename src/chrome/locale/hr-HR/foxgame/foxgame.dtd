@@ -1,0 +1,112 @@
+<!ENTITY foxgame.about.title "O programu">
+<!ENTITY foxgame.about.createdBy "Programirao:">
+<!ENTITY foxgame.about.iconDesign "Dizajn ikona:">
+<!ENTITY foxgame.about.homePage "Web stranica:">
+<!ENTITY foxgame.tabs.general "Opce">
+<!ENTITY foxgame.tabs.time "Postavke vremena">
+<!ENTITY foxgame.tabs.messages "Poruke">
+<!ENTITY foxgame.tabs.galaxy "Galaxy">
+<!ENTITY foxgame.tabs.userHighlight "Highlight">
+<!ENTITY foxgame.menu.configure "Podesi FoxGame">
+<!ENTITY foxgame.menu.calculator "Trade Calculator">
+<!ENTITY foxgame.title.preferences "FoxGame Preferences">
+<!-- Common -->
+<!ENTITY foxgame.prefs.activate "Aktiviraj">
+<!ENTITY foxgame.prefs.add "Dodaj">
+<!ENTITY foxgame.prefs.edit "Uredi">
+<!ENTITY foxgame.prefs.delete "Brisi">
+<!ENTITY foxgame.prefs.up "Pomakni gore">
+<!ENTITY foxgame.prefs.down "Pomakni dolje">
+<!ENTITY foxgame.prefs.deleteAll "Reset">
+<!ENTITY foxgame.prefs.color "Boja:">
+<!-- General 1 -->
+<!ENTITY foxgame.prefs.hidePlanet "Hide planet image on most pages">
+<!ENTITY foxgame.prefs.hideOverviewPlanet "Hide planet image with all info on overview">
+<!ENTITY foxgame.prefs.showEnergyInfo "Pokazi dodatne informacije za energiju kod zgrada">
+<!ENTITY foxgame.prefs.showCargoNeeded "Pokazi brodove potrebne za transport svih resursa na planetu">
+<!ENTITY foxgame.prefs.showFleetCargo "Prikazi kapacitet selektirane flote">
+<!ENTITY foxgame.prefs.showRankDiffs "Pokazi rangove dobivene ili izgubljene na statistikama">
+<!ENTITY foxgame.prefs.planetButtons "Prikazi linkove za prethodni/iduci planet">
+<!ENTITY foxgame.prefs.phalanxRangeInfo "Dodaj domet falange kod zgrade">
+<!ENTITY foxgame.prefs.showProdPercent "Prikazi napredak u &#37; kod izgradnje i istrazivanja">
+<!ENTITY foxgame.prefs.showEnergyResources "Dodaj info energije na odabranim resursima">
+<!ENTITY foxgame.prefs.fleetOverviewInfo "Show flying resource overview on movements page">
+<!ENTITY foxgame.prefs.changePlanetList "Separate planets and moons on fleet sending select">
+<!ENTITY foxgame.prefs.addConstructionName "Show currently building name below planets in right sidebar">
+<!ENTITY foxgame.prefs.showEventList "Include event list on overview">
+<!ENTITY foxgame.prefs.autoCopy "AutoCopy: Automatsko selektiranje odredista za misije">
+<!ENTITY foxgame.prefs.autoCopyTooltip "Kopirani text koji sadrzi koordinate (unutar Firefoxa) se pohranjuje, te se TE koordinate mogu koristiti za odrediste pri slanju flote (da ne upisujemo koordinate pri slanju flote, nego samo kliknemo na link kao kad saljemo flotu na svoju planetu).">
+<!-- General 2 -->
+<!ENTITY foxgame.prefs.selectUniverse "Odaberi Uni">
+<!ENTITY foxgame.prefs.server "Server">
+<!ENTITY foxgame.prefs.universe "Uni">
+<!ENTITY foxgame.prefs.skinTitle "Use OGame skin">
+<!ENTITY foxgame.prefs.skinUrl "Skin URL:">
+<!ENTITY foxgame.prefs.missionPreference "Odaberi prioritet misije">
+<!ENTITY foxgame.prefs.attack "Napad">
+<!ENTITY foxgame.prefs.spy "spijuniranje">
+<!ENTITY foxgame.prefs.recollect "Vaditi RU">
+<!ENTITY foxgame.prefs.transport "Transport">
+<!ENTITY foxgame.prefs.deploy "Stacioniranje">
+<!ENTITY foxgame.prefs.conf "Savezni">
+<!ENTITY foxgame.prefs.exp "Ekspedicija">
+<!ENTITY foxgame.prefs.update "Update">
+<!ENTITY foxgame.prefs.updateServerList "Download a new list of servers and universes from Foxgame Server">
+<!-- Galaxy -->
+<!ENTITY foxgame.prefs.removePlanets "Skraceni pregled galaksije">
+<!ENTITY foxgame.prefs.addDebrisNumbers "Pokazi brojcano rusevine umjesto slicice za rusevine">
+<!ENTITY foxgame.prefs.showPlayerRank "Pokazi rangove igraca u pregledu galaksije">
+<!ENTITY foxgame.prefs.showAllyRank "Pokazi saveznicke rangove u prikazu galaksije">
+<!ENTITY foxgame.prefs.addSpySpace "Align vertically galaxy commands (spy, pm...)">
+<!ENTITY foxgame.prefs.highlightBigDebris "Oznaci vece kolicine rusevina">
+<!ENTITY foxgame.prefs.debrisMin "Minimalna kolicina rusevina:">
+<!-- Messages -->
+<!ENTITY foxgame.prefs.fastReply "Dodaj opciju brzog odgovora na PP i kruzne">
+<!ENTITY foxgame.prefs.dragoSimLink "Dodaj link za DragoSim simulator u izvjestaje spijunaze">
+<!ENTITY foxgame.prefs.speedSimLink "Dodaj link za SpeedSim simulator u izvjestaje spijunaze">
+<!ENTITY foxgame.prefs.addRaid "Pokazi kolicinu opljackanih resursa i broj potrebih brodova">
+<!ENTITY foxgame.prefs.raidSize "Size of the ship:">
+<!ENTITY foxgame.prefs.messageSignature "Potpis kod slanja poruka">
+<!ENTITY foxgame.prefs.msgSignText "Potpis">
+<!-- Time/Date -->
+<!ENTITY foxgame.prefs.selectTimeMode "Odaberi vrijeme prikaza:">
+<!ENTITY foxgame.prefs.clientTime "Lokalno vrijeme">
+<!ENTITY foxgame.prefs.serverTime "Serversko vrijeme">
+<!ENTITY foxgame.prefs.commonTime "Lokalno vrijeme sata/Serverske minute i sekunde">
+<!ENTITY foxgame.prefs.serverDiffTime "Serversko vrijeme + X sati">
+<!ENTITY foxgame.prefs.selectTimeDiff "Odaberi vremensku zonu">
+<!ENTITY foxgame.prefs.flotaTime "Pokazi vrijeme dolaska flote (obje udaljenosti)">
+<!ENTITY foxgame.prefs.movementsTime "Show custom time and retreat time on movements page">
+<!ENTITY foxgame.prefs.eventListTime "Show custom time on event list">
+<!ENTITY foxgame.prefs.phalanxTime "Pokazi vrijeme u izvjestaju falange.">
+<!ENTITY foxgame.prefs.shipyardTime "Show shipyard's queue finishing time">
+<!ENTITY foxgame.prefs.buildingsTime "Pokazi vrijeme zavrsetka gradnje zgrada">
+<!ENTITY foxgame.prefs.researchTime "Pokazi vrijeme zavrsetka istrazivanja">
+<!ENTITY foxgame.prefs.formatDate "Vrijeme format">
+<!ENTITY foxgame.prefs.selectHourFormat "Odaberi prikaz vremena">
+<!ENTITY foxgame.prefs.hourFormat-24 "24H">
+<!ENTITY foxgame.prefs.hourFormat-12 "12H (AM/PM)">
+<!ENTITY foxgame.prefs.personalFormat "Prilagodi format">
+<!ENTITY foxgame.prefs.typeHourFormat "Nacin prikaza vremena">
+<!ENTITY foxgame.prefs.formatHelp "Format pomoc">
+<!ENTITY foxgame.prefs.selectDateFormat "Odaberi prikaz datuma">
+<!ENTITY foxgame.prefs.dateFormat-dm "Dan/Mjesec">
+<!ENTITY foxgame.prefs.dateFormat-md "Mjesec/Dan">
+<!ENTITY foxgame.prefs.typeDateFormat "Tip prikaza datuma">
+<!-- User Highlight -->
+<!ENTITY foxgame.prefs.player "Player">
+<!ENTITY foxgame.prefs.alliance "Alliance">
+<!ENTITY foxgame.prefs.priority "Prioritet">
+<!ENTITY foxgame.prefs.name "Name">
+<!ENTITY foxgame.prefs.type "Vrsta">
+<!-- User Highlight dialog -->
+<!ENTITY foxgame.prefs.selectType "Select type">
+<!ENTITY foxgame.prefs.nameRegEx "Name (Supports regular expressions)">
+<!-- Calculator dialog -->
+<!ENTITY foxgame.calc.ratio "Ratio">
+<!ENTITY foxgame.calc.sell "Sell">
+<!ENTITY foxgame.calc.buy "Buy">
+<!ENTITY foxgame.prefs.resources.metal "Metal">
+<!ENTITY foxgame.prefs.resources.crystal "Kristal">
+<!ENTITY foxgame.prefs.resources.deut "Deuterij">
+<!ENTITY foxgame.calc.mix "Mix">

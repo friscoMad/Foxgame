@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://mozapps/skin/pref/pref.css" type="text/css"?>
+
+<!DOCTYPE dialog SYSTEM "chrome://foxgame2/locale/foxgame.dtd">
+
+<dialog xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+	title="&foxgame.prefs.highlightMessages;"
+	id="foxgame-tree"
+	onload="iniciar();"
+	ondialogaccept="return devolver_resultado();"
+	buttons="accept, cancel"
+	orient="vertical"
+	autostretch="always"
+	persist="screenX screenY"
+	flex="1">
+
+<script type="application/x-javascript" src="chrome://foxgame2/content/foxgameCommon.js"/>
+<script type="application/x-javascript" src="chrome://foxgame2/content/foxgameOptions.js"/>
+
+<script>
+<![CDATA[
+
+function iniciar() {
+	var datos = window.arguments[0];
+	try {
+		if (datos == '') {
+			document.getElementById("fgSelectMsgType").value = "PM";
+			//workaround for FF3 bug
+			document.getElementById('from').setAttribute('hidden','false');
+			document.getElementById('text').setAttribute('hidden','false');
+			document.getElementById('about').setAttribute('hidden','false');
+			document.getElementById('minRes').setAttribute('hidden','false');
+			document.getElementById('pmType').setAttribute('hidden','false');
+			document.getElementById('spyType').setAttribute('hidden','false');			
+			window.sizeToContent();
+			//end of workaround;			
+			update_type();
+			return;
+		}
+
+		document.getElementById("fgColor").value = datos.color;
+		document.getElementById("fgSelectMsgType").value = datos.type;
+
+		switch(datos.type) {
+		case "CC":
+		case "PM":
+			var otros = datos.other.split('~');
+			var tok = 1;
+			var modo = otros[0];
+			if (modo % 2 == 1) {
+				document.getElementById('fgPMFrom').checked = true;
+				document.getElementById("fgFrom").value = otros[tok];
+				tok++;
+			}
+			modo = (modo - (modo % 2))/2;
+			if (modo % 2 == 1) {
+				document.getElementById('fgPMText').checked = true;
+				document.getElementById("fgText").value = otros[tok];
+				tok++;
+			}
+			modo = (modo - (modo % 2))/2;
+			if (modo % 2 == 1) {
+				document.getElementById('fgPMAbout').checked = true;
+				document.getElementById("fgAbout").value = otros[tok];
+				tok++;
+			}
+			break;
+		case "SpyReport":
+			var otros = datos.other.split('~');
+			modo = parseInt(otros[0]);
+			if (modo >= 4) {
+				document.getElementById('fgSpyNoFleet').checked = true;
+				modo -= 4;
+			} 
+			if (modo >= 2) {
+				document.getElementById('fgSpyNoDef').checked = true;
+				modo -= 2;
+			}
+			if (modo >= 1) {
+				document.getElementById('fgSpyResources').checked = true;
+				document.getElementById("fgResMin").value = otros[1];
+				document.getElementById("fgSelectResType").value = otros[2];
+			}
+			break;
+		}
+		//workaround for FF3 bug
+		document.getElementById('from').setAttribute('hidden','false');
+		document.getElementById('text').setAttribute('hidden','false');
+		document.getElementById('about').setAttribute('hidden','false');
+		document.getElementById('minRes').setAttribute('hidden','false');
+		document.getElementById('pmType').setAttribute('hidden','false');
+		document.getElementById('spyType').setAttribute('hidden','false');		
+		window.sizeToContent();
+		//end of workaround;
+		update_type();		
+
+	} catch (e) {
+		foxgame2_debug(e);
+	}
+}
+
+
+function devolver_resultado() {
+	var result = window.arguments[1];
+	try {
+		if (document.getElementById("fgSelectMsgType").value  == '')
+			return false;
+		result.type = document.getElementById("fgSelectMsgType").value;
+		result.color = document.getElementById("fgColor").value;
+		result.other = "";
+
+		if ( result.type == "PM" || result.type == "CC" ) 
+		{
+			if (document.getElementById('fgPMFrom').checked && document.getElementById("fgFrom").value == "") 
+				return false;
+			if (document.getElementById('fgPMText').checked && document.getElementById("fgText").value == "")
+				return false;
+			var mode = 0;
+			if (document.getElementById('fgPMFrom').checked )
+			{
+				result.other = document.getElementById("fgFrom").value;
+				mode = 1;
+			}
+			if (document.getElementById('fgPMText').checked)
+			{
+				if (mode != 0)
+					result.other += '~'+document.getElementById("fgText").value;
+				else
+					result.other = document.getElementById("fgText").value;
+				mode += 2;
+			}
+			if (document.getElementById('fgPMAbout').checked && document.getElementById('fgSelectMsgType').value == "PM")
+			{
+				if (mode != 0)
+					result.other += '~'+document.getElementById("fgAbout").value;
+				else
+					result.other = document.getElementById("fgAbout").value;
+				mode += 4;
+			}
+			result.other = mode + '~' + result.other;
+			return true;
+		} 
+		if (result.type == "SpyReport")
+		{	
+			if ((document.getElementById('fgSpyResources').checked && document.getElementById("minRes").value == ""))
+				return false;
+			var mode = 0;
+			if (document.getElementById('fgSpyNoDef').checked)
+				mode +=2;
+			if (document.getElementById('fgSpyNoFleet').checked)
+				mode +=4;
+			if (document.getElementById('fgSpyResources').checked )
+			{
+				mode++;
+				result.other = mode+'~'+document.getElementById("fgResMin").value+'~'+document.getElementById("fgSelectResType").value;
+			}
+			else 
+				result.other = mode+'~';
+			return true;
+		}
+		return true; 
+	} catch (e) {
+		foxgame2_debug(e);
+		return true;
+	}
+}
+
+function update_type() {
+	hide_all();
+	switch(document.getElementById('fgSelectMsgType').value) {
+		case "PM":
+			document.getElementById('pmType').setAttribute('hidden','false');
+			document.getElementById('fgPMAbout').setAttribute('hidden','false');
+			updatePM();
+			break;
+		case "CC":
+			document.getElementById('pmType').setAttribute('hidden','false');
+			document.getElementById('fgPMAbout').setAttribute('hidden','true');
+			updatePM();
+			break;
+		case "SpyReport":
+			document.getElementById('spyType').setAttribute('hidden','false');
+			updateSpy();
+			break;
+	}
+//	window.sizeToContent();
+}
+function updatePM(all){
+	document.getElementById('fgPMAll').checked = all;
+	if (document.getElementById('fgPMAll').checked && all) {
+		document.getElementById('from').setAttribute('hidden','true');
+		document.getElementById('text').setAttribute('hidden','true');
+		document.getElementById('about').setAttribute('hidden','true');
+		document.getElementById('fgPMFrom').checked= false;
+		document.getElementById('fgPMText').checked= false;
+		document.getElementById('fgPMAbout').checked= false;
+	} else { 
+		if (document.getElementById('fgPMFrom').checked) 
+			document.getElementById('from').setAttribute('hidden','false');
+		else
+			document.getElementById('from').setAttribute('hidden','true');
+		if (document.getElementById('fgPMAbout').checked && document.getElementById('fgSelectMsgType').value == "PM") 
+			document.getElementById('about').setAttribute('hidden','false');
+		else
+			document.getElementById('about').setAttribute('hidden','true');
+		if (document.getElementById('fgPMText').checked) 
+			document.getElementById('text').setAttribute('hidden','false');
+		else
+			document.getElementById('text').setAttribute('hidden','true');
+		if (!document.getElementById('fgPMText').checked && !document.getElementById('fgPMFrom').checked && (!document.getElementById('fgPMAbout').checked || document.getElementById('fgSelectMsgType').value == "CC"))
+			document.getElementById('fgPMAll').checked = true;
+	}
+//	setTimeout( function() {window.sizeToContent();}, 100); 	
+}
+function updateSpy(all){
+	document.getElementById('fgSpyAll').checked = all;
+	if (document.getElementById('fgSpyAll').checked) {
+		document.getElementById('minRes').setAttribute('hidden','true');
+		document.getElementById('fgSpyNoDef').checked = false;
+		document.getElementById('fgSpyNoFleet').checked= false;
+		document.getElementById('fgSpyResources').checked= false;
+	} 
+	if (document.getElementById('fgSpyResources').checked) 
+		document.getElementById('minRes').setAttribute('hidden','false');
+	else {
+		document.getElementById('minRes').setAttribute('hidden','true');
+	if (!document.getElementById('fgSpyNoFleet').checked && !document.getElementById('fgSpyNoDef').checked) 
+			document.getElementById('fgSpyAll').checked = true;
+	}
+//	window.sizeToContent();
+}
+function hide_all() {
+	document.getElementById('from').setAttribute('hidden','true');
+	document.getElementById('text').setAttribute('hidden','true');
+	document.getElementById('about').setAttribute('hidden','true');
+	document.getElementById('spyType').setAttribute('hidden','true');
+	document.getElementById('pmType').setAttribute('hidden','true');
+	document.getElementById('minRes').setAttribute('hidden','true');
+}
+]]>
+</script>
+
+	<vbox flex="1">
+		<hbox>
+			<vbox><spring flex="1"/>
+			<caption label="&foxgame.prefs.selectMessageType;" control="fgSelectMsgType" />
+			<spring flex="1"/></vbox>
+			<menulist id="fgSelectMsgType"  sizetopopup="always" size="25" oncommand="update_type();" >
+			<menupopup id="fgSelectMsgTypePopup">
+				<menuitem id="selectmode0" value="PM" label="&foxgame.prefs.messageTypePM;" />
+				<menuitem id="selectmode1" value="CC" label="&foxgame.prefs.messageTypeCC;" />
+				<menuitem id="selectmode2" value="SpyReport" label="&foxgame.prefs.messageTypeSpyR;" />
+<!--  				<menuitem id="selectmode3" value="SpyAlert" label="&foxgame.prefs.messageTypeSpyA;" /> -->
+				<menuitem id="selectmode4" value="Missile" label="&foxgame.prefs.messageTypeMissile;" />
+			</menupopup>
+			</menulist>
+		</hbox>
+		<hbox>
+			<vbox>
+				<spring flex="1"/>			
+				<label control="fgPrivateColor" value="&foxgame.prefs.color;"/>
+				<spring flex="1" />
+			</vbox>
+			<textbox id="fgColor"/>
+			<button label="&foxgame.prefs.colorButton;"
+					oncommand="foxgame2_openColor('fgColor','fgColor');"/>
+
+		</hbox>
+		<hbox id="spyType" hidden="true">
+	      	<checkbox id="fgSpyAll" label="&foxgame.prefs.All;" oncommand="updateSpy(true);"/>
+	      	<checkbox id="fgSpyResources" label="&foxgame.prefs.spy.resources;" oncommand="updateSpy(false);"/>
+	      	<checkbox id="fgSpyNoDef" label="&foxgame.prefs.spy.noDefence;" oncommand="updateSpy(false);"/>
+	      	<checkbox id="fgSpyNoFleet" label="&foxgame.prefs.spy.noFleet;" oncommand="updateSpy(false);"/>
+		</hbox>
+		<hbox id="pmType" hidden="true">
+	      	<checkbox id="fgPMAll" label="&foxgame.prefs.All;" oncommand="updatePM(true);" />
+	      	<checkbox id="fgPMFrom" label="&foxgame.prefs.pm.from;" oncommand="updatePM(false);" />
+	      	<checkbox id="fgPMAbout" label="&foxgame.prefs.pm.subject;" oncommand="updatePM(false);" />
+	      	<checkbox id="fgPMText" label="&foxgame.prefs.pm.content;" oncommand="updatePM(false);" />
+		</hbox>
+		<hbox id="from" hidden="true">
+			<vbox>
+				<spring flex="1" />
+				<label control="fgFrom" value="&foxgame.prefs.pm.searchFrom;"/>
+				<spring flex="1" />
+			</vbox>
+			<textbox id="fgFrom" rows="4" multiline="true"/>
+		</hbox>
+		<hbox id="about" hidden="true">
+			<vbox>
+				<spring flex="1" />
+				<label control="fgAbout" value="&foxgame.prefs.pm.searchSubject;"/>
+				<spring flex="1" />
+			</vbox>
+			<textbox id="fgAbout" rows="4" multiline="true"/>
+		</hbox>
+		<hbox id="text" hidden="true">
+			<vbox>
+				<spring flex="1" />
+				<label control="fgText" value="&foxgame.prefs.pm.searchContent;"/>
+				<spring flex="1" />
+			</vbox>
+			<textbox id="fgText" rows="4" multiline="true"/>
+		</hbox>
+		<hbox id="minRes" hidden="true">
+			<vbox>
+				<hbox>
+					<vbox><spring flex="1"/>				
+					<caption label="&foxgame.prefs.selectResType;" control="fgSelectResType" />
+					<spring flex="1"/></vbox>					
+					<menulist id="fgSelectResType"  sizetopopup="always" size="25">
+					<menupopup id="fgSelectResTypePopup">
+						<menuitem id="selectmode0" value="Metal" label="&foxgame.prefs.resources.metal;" />
+						<menuitem id="selectmode1" value="Cristal" label="&foxgame.prefs.resources.crystal;" />
+						<menuitem id="selectmode2" value="Deuterio" label="&foxgame.prefs.resources.deut;" />
+						<menuitem id="selectmode3" value="Total" label="&foxgame.prefs.resources.total;" />
+					</menupopup>
+					</menulist>
+				</hbox>
+				<hbox>
+					<vbox heigth="*">
+						<spring flex="1" />
+						<label control="fgResMin" value="&foxgame.prefs.resMin;"/>
+						<spring flex="1" />
+					</vbox>
+					<textbox id="fgResMin"/>
+				</hbox>
+			</vbox>
+		</hbox>
+	</vbox>
+</dialog>

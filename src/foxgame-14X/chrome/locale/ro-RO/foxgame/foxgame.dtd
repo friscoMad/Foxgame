@@ -1,0 +1,76 @@
+<!-- ro-RO -->
+
+<!ENTITY foxgame.prefs.preferences "Setări FoxGame">
+<!ENTITY foxgame.prefs.removePlanets "Vedere redusă pentru galaxie">
+<!ENTITY foxgame.prefs.flotaTime "Arată timp de parcurs al flotei (dus şi dus-întors)">
+<!ENTITY foxgame.prefs.flotaReturnTime "Arată durata de întoarcere a flotei">
+<!ENTITY foxgame.prefs.replicateDeleteOptions "Adaugă extra opţiuni pt. ştegere mesaje">
+<!ENTITY foxgame.prefs.selectUniverse "Selecteză univers">
+<!ENTITY foxgame.prefs.highlightPrivates "Marchează mesaj privat">
+<!ENTITY foxgame.prefs.server "Server">
+<!ENTITY foxgame.prefs.universe "Univers">
+<!ENTITY foxgame.prefs.activate "Activează">
+<!ENTITY foxgame.prefs.buildingTime "Arată timp finalizare listă producţie nave">
+<!ENTITY foxgame.prefs.addOverviewTime "Arată ora evenimentului în vederea generală">
+<!ENTITY foxgame.prefs.removeOverviewTime "Elimină cronomentru în vederea generală">
+<!ENTITY foxgame.prefs.buildingsTime "Arată data finalizare construcţie clădire">
+<!ENTITY foxgame.prefs.researchTime "Arată data finalizare cercetare">
+<!ENTITY foxgame.prefs.colorPicker "Selecţie Culoare">
+<!ENTITY foxgame.prefs.colorPicker2 "Alege o culoare:">
+<!ENTITY foxgame.prefs.color "Culoare:">
+<!ENTITY foxgame.prefs.colorButton "Alege">
+<!ENTITY foxgame.prefs.highlightAllyMessages "Marchează mesaje aliaţi">
+<!ENTITY foxgame.prefs.highlightBigDebris "Marchează câmpurile mari de deşeuri">
+<!ENTITY foxgame.prefs.debrisMin "Cantitatea minimă de marcat:">
+
+<!ENTITY foxgame.prefs.infosDeltas "Arată diferenţele între nivelele clădirilor la informaţii clădire.">
+<!ENTITY foxgame.prefs.autoCopy "AutoCopiere: Oricând un text este selectat, se caută format coordonate planetă. Dacă este coordonată, va apărea ca destinaţie în meniu misiune flotă.">
+<!ENTITY foxgame.prefs.messageSignature "Semnătură MP">
+<!ENTITY foxgame.prefs.msgSignText "Semnătura">
+<!ENTITY foxgame.prefs.type "Tip">
+<!ENTITY foxgame.prefs.add "Adaugă">
+<!ENTITY foxgame.prefs.edit "Editează">
+<!ENTITY foxgame.prefs.phalanxTime "Arată ora în rapoarte phalanx.">
+<!ENTITY foxgame.prefs.milosButtons "Adaugă butoane în vedere galaxie pt. trimitere info în baze de date.">
+<!ENTITY foxgame.prefs.statButtons "Adaugă butoane în meniu statistici pt. trimitere info în baze de date.">
+<!ENTITY foxgame.prefs.reportButtons "Adaugă butoane la rapoarte spionaj pt. trimitere info în baze de date.">
+<!ENTITY foxgame.tabs.dbs "Baze de date">
+<!ENTITY foxgame.prefs.selectDBType "Selecteză tip BD:">
+<!ENTITY foxgame.prefs.user "Utilizator:">
+<!ENTITY foxgame.prefs.pass "Parola:">
+<!ENTITY foxgame.prefs.ally "Alianţa:">
+<!ENTITY foxgame.prefs.url "URL:">
+<!ENTITY foxgame.prefs.DBOptions "Setări BD">
+
+<!ENTITY foxgame.prefs.replicateReportOptions "Adaugă extra control deasupra raport spionaj">
+<!ENTITY foxgame.prefs.missionPreference "Alegere prioritate tip misiune">
+<!ENTITY foxgame.prefs.attack "Atacă">
+<!ENTITY foxgame.prefs.spy "Spionează">
+<!ENTITY foxgame.prefs.recollect "Colectează">
+<!ENTITY foxgame.prefs.transport "Transportă">
+<!ENTITY foxgame.prefs.deploy "Staţionează">
+<!ENTITY foxgame.prefs.delete "ªterge">
+<!ENTITY foxgame.prefs.deleteAll "Resetează">
+<!ENTITY foxgame.prefs.missionPreference.description "Foxgame va selecta tipul de misiune dorit în ecranul selecţie tip misiune. Dacă misiunea cu prioritatea maximă nu este găsită, va încerca selectarea opţiuni următoare ş.a.m.d.">
+<!ENTITY foxgame.prefs.selectTimeMode "Alege mod timp:">
+<!ENTITY foxgame.prefs.clientTime "Ora locală">
+<!ENTITY foxgame.prefs.serverTime "Ora server">
+<!ENTITY foxgame.prefs.commonTime "Ora locală/minute + secunde a serverului">
+<!ENTITY foxgame.prefs.serverDiffTime "Ora Server + X ore">
+<!ENTITY foxgame.prefs.selectTimeDiff "Alege diferenţa fus orar local">
+<!ENTITY foxgame.tabs.general "General">
+<!ENTITY foxgame.tabs.time "Setări dată/oră">
+<!ENTITY foxgame.about.title "Despre FoxGame">
+
+<!-- The final string will be "Before" locale "After" -->
+<!ENTITY foxgame.about.translationByBefore "">
+<!ENTITY foxgame.about.translationByAfter "Traducere:">
+<!-- The final string will be "Traducido a de-DE por: -->
+
+<!ENTITY foxgame.about.createdBy "Creat de:">
+<!ENTITY foxgame.about.iconDesign "Design iconiţe:">
+<!ENTITY foxgame.about.homePage "Pagina Web:">
+
+<!ENTITY foxgame.menu.configure "Configurează FoxGame">
+
+<!-- EOF -->

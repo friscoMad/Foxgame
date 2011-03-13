@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://mozapps/skin/pref/pref.css" type="text/css"?>
+
+<!DOCTYPE window SYSTEM "chrome://foxgame/locale/foxgame.dtd" >
+
+<dialog id="foxgame.config2"
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+	title="&foxgame.prefs.preferences;"
+	buttons="accept, cancel"
+	ondialogaccept="fg_listaDBs.save(); return savePreferences();"
+	onload="fg_treeSetView(); initWindow(); window.sizeToContent();">
+
+
+    <script type="application/x-javascript" src="chrome://foxgame/content/foxgameCommon.js"/>
+    <script type="application/x-javascript" src="chrome://foxgame/content/foxgameOptions.js"/>
+
+
+<tabbox id="tabbox" flex="1">
+  <tabs id="tabs">
+    <tab id="general" label="&foxgame.tabs.general; I"/>
+    <tab id="general2" label="&foxgame.tabs.general; II"/>
+    <tab id="general2" label="&foxgame.tabs.dbs;"/>
+    <tab id="time" label="&foxgame.tabs.time;"/>
+    <tab id="about" label="&foxgame.about.title;"/>
+  </tabs>
+	<tabpanels id="tabpanels" flex="1">
+
+	    <tabpanel orient="vertical">
+			<hbox flex="1">
+			<vbox>
+				<checkbox id="foxgameRemovePlanets" label="&foxgame.prefs.removePlanets;"/>
+				<checkbox id="foxgameReplicateDeleteOptions" label="&foxgame.prefs.replicateDeleteOptions;"/>
+				<checkbox id="foxgameReplicateSpyReportOptions" label="&foxgame.prefs.replicateReportOptions;"/>
+				<!--	
+				<checkbox id="foxgameAddBuildingDeltas" label="&foxgame.prefs.addBuildingDeltas;"/>
+				<checkbox id="foxgameAddResearchDeltas" label="&foxgame.prefs.addResearchDeltas;"/>
+				<checkbox id="foxgameAddHangarDeltas" label="&foxgame.prefs.addHangarDeltas;"/>
+				<checkbox id="foxgameAddDefenseDeltas" label="&foxgame.prefs.addDefenseDeltas;"/> 
+				<checkbox id="foxgameInfosDeltas" label="&foxgame.prefs.infosDeltas;"/>
+				-->
+				<groupbox>
+					<caption label="&foxgame.prefs.selectUniverse;"/>
+					<vbox>
+		      			<checkbox id="foxgameSelectUniverse" label="&foxgame.prefs.activate;"/>
+    						<hbox align="center">
+							<menulist sizetopopup="always" size="30" id="fgServer" oncommand="loadUnis();" label="&foxgame.prefs.server;">
+   							<menupopup id="fgServerPopup">
+	        					</menupopup>
+							</menulist>
+							<menulist sizetopopup="always" size="30" id="fgUni" label="&foxgame.prefs.universe;">
+   							<menupopup id="fgUniPopup">
+	        					</menupopup>
+							</menulist>
+    						</hbox>
+					</vbox>
+				</groupbox>
+				<groupbox>
+				<caption label="&foxgame.prefs.highlightPrivates;"/>
+					<hbox>
+				      	<checkbox id="foxgameHighlightPrivates" label="&foxgame.prefs.activate;"/>
+						<vbox><spring flex="1" />
+						<label control="fgPrivateColor" value="&foxgame.prefs.color;"/>
+						<spring flex="1" />
+						</vbox>
+						<textbox id="fgPrivateColor"/>
+						<button label="&foxgame.prefs.colorButton;"
+							oncommand="fg_openColor('fgPrivateColor','fgPrivateColor');"/>
+					</hbox>
+				</groupbox>
+				<groupbox>
+				<caption label="&foxgame.prefs.highlightAllyMessages;"/>
+					<hbox>
+				      	<checkbox id="foxgameHighlightAllyMessages" label="&foxgame.prefs.activate;"/>
+						<vbox><spring flex="1" />
+						<label control="fgAllyColor" value="&foxgame.prefs.color;"/>
+						<spring flex="1" />
+						</vbox>
+						<textbox id="fgAllyColor"/>
+						<button label="&foxgame.prefs.colorButton;"
+							oncommand="fg_openColor('fgAllyColor','fgAllyColor');"/>
+					</hbox>
+				</groupbox>
+				<groupbox>
+				<caption label="&foxgame.prefs.highlightBigDebris;"/>
+					<vbox>
+					<hbox>
+				      	<checkbox id="foxgameHighlightBigDebris" label="&foxgame.prefs.activate;"/>
+						<vbox><spring flex="1" />
+						<label control="fgDebrisColor" value="&foxgame.prefs.color;"/>
+						<spring flex="1" />
+						</vbox>
+						<textbox id="fgDebrisColor"/>
+						<button label="&foxgame.prefs.colorButton;"
+							oncommand="fg_openColor('fgDebrisColor','fgDebrisColor');"/>
+					</hbox>
+					<hbox>
+						<vbox><spring flex="1" />
+						<label control="fgDebrisMin" value="&foxgame.prefs.debrisMin;"/>
+						<spring flex="1" />
+						</vbox>
+						<textbox id="fgDebrisMin"/>
+					</hbox>
+					</vbox>
+				</groupbox>
+		    </vbox>
+		    </hbox>
+	    </tabpanel>
+
+	   <tabpanel orient="vertical">
+		<hbox>
+			<vbox>
+				<checkbox id="foxgameAutoCopy" label="&foxgame.prefs.autoCopy;"/>
+				<groupbox>
+					<caption label="&foxgame.prefs.messageSignature;"/>
+					<checkbox id="foxgameMessageSignature" label="&foxgame.prefs.activate;"/>
+					<label control="msgSign" value="&foxgame.prefs.msgSignText;:"/>
+					<textbox id="fgMsgSign" rows="4" multiline="true" value=""/>
+				</groupbox>
+				<!--
+				<hbox>
+					<vbox><spring flex="1" />
+					<label value="foxgame.prefs.selectSortPlanetMode;" control="frReorderPlanetSelect"/>
+					</vbox>
+					<menulist id="fgReorderPlanetSelect">
+					<menupopup id="fgReorderPlanetSelectPopup">
+						<menuitem id="selectmode0" value="0" label="foxgame.prefs.defaultNoOrder;" />
+						<menuitem id="selectmode1" value="1" label="foxgame.prefs.sortNameAsc;" />
+						<menuitem id="selectmode2" value="2" label="foxgame.prefs.sortNameDesc;" />
+						<menuitem id="selectmode3" value="3" label="foxgame.prefs.sortCoordAsc;" />
+						<menuitem id="selectmode4" value="4" label="foxgame.prefs.sortCoordDesc;" />
+     					</menupopup>
+					</menulist>
+				</hbox>
+				-->
+			<groupbox>
+				<caption label="&foxgame.prefs.missionPreference;"/>
+				<hbox>
+				<vbox>
+					<listbox id="fg_missionPriorities" rows="5" style="max-width: 10em;" flex="1">
+					</listbox>
+				</vbox>
+				<vbox>
+					<button id="fg_missionButton1" label="&foxgame.prefs.attack;"
+						oncommand="fg_anadir('fg_missionPriorities','&foxgame.prefs.attack;','1'); this.setAttribute('hidden','true');"/>
+					<button id="fg_missionButton6" label="&foxgame.prefs.spy;"
+						oncommand="fg_anadir('fg_missionPriorities','&foxgame.prefs.spy;','6'); this.setAttribute('hidden','true');"/>
+					<button id="fg_missionButton8" label="&foxgame.prefs.recollect;"
+						oncommand="fg_anadir('fg_missionPriorities','&foxgame.prefs.recollect;','8'); this.setAttribute('hidden','true');"/>
+					<button id="fg_missionButton3" label="&foxgame.prefs.transport;"
+						oncommand="fg_anadir('fg_missionPriorities','&foxgame.prefs.transport;','3'); this.setAttribute('hidden','true');"/>
+					<button id="fg_missionButton4" label="&foxgame.prefs.deploy;"
+						oncommand="fg_anadir('fg_missionPriorities','&foxgame.prefs.deploy;','4'); this.setAttribute('hidden','true');"/>
+					<spring flex="1" />
+				</vbox>
+				<vbox>
+					<button label="&foxgame.prefs.delete;"
+						oncommand="fg_borrarUltimo('fg_missionPriorities','fg_missionButton');"/>
+					<button label="&foxgame.prefs.deleteAll;"
+						oncommand="fg_borrarLista('fg_missionPriorities','fg_missionButton');"/>
+					<spring flex="1" />
+				</vbox>
+			    <spring flex="1" />
+			    </hbox>
+			    <separator class="groove" />
+   			    <vbox flex="1" style="max-width: 40em;">
+			    <description>
+					&foxgame.prefs.missionPreference.description;
+			    </description>
+			    </vbox>
+			</groupbox>
+			</vbox>
+	    </hbox>
+	    </tabpanel>
+ 	    <tabpanel orient="vertical">
+		  <vbox id="listarea" flex="1">
+ 	        	<checkbox id="foxgameAddMilosButtons" label="&foxgame.prefs.milosButtons;"/> 
+ 	        	<checkbox id="foxgameAddStatButtons" label="&foxgame.prefs.statButtons;"/> 
+ 	        	<checkbox id="foxgameAddReportButtons" label="&foxgame.prefs.reportButtons;"/> 
+			<separator class="thin"/>
+		    <stack id="listStack" flex="1">
+			    <tree id="list" flex="1" seltype="multiple" context="listitem-context" rows="10">
+      			<treecols>
+			        <treecol id="server" label="&foxgame.prefs.server;" primary="true" flex="1" persist="width"/>
+			        <splitter class="tree-splitter"/>
+			        <treecol id="uni" label="&foxgame.prefs.universe;" flex="1" persist="width"/>
+			        <splitter class="tree-splitter"/>
+			        <treecol id="type" label="&foxgame.prefs.type;" flex="1" persist="width"/>
+			      </treecols>
+			      <treechildren ondblclick="fg_treeEditElement()"/>
+			    </tree>
+			</stack>
+			<hbox>
+			<spring flex="1" />
+			<button label="&foxgame.prefs.add;..."
+				oncommand="fg_treeAddElement();"/>
+			<spring flex="1" />
+			</hbox>
+		</vbox>
+		<popupset id="fgPopups">
+		  <popup id="listitem-context">
+		    <menuitem id="context-edit" label="&foxgame.prefs.edit;..." oncommand="fg_treeEditElement()"/>
+		    <menuitem id="context-edit" label="&foxgame.prefs.delete;" oncommand="fg_treeDeleteElement()"/>
+		    <menuitem id="context-edit" label="&foxgame.prefs.add;..." oncommand="fg_treeAddElement()"/>
+		  </popup>
+		</popupset>
+	   </tabpanel>
+	   <tabpanel orient="vertical">
+			<hbox flex="1">
+			<vbox>
+				<hbox>
+					<vbox><spring flex="1" />
+					<label value="&foxgame.prefs.selectTimeMode;" control="fgTimeMode"/>
+					</vbox>
+					<menulist id="fgTimeMode" oncommand="var bool = 'true'; if(this.value == 3) bool = 'false'; document.getElementById('fgTimeDiffBox').setAttribute('hidden',bool);">
+  					<menupopup id="fgTimeModePopup" >
+						<menuitem id="fgTimeMode-0" value="0" label="&foxgame.prefs.clientTime;" />
+						<menuitem id="fgTimeMode-1" value="1" label="&foxgame.prefs.serverTime;" />
+						<menuitem id="fgTimeMode-2" value="2" label="&foxgame.prefs.commonTime;" />
+						<menuitem id="fgTimeMode-3" value="3" label="&foxgame.prefs.serverDiffTime;" />
+	     				</menupopup>
+					</menulist>
+				</hbox>
+				<hbox id="fgTimeDiffBox" hidden="true">
+					<vbox><spring flex="1" />
+					<label value="&foxgame.prefs.selectTimeDiff;" control="fgTimeDiff"/>
+					</vbox>
+					<menulist id="fgTimeDiff">
+  					<menupopup id="fgTimeDiffPopup">
+	     				</menupopup>
+					</menulist>
+					<script type="application/x-javascript">
+						var list = document.getElementById('fgTimeDiff');
+						var a;
+						for (var i = -12; 0 > i; i++) {
+							a = list.appendItem("&foxgame.prefs.serverTime; "+i,i,'');
+							a.setAttribute('id','fgTimeDiff-'+i);
+						}
+						for (var i = 1; 13 > i; i++) {
+							a = list.appendItem("&foxgame.prefs.serverTime; +"+i,i,'');
+							a.setAttribute('id','fgTimeDiff-'+i);
+						}
+					</script>
+				</hbox>
+			      <checkbox id="foxgameFlotaTime" label="&foxgame.prefs.flotaTime;"/>
+			      <checkbox id="foxgameFlotaReturnTime" label="&foxgame.prefs.flotaReturnTime;"/>
+				<checkbox id="foxgameBuildingTime" label="&foxgame.prefs.buildingTime;"/>
+				<checkbox id="foxgameAddOverviewTime" label="&foxgame.prefs.addOverviewTime;"/>
+				<checkbox id="foxgameRemoveOverviewTime" label="&foxgame.prefs.removeOverviewTime;"/>
+				<checkbox id="foxgameBuildingsTime" label="&foxgame.prefs.buildingsTime;"/>
+				<checkbox id="foxgameResearchTime" label="&foxgame.prefs.researchTime;"/>
+				<checkbox id="foxgamePhalanxTime" label="&foxgame.prefs.phalanxTime;"/>
+		    </vbox>
+		    </hbox>
+	    </tabpanel>
+	   <tabpanel orient="vertical">
+			<?xul-overlay href="chrome://foxgame/content/foxgameAboutContent.xul"?>
+
+			<hbox flex="1">
+			<vbox flex="1">
+			<groupbox id="aboutContent" align="left" orient="horizontal">
+			</groupbox>
+
+		    </vbox>
+		    </hbox>
+	    </tabpanel>
+	</tabpanels>
+	</tabbox>
+
+</dialog>

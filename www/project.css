@@ -1,0 +1,17 @@
+@import url("http://www.mozdev.org/project.css");
+
+#infoTabs {
+  float: right;
+  margin-right: -1em;
+}
+
+.infoTab {
+  margin: 10px;
+  width: 300px;
+}
+
+.infoTab .infoHeader {
+  background: #f90;
+  color: #fff;
+  text-align: center;
+}

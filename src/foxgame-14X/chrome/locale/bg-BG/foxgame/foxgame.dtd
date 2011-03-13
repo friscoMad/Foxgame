@@ -1,0 +1,79 @@
+<!-- bg-BG -->
+
+<!ENTITY foxgame.prefs.preferences "FoxGame Настройки">
+<!ENTITY foxgame.prefs.removePlanets "оптимизация в режим ГАЛАКТИКА">
+<!ENTITY foxgame.prefs.flotaTime "Показва времето за пристигане (1 и 2 дистинация)">
+<!ENTITY foxgame.prefs.flotaReturnTime "Показва времето за връщане">
+<!ENTITY foxgame.prefs.replicateDeleteOptions "Горно поле за изтриване на съобщения">
+<!ENTITY foxgame.prefs.selectUniverse "Избери Вселена">
+<!ENTITY foxgame.prefs.highlightPrivates "Оцветени лични съобщения">
+<!ENTITY foxgame.prefs.server "Сървър">
+<!ENTITY foxgame.prefs.universe "Вселена">
+<!ENTITY foxgame.prefs.activate "Включи">
+<!ENTITY foxgame.prefs.buildingTime "Показва кога ще свърши строежа в дока">
+<!ENTITY foxgame.prefs.addOverviewTime "Показва часовете на събитията в ИЗГЛЕД">
+<!ENTITY foxgame.prefs.removeOverviewTime "Изтрива обратното броене в ИЗГЛЕД">
+<!ENTITY foxgame.prefs.buildingsTime "Показва времето на приключване на строежа">
+<!ENTITY foxgame.prefs.researchTime "Показва времето на приключване на проучването">
+<!ENTITY foxgame.prefs.colorPicker "Избери цвят">
+<!ENTITY foxgame.prefs.colorPicker2 "Вземи цвят:">
+<!ENTITY foxgame.prefs.color "Цвят:">
+<!ENTITY foxgame.prefs.colorButton "Избор">
+<!ENTITY foxgame.prefs.highlightAllyMessages "Освети съюзнически съобщения">
+<!ENTITY foxgame.prefs.highlightBigDebris "Оцвети големите рециклажи">
+<!ENTITY foxgame.prefs.debrisMin "Минимална големина за оцветяване:">
+
+<!ENTITY foxgame.prefs.infosDeltas "Покажи разликата в нивото на строежа в информация">
+<!ENTITY foxgame.prefs.autoCopy "AutoCopy: Когато селектираш координати те се копират в избор на координати за полет при  следващата мисия">
+<!ENTITY foxgame.prefs.messageSignature "Подпис в лично съобщение">
+<!ENTITY foxgame.prefs.msgSignText "Подпис">
+<!ENTITY foxgame.prefs.type "Пиши">
+<!ENTITY foxgame.prefs.add "Добави">
+<!ENTITY foxgame.prefs.edit "Редактирай">
+<!ENTITY foxgame.prefs.phalanxTime "Покажи време в доклада за флота">
+<!ENTITY foxgame.prefs.milosButtons "Добави бутони в изглед ГАЛАКТИКА за изпращане на информация до базата данни.">
+<!ENTITY foxgame.prefs.statButtons "Добави бутони в Статистика за изпращане на информация до базата данни.">
+<!ENTITY foxgame.prefs.reportButtons "Add buttons to spy reports to send the info to databases.">
+<!ENTITY foxgame.tabs.dbs "БАЗА ДАннИ(DB)">
+<!ENTITY foxgame.prefs.selectDBType "Избери тип DB:">
+<!ENTITY foxgame.prefs.user "User:">
+<!ENTITY foxgame.prefs.pass "Password:">
+<!ENTITY foxgame.prefs.ally "Съюз:">
+<!ENTITY foxgame.prefs.url "URL:">
+<!ENTITY foxgame.prefs.DBOptions "Настройки на DB">
+
+<!ENTITY foxgame.prefs.replicateReportOptions "Добавя допълнително информация в шпионският доклад">
+<!ENTITY foxgame.prefs.missionPreference "Избор на мисия по подразбиране">
+<!ENTITY foxgame.prefs.attack "Атака">
+<!ENTITY foxgame.prefs.spy "Шпионирай">
+<!ENTITY foxgame.prefs.recollect "Recollect">
+<!ENTITY foxgame.prefs.transport "Транспортирай">
+<!ENTITY foxgame.prefs.deploy "Стационирай">
+<!ENTITY foxgame.prefs.delete "Изтрий">
+<!ENTITY foxgame.prefs.deleteAll "Reset">
+<!ENTITY foxgame.prefs.missionPreference.description "Foxgame ще избере избрания от вас тип мисия в прозореца за избор на мисия.Ако не може да я открие търси за втроият ви приоритетен избор.">
+<!ENTITY foxgame.prefs.selectTimeMode "Избор на време:">
+<!ENTITY foxgame.prefs.clientTime "локално">
+<!ENTITY foxgame.prefs.serverTime "На сървъра">
+<!ENTITY foxgame.prefs.commonTime "локален час/минути и сек. от сървъра">
+<!ENTITY foxgame.prefs.serverDiffTime "Време на сървъра + X часа">
+<!ENTITY foxgame.prefs.selectTimeDiff "Изберете разликата">
+
+<!ENTITY foxgame.tabs.general "Основни">
+<!ENTITY foxgame.tabs.time "Настройка на времето">
+
+
+<!ENTITY foxgame.about.title "За FoxGame">
+
+<!-- The final string will be "Before" locale "After" -->
+<!ENTITY foxgame.about.translationByBefore "">
+<!ENTITY foxgame.about.translationByAfter " Translation:">
+<!-- The final string will be "Traducido a de-DE por: -->
+
+<!ENTITY foxgame.about.createdBy "Created by:">
+<!ENTITY foxgame.about.iconDesign "Icon Design:">
+<!ENTITY foxgame.about.homePage "Web Page:">
+
+<!ENTITY foxgame.menu.configure "Configure FoxGame">
+
+<!-- EOF -->

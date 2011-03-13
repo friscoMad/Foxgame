@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE overlay SYSTEM "chrome://foxgame/locale/foxgame.dtd">
+
+<overlay id="foxgameAboutContent"
+      xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+      xmlns:html="http://www.w3.org/1999/xhtml">
+
+<groupbox id="aboutContent" align="left" orient="horizontal" flex="1">
+<vbox>
+  <hbox>
+  	<vbox><label value="FoxGame" style="font-weight: bold; font-size: large;"/></vbox>
+  	<vbox><spring flex="1" /><label value=" ver. 2.0 Beta"/></vbox>
+  </hbox>
+  <hbox>
+  	<spring flex="1" />
+  	<vbox>
+  		<hbox>
+  			<vbox>
+  				<label value="&foxgame.about.createdBy;" style="font-weight: bold;"/>
+  				<label value="Ramiro Aparicio"/>
+  				<label value="frisco82@gmail.com" class="url" style="color: blue; cursor: pointer" onclick="foxgame2_SendMail('mailto:frisco82@gmail.com?subject=FoxGame');" />
+  				<separator class="thin"/>
+  				<separator class="thin"/>
+ 				<label value="&foxgame.about.iconDesign;" style="font-weight: bold;"/>
+  				<label value="Termonine"/>
+  				<label value="termonine@yahoo.de" class="url" style="color: blue; cursor: pointer" onclick="foxgame2_SendMail('termonine@yahoo.de?subject=FoxGame');" />
+  				<separator class="thin"/>
+  				<separator class="thin"/>		  
+  				<label value="&foxgame.about.homePage;" style="font-weight: bold;"/>
+  				<label value="http://foxgame.mozdev.org/" class="url" style="color: blue; cursor: pointer" onclick="window.open('http://foxgame.mozdev.org/'); window.close();"/>
+ 	 			<label value="http://board.foxgame.org/" class="url" style="color: blue; cursor: pointer" onclick="window.open('http://board.foxgame.org/'); window.close();"/>
+  				<spring flex="1" />
+  				<separator class="thin"/>
+  				<separator class="thin"/>
+  			</vbox>
+  			<spring flex="1" />
+  			<vbox>
+  				<image src="chrome://foxgame/skin/FoxGame.gif"/>
+  				<spring flex="1" />
+			</vbox>  			
+  		</hbox>		  
+  		<description width="auto">
+  		Special thanks to everyone that helps with this project, translators, testers, players, GameForge, people in the boards, etc.
+  		This window is too little to give credits to all of them so you can see most of them on:
+  		</description>  
+  		<label value="http://foxgame.mozdev.org/about.en.html" class="url" style="color: blue; cursor: pointer" onclick="window.open('http://foxgame.mozdev.org/about.en.html'); window.close();"/>
+  		<separator class="thin"/>
+  		<separator class="thin"/>		  
+	</vbox>
+  	<spring flex="1" />
+  </hbox> 		 
+</vbox>
+</groupbox>
+
+</overlay>

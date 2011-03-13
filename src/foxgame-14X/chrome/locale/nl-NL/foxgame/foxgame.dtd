@@ -1,0 +1,78 @@
+<!-- nl-NL -->
+
+<!ENTITY foxgame.prefs.preferences "FoxGame Voorkeuren">
+<!ENTITY foxgame.prefs.removePlanets "Beperkte weergave melkweg">
+<!ENTITY foxgame.prefs.flotaTime "Geef vloot aankomsttijd weer (1 en 2 richtingen)">
+<!ENTITY foxgame.prefs.flotaReturnTime "Geef vloot annuleringstijd weer">
+<!ENTITY foxgame.prefs.replicateDeleteOptions "Voeg extra opties berichten verwijderen toe">
+<!ENTITY foxgame.prefs.selectUniverse "Selecteer Universum">
+<!ENTITY foxgame.prefs.highlightPrivates "Markeer Privé Berichten">
+<!ENTITY foxgame.prefs.server "Server">
+<!ENTITY foxgame.prefs.universe "Universum">
+<!ENTITY foxgame.prefs.activate "Activeer">
+<!ENTITY foxgame.prefs.buildingTime "Geef eindtijd wachtrij werf weer">
+<!ENTITY foxgame.prefs.addOverviewTime "Toon gebeurtenistijden in overzicht">
+<!ENTITY foxgame.prefs.removeOverviewTime "Verwijder aftellen in overzicht">
+<!ENTITY foxgame.prefs.buildingsTime "Toon eindtijd constructie gebouw">
+<!ENTITY foxgame.prefs.researchTime "Toon eindtijd onderzoek">
+<!ENTITY foxgame.prefs.colorPicker "Kleur keuze">
+<!ENTITY foxgame.prefs.colorPicker2 "Kies een kleur:">
+<!ENTITY foxgame.prefs.color "Kleur:">
+<!ENTITY foxgame.prefs.colorButton "Kies">
+<!ENTITY foxgame.prefs.highlightAllyMessages "Markeer Alliantie Berichten">
+<!ENTITY foxgame.prefs.highlightBigDebris "Markeer Grote Puin Velden">
+<!ENTITY foxgame.prefs.debrisMin "Minimale grootte om te markeren:">
+<!ENTITY foxgame.tabs.general "Algemeen">
+<!ENTITY foxgame.tabs.time "Tijd Voorkeuren">
+
+<!ENTITY foxgame.prefs.infosDeltas "Geef het verschil weer met je huidige niveau bij gebouw info.">
+<!ENTITY foxgame.prefs.autoCopy "AutoCopy: Wanneer je een tekst selecteert zal het programma hierin zoeken naar coördinaten, als deze aanwezig zijn zullen deze later als bestemming van de vloot ingevuld worden.">
+<!ENTITY foxgame.prefs.messageSignature "Handtekening onder je berichten">
+<!ENTITY foxgame.prefs.msgSignText "Handtekening">
+<!ENTITY foxgame.prefs.type "Soort">
+<!ENTITY foxgame.prefs.add "Toevoegen">
+<!ENTITY foxgame.prefs.edit "Wijzigen">
+<!ENTITY foxgame.prefs.phalanxTime "Laat tijd zien in phalanx rapporten.">
+<!ENTITY foxgame.prefs.milosButtons "Voeg knoppen in melkweg overzicht toe om de gegevens naar de databanken te zenden.">
+<!ENTITY foxgame.prefs.statButtons "Voeg knoppen op rangenpagina toe om de gegevens naar de databanken te zenden."> 
+<!ENTITY foxgame.prefs.reportButtons "Voeg knoppen bij spionage rapporten toe om de gegevens naar de databanken te zenden.">
+<!ENTITY foxgame.tabs.dbs "Databanken">
+<!ENTITY foxgame.prefs.selectDBType "Selecteer het type databank:">
+<!ENTITY foxgame.prefs.user "Gebruiker:">
+<!ENTITY foxgame.prefs.pass "Wachtwoord:">
+<!ENTITY foxgame.prefs.ally "Alliantie:"> 
+<!ENTITY foxgame.prefs.url "URL:">
+<!ENTITY foxgame.prefs.DBOptions "Databank opties:">
+
+<!ENTITY foxgame.prefs.replicateReportOptions "Voeg bovenaan een knop toe bij spionage rapporten">
+<!ENTITY foxgame.prefs.missionPreference "Kies missie voorkeuren">
+<!ENTITY foxgame.prefs.attack "Aanvallen">
+<!ENTITY foxgame.prefs.spy "Spionage">
+<!ENTITY foxgame.prefs.recollect "Puin Ruimen">
+<!ENTITY foxgame.prefs.transport "Transport">
+<!ENTITY foxgame.prefs.deploy "Plaatsing">
+<!ENTITY foxgame.prefs.delete "Verwijder">
+<!ENTITY foxgame.prefs.deleteAll "Reset">
+<!ENTITY foxgame.prefs.missionPreference.description "Foxgame zal de bovenste missie uit deze lijst selecteren in het missie selectie scherm. Als de bovenste missie niet mogelijk is zal het de tweede optie selecteren, etc.">
+<!ENTITY foxgame.prefs.selectTimeMode "Kies tijd:">
+<!ENTITY foxgame.prefs.clientTime "Lokale tijd">
+<!ENTITY foxgame.prefs.serverTime "Server tijd">
+<!ENTITY foxgame.prefs.commonTime "Lokaal uur / Server min en sec">
+<!ENTITY foxgame.prefs.serverDiffTime "Server tijd + X uur">
+<!ENTITY foxgame.prefs.selectTimeDiff "Selecteer het tijdsverschil:">
+
+<!ENTITY foxgame.about.title "Over FoxGame">
+
+<!-- The final string will be "Before" locale "After" -->
+<!ENTITY foxgame.about.translationByBefore "Vertaald naar">
+<!ENTITY foxgame.about.translationByAfter " door:">
+<!-- The final string will be "Traducido a nl por: -->
+
+<!ENTITY foxgame.about.createdBy "Gemaakt door:">
+<!ENTITY foxgame.about.iconDesign "Icoon Ontwerp:">
+<!ENTITY foxgame.about.iconDesigner "Geen icoon">
+<!ENTITY foxgame.about.homePage "Web Pagina:">
+
+<!ENTITY foxgame.menu.configure "Configureer FoxGame">
+
+<!-- EOF -->

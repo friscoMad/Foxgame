@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE overlay SYSTEM "chrome://foxgame/locale/foxgame.dtd">
+
+<overlay id="foxgameAboutContent"
+      xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+<script type="application/x-javascript" src="chrome://foxgame/content/about.js" />
+
+<groupbox id="aboutContent" align="left" orient="horizontal" flex="1">
+<vbox>
+  <hbox>
+  	<spring flex="1" />
+  	<vbox><spring flex="1" /><label value="FoxGame" style="font-weight: bold; font-size: x-large;"/></vbox>
+  	<vbox><spring flex="1" /><label value=" ver. 1.4.18"/></vbox>
+  	<spring flex="1" />
+  	<image src="chrome://foxgame/skin/FoxGame.gif"/>
+  	<spring flex="1" />
+  </hbox>
+  <hbox>
+  	<vbox>
+  		<label value="&foxgame.about.createdBy;" style="font-weight: bold;"/>
+  		<label value="Ramiro Aparicio"/>
+  		<label value="frisco82@gmail.com" class="url" style="color: blue; cursor: pointer" onclick="fgSendMail('mailto:frisco82@gmail.com?subject=FoxGame');" />
+  		<separator class="thin"/>
+  		<label value="&foxgame.about.translationByBefore; de-DE &foxgame.about.translationByAfter;" style="font-weight: bold;"/>
+  		<label value="Charly Zellinger"/>
+  		<label value="mfcb@earthling.net" class="url" style="color: blue; cursor: pointer" onclick="fgSendMail('mailto:mfcb@earthling.net?subject=FoxGame');" />
+  		<separator class="thin"/>
+  		<label value="&foxgame.about.translationByBefore; pl-PL &foxgame.about.translationByAfter;" style="font-weight: bold;"/>
+  		<label value="Łukasz Sitko"/>
+  		<label value="lukasz.sitko@gmail.com" class="url" style="color: blue; cursor: pointer" onclick="fgSendMail('mailto:lukasz.sitko@gmail.com');" />
+  		<separator class="thin"/>
+  		<label value="&foxgame.about.translationByBefore; fr-FR &foxgame.about.translationByAfter;" style="font-weight: bold;"/>
+  		<label value="Yus"/>
+  		<label value="yusacha@free.fr" class="url" style="color: blue; cursor: pointer" onclick="fgSendMail('mailto:yusacha@free.fr?subject=FoxGame');" />
+  		<separator class="thin"/>
+  		<label value="&foxgame.about.translationByBefore; nl-NL &foxgame.about.translationByAfter;" style="font-weight: bold;"/>
+  		<label value="Ronald"/>
+  		<label value="mooiweer@gmail.com" class="url" style="color: blue; cursor: pointer" onclick="fgSendMail('mailto:mooiweer@gmail.com?subject=FoxGame');" />
+  		<separator class="thin"/>
+  		<label value="&foxgame.about.translationByBefore; el &foxgame.about.translationByAfter;" style="font-weight: bold;"/>
+  		<label value="Nikolas Karalis"/>
+  		<label value="nikolaskaralis@gmail.com" class="url" style="color: blue; cursor: pointer" onclick="fgSendMail('mailto:nikolaskaralis@gmail.com?subject=FoxGame');" />
+  		<separator class="thin"/>  		
+        <label value="&foxgame.about.translationByBefore; hu-HU &foxgame.about.translationByAfter;" style="font-weight: bold"/>
+        <label value="bkerti"/>
+        <label value="bkerti@gmx.de" class="url" style="color: blue; cursor: pointer" onclick="fgSendMail('bkerti@gmx.de?subject=FoxGame');" />
+ 		<spring flex="1" />  		
+  	</vbox>
+  	<vbox>
+  		<label value="&foxgame.about.translationByBefore; bs-BA &foxgame.about.translationByAfter;" style="font-weight: bold;"/>
+  		<label value="Milan Paunovic"/>
+  		<label value="master037@gmail.com" class="url" style="color: blue; cursor: pointer" onclick="fgSendMail('mailto:master037@gmail.com?subject=FoxGame');" />  
+  		<separator class="thin"/>
+  		<label value="&foxgame.about.translationByBefore; it-IT &foxgame.about.translationByAfter;" style="font-weight: bold;"/>
+  		<label value="Claudio Pacchierotti"/>
+  		<label value="frantic.zen@gmail.com" class="url" style="color: blue; cursor: pointer" onclick="fgSendMail('frantic.zen@gmail.com?subject=FoxGame');" />
+  		<separator class="thin"/>
+  		<label value="&foxgame.about.translationByBefore; pt-PT &foxgame.about.translationByAfter;" style="font-weight: bold;"/>
+  		<label value="Fabio Rodrigues"/>
+  		<label value="blackdeathreal@hotmail.co.uk" class="url" style="color: blue; cursor: pointer" onclick="fgSendMail('blackdeathreal@hotmail.co.uk?subject=FoxGame');" />  
+  		<separator class="thin"/>
+  		<label value="&foxgame.about.translationByBefore; tr-TR &foxgame.about.translationByAfter;" style="font-weight: bold;"/>
+  		<label value="Serhat Topçu"/>
+  		<label value="topcu_serhat@yahoo.com" class="url" style="color: blue; cursor: pointer" onclick="fgSendMail('topcu_serhat@yahoo.com?subject=FoxGame');" />  
+  		<separator class="thin"/>
+  		<label value="&foxgame.about.translationByBefore; zh-CN/zh-TW &foxgame.about.translationByAfter;" style="font-weight: bold;"/>
+  		<label value="Kenspc"/>
+  		<label value="kenspc@ogame.tw" class="url" style="color: blue; cursor: pointer" onclick="fgSendMail('kenspc@ogame.tw?subject=FoxGame');" />  
+        <label value="&foxgame.about.translationByBefore; cs-CZ &foxgame.about.translationByAfter;" style="font-weight: bold;"/>        
+        <label value="Michal Pustějovský"/>
+        <label value="Michal.Pustejovsky@seznam.cz" class="url" style="color: blue; cursor: pointer" onclick="fgSendMail('Michal.Pustejovsky@seznam.cz?subject=FoxGame');" />
+  		<separator class="thin"/>        		
+  		<spring flex="1" />
+  	</vbox>
+  	<vbox>
+  		<label value="&foxgame.about.translationByBefore; ru-RU &foxgame.about.translationByAfter;" style="font-weight: bold;"/>
+  		<label value="Roman Sergeev"/>
+  		<label value="roman.sergeeff@gmail.com" class="url" style="color: blue; cursor: pointer" onclick="fgSendMail('mailto:roman.sergeeff@gmail.com?subject=FoxGame');" />  
+  		<separator class="thin"/>
+  		<label value="&foxgame.about.translationByBefore; da-DK &foxgame.about.translationByAfter;" style="font-weight: bold;"/>
+  		<label value="Henrik"/>
+ 		<label value="webmaster@cbase.dk" class="url" style="color: blue; cursor: pointer" onclick="fgSendMail('webmaster@cbase.dk?subject=FoxGame');" />  
+   		<separator class="thin"/>
+ 		<label value="&foxgame.about.translationByBefore; sl-SI &foxgame.about.translationByAfter;" style="font-weight: bold;"/>
+    	<label value="Dominik Meglič"/>
+    	<label value="domy.meglic@gmail.com" class="url" style="color: blue; cursor: pointer" onclick="fgSendMail('mailto:domy.meglic@gmail.com?subject=FoxGame');" />  
+    	<separator class="thin"/>
+    	<label value="&foxgame.about.translationByBefore; sv-SE &foxgame.about.translationByAfter;" style="font-weight: bold;"/>
+    	<label value="Jim Larm"/>
+  		<label value="jim.larm@gmail.com" class="url" style="color: blue; cursor: pointer" onclick="fgSendMail('jim.larm@gmail.com?subject=FoxGame');" />  
+    	<separator class="thin"/>
+    	<label value="&foxgame.about.translationByBefore; ko-KR &foxgame.about.translationByAfter;" style="font-weight: bold;"/>
+    	<label value="김석태"/>
+  		<label value="eatkus@kornet.net" class="url" style="color: blue; cursor: pointer" onclick="fgSendMail('eatkus@kornet.net?subject=FoxGame');" />  
+    	<separator class="thin"/>
+    	<label value="&foxgame.about.translationByBefore; ro-RO &foxgame.about.translationByAfter;" style="font-weight: bold;"/>
+    	<label value="Axl Madness"/>
+  		<label value="axlmad_79@yahoo.com" class="url" style="color: blue; cursor: pointer" onclick="fgSendMail('axlmad_79@yahoo.com?subject=FoxGame');" />  
+  		<spring flex="1" />  		
+  	</vbox>
+  </hbox>
+  <separator class="thin"/>
+  <separator class="thin"/>
+  <hbox>
+  	<vbox>
+ 		<label value="&foxgame.about.iconDesign;" style="font-weight: bold;"/>
+  		<label value="Termonine"/>
+  		<label value="termonine@yahoo.de" class="url" style="color: blue; cursor: pointer" onclick="fgSendMail('termonine@yahoo.de?subject=FoxGame');" />  
+	</vbox>
+	<vbox>
+  		<label value="&foxgame.about.homePage;" style="font-weight: bold;"/>
+  		<label value="http://foxgame.mozdev.org/" class="url" style="color: blue; cursor: pointer" onclick="window.open('http://foxgame.mozdev.org/'); window.close();"/>
+ 	 	<label value="http://board.foxgame.org/" class="url" style="color: blue; cursor: pointer" onclick="window.open('http://board.foxgame.org/'); window.close();"/>
+  		<spring flex="1" />
+  	</vbox>
+  </hbox>
+</vbox>
+</groupbox>
+
+</overlay>

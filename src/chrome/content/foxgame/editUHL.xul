@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://mozapps/skin/pref/pref.css" type="text/css"?>
+
+<!DOCTYPE dialog SYSTEM "chrome://foxgame2/locale/foxgame.dtd">
+
+<dialog xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+	title="&foxgame.tabs.userHighlight;"
+	id="foxgame-tree"
+	buttons="accept, cancel"
+	ondialogaccept="return devolver_resultado();"
+	onload="iniciar(); window.sizeToContent();"
+	orient="vertical"
+	autostretch="always"
+	persist="screenX screenY"
+	flex="1">
+
+<script type="application/x-javascript" src="chrome://foxgame2/content/foxgameCommon.js"/>
+<script type="application/x-javascript" src="chrome://foxgame2/content/foxgameOptions.js"/>
+
+<script>
+function iniciar() {
+	var datos = window.arguments[0];
+	try {
+		if (datos == '') {
+			document.getElementById("fgSelectType").value = "0";
+			return;
+		}
+		document.getElementById("fgSelectType").value = datos.type;
+		document.getElementById("fgName").value = datos.name;
+		document.getElementById("fgColor").color = datos.color;		
+		window.sizeToContent();
+	} catch (e) {
+		foxgame2_debug(e);
+	}
+}
+function devolver_resultado() {
+	var result = window.arguments[1];
+	try {
+		if (document.getElementById("fgColor").value  == '' || document.getElementById("fgName").value == '' 
+		|| document.getElementById("fgSelectType").value == '')
+			return false;
+		result.name = document.getElementById("fgName").value;
+		result.type = document.getElementById("fgSelectType").value;
+		result.color = document.getElementById("fgColor").color;
+		return true; 
+	} catch (e) {
+		foxgame2_debug(e);
+		return true;
+	}
+}
+</script>
+	<vbox flex="1">
+		<spring flex="1"/>
+		<caption label="&foxgame.prefs.selectType;" control="fgSelectType" />
+		<spring flex="1"/>
+		<menulist id="fgSelectType"  sizetopopup="always" size="25" oncommand="update_type();" >
+			<menupopup id="fgSelectTypePopup">
+				<menuitem id="selectmode0" value="0" label="&foxgame.prefs.player;" />
+				<menuitem id="selectmode1" value="1" label="&foxgame.prefs.alliance;" />
+			</menupopup>
+		</menulist>
+		<hbox>
+			<vbox>
+			<spring flex="1" />
+			<label control="fgName" value="&foxgame.prefs.nameRegEx;"/>
+			<spring flex="1" />
+			</vbox>
+			<textbox id="fgName"/>
+		</hbox>
+		<hbox>
+			<vbox>
+				<spring flex="1"/>			
+				<label control="fgColor" value="&foxgame.prefs.color;"/>
+				<spring flex="1" />
+			</vbox>
+			<colorpicker id="fgColor" type="button"/>
+		</hbox>			
+	</vbox>
+</dialog>

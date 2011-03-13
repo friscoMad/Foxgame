@@ -1,0 +1,81 @@
+<!-- ko-KR -->
+
+<!ENTITY foxgame.prefs.preferences "FoxGame 환경 설정">
+<!ENTITY foxgame.prefs.removePlanets "축소된 갤럭시 보기">
+<!ENTITY foxgame.prefs.flotaTime "함대 도착 시간 표시 (편도/왕복)">
+<!ENTITY foxgame.prefs.flotaReturnTime "함대 귀환 시간 표시">
+<!ENTITY foxgame.prefs.replicateDeleteOptions "위쪽에도 메시지 삭제 옵션 도구 추가">
+<!ENTITY foxgame.prefs.selectUniverse "유니버스 선택">
+<!ENTITY foxgame.prefs.highlightPrivates "개인 메시지 강조">
+<!ENTITY foxgame.prefs.server "서버">
+<!ENTITY foxgame.prefs.universe "유니버스">
+<!ENTITY foxgame.prefs.activate "활성화">
+<!ENTITY foxgame.prefs.buildingTime "쉽야드 대기열 완료 시간 표시">
+<!ENTITY foxgame.prefs.addOverviewTime "홈 메뉴에서 이벤트 시간 표시">
+<!ENTITY foxgame.prefs.removeOverviewTime "홈 메뉴에서 카운트다운 제거">
+<!ENTITY foxgame.prefs.buildingsTime "건물 완료 시간 표시">
+<!ENTITY foxgame.prefs.researchTime "연구 완료 시간 표시">
+<!ENTITY foxgame.prefs.colorPicker "색 선택">
+<!ENTITY foxgame.prefs.colorPicker2 "색 선택:">
+<!ENTITY foxgame.prefs.color "색:">
+<!ENTITY foxgame.prefs.colorButton "선택">
+<!ENTITY foxgame.prefs.highlightAllyMessages "동맹 메시지 강조">
+<!ENTITY foxgame.prefs.highlightBigDebris "대량 암석 지대 강조">
+<!ENTITY foxgame.prefs.debrisMin "강조할 암석 지대 최소 크기:">
+
+<!ENTITY foxgame.prefs.infosDeltas "건물 정보에서 레벨 간 차이 표시">
+<!ENTITY foxgame.prefs.autoCopy "자동 복사 기능: 선택한 텍스트에 좌표가 있을 경우, 복사해 두었다가 다음 함대 미션의 목적지로 자동 설정합니다.">
+<!ENTITY foxgame.prefs.messageSignature "개인 메시지 서명">
+<!ENTITY foxgame.prefs.msgSignText "서명">
+<!ENTITY foxgame.prefs.type "종류">
+<!ENTITY foxgame.prefs.add "추가">
+<!ENTITY foxgame.prefs.edit "편집">
+<!ENTITY foxgame.prefs.phalanxTime "센서 보고에 시간 표시">
+<!ENTITY foxgame.prefs.milosButtons "갤럭시 메뉴에 데이터베이스로 정보를 보내는 버튼 추가">
+<!ENTITY foxgame.prefs.statButtons "순위 메뉴에 데이터베이스로 정보를 보내는 버튼 추가">
+<!ENTITY foxgame.prefs.reportButtons "정찰 보고서에 데이터베이스로 정보를 보내는 버튼 추가">
+<!ENTITY foxgame.tabs.dbs "데이터베이스">
+<!ENTITY foxgame.prefs.selectDBType "DB 종류 선택:">
+<!ENTITY foxgame.prefs.user "사용자:">
+<!ENTITY foxgame.prefs.pass "암호:">
+<!ENTITY foxgame.prefs.ally "동맹:">
+<!ENTITY foxgame.prefs.url "URL:">
+<!ENTITY foxgame.prefs.DBOptions "데이터베이스 설정">
+
+<!ENTITY foxgame.prefs.addPlayerRank "갤럭시 메뉴 각 행성에 플레이어 순위 표시">
+<!ENTITY foxgame.prefs.addAllianceRank "갤럭시 메뉴 각 행성에 동맹 순위 표시">
+<!ENTITY foxgame.prefs.replicateReportOptions "위쪽에도 정찰위성 정보만 보기 도구 추가">
+<!ENTITY foxgame.prefs.missionPreference "미션 종류 우선순위 선택">
+<!ENTITY foxgame.prefs.attack "공격">
+<!ENTITY foxgame.prefs.spy "정탐">
+<!ENTITY foxgame.prefs.recollect "수확">
+<!ENTITY foxgame.prefs.transport "운송">
+<!ENTITY foxgame.prefs.deploy "배치">
+<!ENTITY foxgame.prefs.delete "삭제">
+<!ENTITY foxgame.prefs.deleteAll "초기화">
+<!ENTITY foxgame.prefs.missionPreference.description "미션 선택 화면에서 원하는 미션 종류를 자동 선택합니다. 우선순위가 가장 높은 미션이 없으면, 다음 우선순위의 미션을 선택합니다.">
+<!ENTITY foxgame.prefs.selectTimeMode "시간 모드 선택:">
+<!ENTITY foxgame.prefs.clientTime "로컬 시간">
+<!ENTITY foxgame.prefs.serverTime "서버 시간">
+<!ENTITY foxgame.prefs.commonTime "시간은 로컬로/분, 초는 서버로">
+<!ENTITY foxgame.prefs.serverDiffTime "서버 시간 + X 시간">
+<!ENTITY foxgame.prefs.selectTimeDiff "시차 선택">
+
+<!ENTITY foxgame.tabs.general "일반">
+<!ENTITY foxgame.tabs.time "시간 환경 설정">
+
+
+<!ENTITY foxgame.about.title "FoxGame 정보">
+
+<!-- The final string will be "Before" locale "After" -->
+<!ENTITY foxgame.about.translationByBefore "">
+<!ENTITY foxgame.about.translationByAfter " 번역:">
+<!-- The final string will be "Traducido a de-DE por: -->
+
+<!ENTITY foxgame.about.createdBy "만든 이:">
+<!ENTITY foxgame.about.iconDesign "아이콘 디자인:">
+<!ENTITY foxgame.about.homePage "웹 페이지:">
+
+<!ENTITY foxgame.menu.configure "FoxGame 환경 설정">
+
+<!-- EOF -->

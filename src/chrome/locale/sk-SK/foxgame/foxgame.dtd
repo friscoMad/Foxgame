@@ -1,0 +1,112 @@
+<!ENTITY foxgame.about.title "O aplikaci FoxGame">
+<!ENTITY foxgame.about.createdBy "Vytvořil:">
+<!ENTITY foxgame.about.iconDesign "Design ikon:">
+<!ENTITY foxgame.about.homePage "Webové stránky:">
+<!ENTITY foxgame.tabs.general "Obecné">
+<!ENTITY foxgame.tabs.time "Nastavení času">
+<!ENTITY foxgame.tabs.messages "Zprávy">
+<!ENTITY foxgame.tabs.galaxy "Galaxie">
+<!ENTITY foxgame.tabs.userHighlight "Highlight">
+<!ENTITY foxgame.menu.configure "Nastavení FoxGame">
+<!ENTITY foxgame.menu.calculator "Trade Calculator">
+<!ENTITY foxgame.title.preferences "FoxGame Preferences">
+<!-- Common -->
+<!ENTITY foxgame.prefs.activate "Aktivovať">
+<!ENTITY foxgame.prefs.add "Pridať">
+<!ENTITY foxgame.prefs.edit "Upraviť">
+<!ENTITY foxgame.prefs.delete "Zmazať">
+<!ENTITY foxgame.prefs.up "Nahoru">
+<!ENTITY foxgame.prefs.down "Dolu">
+<!ENTITY foxgame.prefs.deleteAll "Resetovať">
+<!ENTITY foxgame.prefs.color "Farba:">
+<!-- General 1 -->
+<!ENTITY foxgame.prefs.hidePlanet "Hide planet image on most pages">
+<!ENTITY foxgame.prefs.hideOverviewPlanet "Hide planet image with all info on overview">
+<!ENTITY foxgame.prefs.showEnergyInfo "Show extra energy info in buildings">
+<!ENTITY foxgame.prefs.showCargoNeeded "Zobrazit počet lodí potřebných k odvozu veškerých surovin z planety">
+<!ENTITY foxgame.prefs.showFleetCargo "Zobrazit velikost nákladového prostoru vybrané letky">
+<!ENTITY foxgame.prefs.showRankDiffs "Zobrazit počet pozic získaných / ztracených ve statistikách">
+<!ENTITY foxgame.prefs.planetButtons "Zobrazit tlačítka - předchozí/další planeta">
+<!ENTITY foxgame.prefs.phalanxRangeInfo "Přidat dosah senzoru Falangy na stránku Budovy">
+<!ENTITY foxgame.prefs.showProdPercent "Zobrazit procento dokončení výstavby budov a výzkumu">
+<!ENTITY foxgame.prefs.showEnergyResources "Add energy info to resources select">
+<!ENTITY foxgame.prefs.fleetOverviewInfo "Show flying resource overview on movements page">
+<!ENTITY foxgame.prefs.changePlanetList "Separate planets and moons on fleet sending select">
+<!ENTITY foxgame.prefs.addConstructionName "Show currently building name below planets in right sidebar">
+<!ENTITY foxgame.prefs.showEventList "Include event list on overview">
+<!ENTITY foxgame.prefs.autoCopy "AutoCOPY: Ak je kdekoľvek vybraný text, tak sa v ňom hľadajú súradnice, ak sú nájdené potom sú použité ako cieľ úlohy.">
+<!ENTITY foxgame.prefs.autoCopyTooltip "Whenever you select a text (in any firefox tab, everywhere except input controls) with coordinates in it Foxgame will store that coords and use later when you go to the mission screen when it would be shown the default coords (that is whenever you did not clicked in a mission link).">
+<!-- General 2 -->
+<!ENTITY foxgame.prefs.selectUniverse "Vyber vesmír">
+<!ENTITY foxgame.prefs.server "Server">
+<!ENTITY foxgame.prefs.universe "Vesmír">
+<!ENTITY foxgame.prefs.skinTitle "Use OGame skin">
+<!ENTITY foxgame.prefs.skinUrl "Skin URL:">
+<!ENTITY foxgame.prefs.missionPreference "Vyber prioritu pri výbere úlohy">
+<!ENTITY foxgame.prefs.attack "Útok">
+<!ENTITY foxgame.prefs.spy "Špionáž">
+<!ENTITY foxgame.prefs.recollect "Zber">
+<!ENTITY foxgame.prefs.transport "Transport">
+<!ENTITY foxgame.prefs.deploy "Rozmiestnenie">
+<!ENTITY foxgame.prefs.conf "Confederation">
+<!ENTITY foxgame.prefs.exp "Expedice">
+<!ENTITY foxgame.prefs.update "Update">
+<!ENTITY foxgame.prefs.updateServerList "Download a new list of servers and universes from Foxgame Server">
+<!-- Galaxy -->
+<!ENTITY foxgame.prefs.removePlanets "Zjednodušený prehlad galaxie">
+<!ENTITY foxgame.prefs.addDebrisNumbers "Zobrazit velikost DF namísto obrázku">
+<!ENTITY foxgame.prefs.showPlayerRank "Zobrazit pořadí hráčů v galaxii">
+<!ENTITY foxgame.prefs.showAllyRank "Show ally ranks and members in galaxy">
+<!ENTITY foxgame.prefs.addSpySpace "Align vertically galaxy commands (spy, pm...)">
+<!ENTITY foxgame.prefs.highlightBigDebris "Zvýrazniť veľké trosky">
+<!ENTITY foxgame.prefs.debrisMin "Minimálna veľkosť pre zvýraznenie:">
+<!-- Messages -->
+<!ENTITY foxgame.prefs.fastReply "Add fast reply options to PMs and Circs">
+<!ENTITY foxgame.prefs.dragoSimLink "Přidat linku na DradoSim do špionážních zpráv">
+<!ENTITY foxgame.prefs.speedSimLink "Přidat linku na SpeedSim do špionážních zpráv">
+<!ENTITY foxgame.prefs.addRaid "Zobrazit velikost náletu a počet potřebných lodí">
+<!ENTITY foxgame.prefs.raidSize "Size of the ship:">
+<!ENTITY foxgame.prefs.messageSignature "Podpis v Súkromných správach">
+<!ENTITY foxgame.prefs.msgSignText "Podpis">
+<!-- Time/Date -->
+<!ENTITY foxgame.prefs.selectTimeMode "Vyber si styl zobrazení času:">
+<!ENTITY foxgame.prefs.clientTime "Místní čas">
+<!ENTITY foxgame.prefs.serverTime "Čas serveru">
+<!ENTITY foxgame.prefs.commonTime "Místní hodiny/Minuty a vteřiny na serveru">
+<!ENTITY foxgame.prefs.serverDiffTime "Čas serveru + X hodin">
+<!ENTITY foxgame.prefs.selectTimeDiff "Nastav si tvou změnu času">
+<!ENTITY foxgame.prefs.flotaTime "Zobraz čas príletu letky (vzdialenosť 1 a 2)">
+<!ENTITY foxgame.prefs.movementsTime "Show custom time and retreat time on movements page">
+<!ENTITY foxgame.prefs.eventListTime "Show custom time on event list">
+<!ENTITY foxgame.prefs.phalanxTime "Zobraz čas v správach z Parabolických teleskopov">
+<!ENTITY foxgame.prefs.shipyardTime "Show shipyard's queue finishing time">
+<!ENTITY foxgame.prefs.buildingsTime "Zobraz čas dokončenia budovy">
+<!ENTITY foxgame.prefs.researchTime "Zobraz čas dokončenia výskumu">
+<!ENTITY foxgame.prefs.formatDate "Formát času a datumu">
+<!ENTITY foxgame.prefs.selectHourFormat "Vyber formát času">
+<!ENTITY foxgame.prefs.hourFormat-24 "24 hod">
+<!ENTITY foxgame.prefs.hourFormat-12 "12 hod (dop./odp.)">
+<!ENTITY foxgame.prefs.personalFormat "Uživatelský formát">
+<!ENTITY foxgame.prefs.typeHourFormat "Napsat formát času">
+<!ENTITY foxgame.prefs.formatHelp "Nápověda k formátu">
+<!ENTITY foxgame.prefs.selectDateFormat "Vyber formát datumu">
+<!ENTITY foxgame.prefs.dateFormat-dm "Den/Měsíc">
+<!ENTITY foxgame.prefs.dateFormat-md "Měsíc/Den">
+<!ENTITY foxgame.prefs.typeDateFormat "Napsat formát data">
+<!-- User Highlight -->
+<!ENTITY foxgame.prefs.player "Player">
+<!ENTITY foxgame.prefs.alliance "Alliance">
+<!ENTITY foxgame.prefs.priority "Priorita">
+<!ENTITY foxgame.prefs.name "Name">
+<!ENTITY foxgame.prefs.type "Typ">
+<!-- User Highlight dialog -->
+<!ENTITY foxgame.prefs.selectType "Select type">
+<!ENTITY foxgame.prefs.nameRegEx "Name (Supports regular expressions)">
+<!-- Calculator dialog -->
+<!ENTITY foxgame.calc.ratio "Ratio">
+<!ENTITY foxgame.calc.sell "Sell">
+<!ENTITY foxgame.calc.buy "Buy">
+<!ENTITY foxgame.prefs.resources.metal "Kov">
+<!ENTITY foxgame.prefs.resources.crystal "Krystaly">
+<!ENTITY foxgame.prefs.resources.deut "Deuterium">
+<!ENTITY foxgame.calc.mix "Mix">

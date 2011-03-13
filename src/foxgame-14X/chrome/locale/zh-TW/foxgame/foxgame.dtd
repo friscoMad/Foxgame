@@ -1,0 +1,79 @@
+<!-- zh-TW -->
+
+<!ENTITY foxgame.prefs.preferences "FoxGame的個人偏好設定">
+<!ENTITY foxgame.prefs.removePlanets "簡化銀河系的介面">
+<!ENTITY foxgame.prefs.flotaTime "顯示艦隊的抵達時間 (單程和回程)">
+<!ENTITY foxgame.prefs.flotaReturnTime "顯示艦隊召回的時間">
+<!ENTITY foxgame.prefs.replicateDeleteOptions "增設刪除訊息的選設">
+<!ENTITY foxgame.prefs.selectUniverse "選擇宇宙">
+<!ENTITY foxgame.prefs.highlightPrivates "突顯個人訊息">
+<!ENTITY foxgame.prefs.server "伺服器">
+<!ENTITY foxgame.prefs.universe "宇宙">
+<!ENTITY foxgame.prefs.activate "啟動">
+<!ENTITY foxgame.prefs.buildingTime "顯示造船廠排程的完成時間">
+<!ENTITY foxgame.prefs.addOverviewTime "顯示概況頁里的事件結束時間">
+<!ENTITY foxgame.prefs.removeOverviewTime "移除概況頁里的倒數時間">
+<!ENTITY foxgame.prefs.buildingsTime "顯示建築的完成時間">
+<!ENTITY foxgame.prefs.researchTime "顯示研究的完成時間">
+<!ENTITY foxgame.prefs.colorPicker "顏色選擇">
+<!ENTITY foxgame.prefs.colorPicker2 "點選顏色:">
+<!ENTITY foxgame.prefs.color "顏色:">
+<!ENTITY foxgame.prefs.colorButton "選擇">
+<!ENTITY foxgame.prefs.highlightAllyMessages "突顯聯盟訊息">
+<!ENTITY foxgame.prefs.highlightBigDebris "突顯巨大的戰場廢墟">
+<!ENTITY foxgame.prefs.debrisMin "被突顯的最低數量:">
+
+<!ENTITY foxgame.prefs.infosDeltas "在建築資訊頁里顯示建築在每個等級的差異.">
+<!ENTITY foxgame.prefs.autoCopy "自動拷貝: 不論在任何地方只要被選擇的文字是坐標, 那它將會自動的填入在之後的艦隊任務的目的地欄位內.">
+<!ENTITY foxgame.prefs.messageSignature "訊息簽名">
+<!ENTITY foxgame.prefs.msgSignText "簽名">
+<!ENTITY foxgame.prefs.type "類型">
+<!ENTITY foxgame.prefs.add "增加">
+<!ENTITY foxgame.prefs.edit "修改">
+<!ENTITY foxgame.prefs.phalanxTime "在感應陣報告里顯示時間.">
+<!ENTITY foxgame.prefs.milosButtons "在銀河系頁里增加按鈕以便傳送資料給資料庫.">
+<!ENTITY foxgame.prefs.statButtons "在統計頁里增加按鈕以便傳送資料給資料庫.">
+<!ENTITY foxgame.prefs.reportButtons "在間諜報告里增加按鈕以便傳送資料給資料庫.">
+<!ENTITY foxgame.tabs.dbs "資料庫Databases">
+<!ENTITY foxgame.prefs.selectDBType "選擇資料庫的類型:">
+<!ENTITY foxgame.prefs.user "用戶名:">
+<!ENTITY foxgame.prefs.pass "密碼:">
+<!ENTITY foxgame.prefs.ally "聯盟:">
+<!ENTITY foxgame.prefs.url "網址:">
+<!ENTITY foxgame.prefs.DBOptions "資料庫設定">
+
+<!ENTITY foxgame.prefs.replicateReportOptions "在上方增設間諜報告控制">
+<!ENTITY foxgame.prefs.missionPreference "選擇任務的排列順序">
+<!ENTITY foxgame.prefs.attack "攻擊">
+<!ENTITY foxgame.prefs.spy "間諜">
+<!ENTITY foxgame.prefs.recollect "回收">
+<!ENTITY foxgame.prefs.transport "運輸">
+<!ENTITY foxgame.prefs.deploy "派遣">
+<!ENTITY foxgame.prefs.delete "刪除">
+<!ENTITY foxgame.prefs.deleteAll "重設">
+<!ENTITY foxgame.prefs.missionPreference.description "Foxgame將會根據所選擇的任務排列來重新排列任務頁的選設. 如果高排位的任務沒有被找到, 會繼續尋找之後排位的選設.">
+<!ENTITY foxgame.prefs.selectTimeMode "選擇時間模式:">
+<!ENTITY foxgame.prefs.clientTime "本地時間">
+<!ENTITY foxgame.prefs.serverTime "伺服器時間">
+<!ENTITY foxgame.prefs.commonTime "本地的小時/伺服器的分鐘和秒">
+<!ENTITY foxgame.prefs.serverDiffTime "伺服器時間 + X小時">
+<!ENTITY foxgame.prefs.selectTimeDiff "選擇你的時間差額">
+
+<!ENTITY foxgame.tabs.general "一般">
+<!ENTITY foxgame.tabs.time "時間偏好設定">
+
+
+<!ENTITY foxgame.about.title "關於FoxGame">
+
+<!-- The final string will be "Before" locale "After" -->
+<!ENTITY foxgame.about.translationByBefore "">
+<!ENTITY foxgame.about.translationByAfter " 翻譯:">
+<!-- The final string will be "Traducido a de-DE por: -->
+
+<!ENTITY foxgame.about.createdBy "制造:">
+<!ENTITY foxgame.about.iconDesign "圖示設計:">
+<!ENTITY foxgame.about.homePage "網站:">
+
+<!ENTITY foxgame.menu.configure "設置FoxGame">
+
+<!-- EOF -->

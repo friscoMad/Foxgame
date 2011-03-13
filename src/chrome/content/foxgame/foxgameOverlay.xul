@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE overlay SYSTEM "chrome://foxgame2/locale/foxgame.dtd">
+
+<overlay id="FoxGameOverlay"
+      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      xmlns:nc="http://home.netscape.com/NC-rdf#"
+      xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+<script type="application/x-javascript" src="chrome://global/content/strres.js"/>
+<script type="application/x-javascript" src="chrome://foxgame2/content/foxgameCommon.js" />
+<script type="application/x-javascript" src="chrome://foxgame2/content/foxgame.js" />
+<script type="application/x-javascript" src="chrome://foxgame2/content/hookAPI.js" />
+<script type="application/x-javascript" src="chrome://foxgame2/content/foxgameFeaturesOthers.js" />
+<script type="application/x-javascript" src="chrome://foxgame2/content/foxgameFeaturesMessages.js" />
+<script type="application/x-javascript" src="chrome://foxgame2/content/foxgameFeaturesGalaxy.js" />
+<script type="application/x-javascript" src="chrome://foxgame2/content/foxgameFeaturesFleet.js" />
+<script type="application/x-javascript" src="chrome://foxgame2/content/dateLibrary.js" />
+
+<popup id="contentAreaContextMenu">
+	<menu insertafter="context-stop" label="Foxgame 2" hidden="true" id="foxgame2-main-item">
+		<menupopup id="foxgame2-submenu">
+			<menuitem id="foxgame2-calc-menu" label="&foxgame.menu.calculator;" oncommand="window.openDialog('chrome://foxgame2/content/calc.xul','ColorPicker','chrome');"/>
+			<menuitem id="foxgame2-config-menu" label="&foxgame.menu.configure;" oncommand="foxgame2_configure();"/>
+		</menupopup>
+	</menu>
+</popup>
+
+</overlay>

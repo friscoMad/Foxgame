@@ -1,0 +1,112 @@
+<!ENTITY foxgame.about.title "FoxGame 정보">
+<!ENTITY foxgame.about.createdBy "만든 이:">
+<!ENTITY foxgame.about.iconDesign "아이콘 디자인:">
+<!ENTITY foxgame.about.homePage "웹 페이지:">
+<!ENTITY foxgame.tabs.general "일반">
+<!ENTITY foxgame.tabs.time "시간 환경 설정">
+<!ENTITY foxgame.tabs.messages "Messages">
+<!ENTITY foxgame.tabs.galaxy "Galaxy">
+<!ENTITY foxgame.tabs.userHighlight "Highlight">
+<!ENTITY foxgame.menu.configure "FoxGame 환경 설정">
+<!ENTITY foxgame.menu.calculator "Trade Calculator">
+<!ENTITY foxgame.title.preferences "FoxGame Preferences">
+<!-- Common -->
+<!ENTITY foxgame.prefs.activate "활성화">
+<!ENTITY foxgame.prefs.add "추가">
+<!ENTITY foxgame.prefs.edit "편집">
+<!ENTITY foxgame.prefs.delete "삭제">
+<!ENTITY foxgame.prefs.up "Move Up">
+<!ENTITY foxgame.prefs.down "Move Down">
+<!ENTITY foxgame.prefs.deleteAll "초기화">
+<!ENTITY foxgame.prefs.color "색:">
+<!-- General 1 -->
+<!ENTITY foxgame.prefs.hidePlanet "Hide planet image on most pages">
+<!ENTITY foxgame.prefs.hideOverviewPlanet "Hide planet image with all info on overview">
+<!ENTITY foxgame.prefs.showEnergyInfo "Show extra energy info in buildings">
+<!ENTITY foxgame.prefs.showCargoNeeded "Show ships needed to transport all resources in planet">
+<!ENTITY foxgame.prefs.showFleetCargo "Display selected fleet cargo capacity">
+<!ENTITY foxgame.prefs.showRankDiffs "Show number of ranks gained or lost in stats">
+<!ENTITY foxgame.prefs.planetButtons "Show buttons for previous/next planet">
+<!ENTITY foxgame.prefs.phalanxRangeInfo "Add phalanx range to buildings page">
+<!ENTITY foxgame.prefs.showProdPercent "Display completion percentage on buildings and researchs">
+<!ENTITY foxgame.prefs.showEnergyResources "Add energy info to resources select">
+<!ENTITY foxgame.prefs.fleetOverviewInfo "Show flying resource overview on movements page">
+<!ENTITY foxgame.prefs.changePlanetList "Separate planets and moons on fleet sending select">
+<!ENTITY foxgame.prefs.addConstructionName "Show currently building name below planets in right sidebar">
+<!ENTITY foxgame.prefs.showEventList "Include event list on overview">
+<!ENTITY foxgame.prefs.autoCopy "자동 복사 기능: 선택한 텍스트에 좌표가 있을 경우, 복사해 두었다가 다음 함대 미션의 목적지로 자동 설정합니다.">
+<!ENTITY foxgame.prefs.autoCopyTooltip "Whenever you select a text (in any firefox tab, everywhere except input controls) with coordinates in it Foxgame will store that coords and use later when you go to the mission screen when it would be shown the default coords (that is whenever you did not clicked in a mission link).">
+<!-- General 2 -->
+<!ENTITY foxgame.prefs.selectUniverse "유니버스 선택">
+<!ENTITY foxgame.prefs.server "서버">
+<!ENTITY foxgame.prefs.universe "유니버스">
+<!ENTITY foxgame.prefs.skinTitle "Use OGame skin">
+<!ENTITY foxgame.prefs.skinUrl "Skin URL:">
+<!ENTITY foxgame.prefs.missionPreference "미션 종류 우선순위 선택">
+<!ENTITY foxgame.prefs.attack "공격">
+<!ENTITY foxgame.prefs.spy "정탐">
+<!ENTITY foxgame.prefs.recollect "수확">
+<!ENTITY foxgame.prefs.transport "운송">
+<!ENTITY foxgame.prefs.deploy "배치">
+<!ENTITY foxgame.prefs.conf "Confederation">
+<!ENTITY foxgame.prefs.exp "Expedition">
+<!ENTITY foxgame.prefs.update "Update">
+<!ENTITY foxgame.prefs.updateServerList "Download a new list of servers and universes from Foxgame Server">
+<!-- Galaxy -->
+<!ENTITY foxgame.prefs.removePlanets "축소된 갤럭시 보기">
+<!ENTITY foxgame.prefs.addDebrisNumbers "Show debris size instead of debris image">
+<!ENTITY foxgame.prefs.showPlayerRank "Show players ranks in galaxy">
+<!ENTITY foxgame.prefs.showAllyRank "Show ally ranks and members in galaxy">
+<!ENTITY foxgame.prefs.addSpySpace "Align vertically galaxy commands (spy, pm...)">
+<!ENTITY foxgame.prefs.highlightBigDebris "대량 암석 지대 강조">
+<!ENTITY foxgame.prefs.debrisMin "강조할 암석 지대 최소 크기:">
+<!-- Messages -->
+<!ENTITY foxgame.prefs.fastReply "Add fast reply options to PMs and Circs">
+<!ENTITY foxgame.prefs.dragoSimLink "Add link to DragoSim in spy reports">
+<!ENTITY foxgame.prefs.speedSimLink "Add link to SpeedSim in spy reports">
+<!ENTITY foxgame.prefs.addRaid "Show raid size and number of ships required">
+<!ENTITY foxgame.prefs.raidSize "Size of the ship:">
+<!ENTITY foxgame.prefs.messageSignature "개인 메시지 서명">
+<!ENTITY foxgame.prefs.msgSignText "서명">
+<!-- Time/Date -->
+<!ENTITY foxgame.prefs.selectTimeMode "시간 모드 선택:">
+<!ENTITY foxgame.prefs.clientTime "로컬 시간">
+<!ENTITY foxgame.prefs.serverTime "서버 시간">
+<!ENTITY foxgame.prefs.commonTime "시간은 로컬로/분, 초는 서버로">
+<!ENTITY foxgame.prefs.serverDiffTime "서버 시간 + X 시간">
+<!ENTITY foxgame.prefs.selectTimeDiff "시차 선택">
+<!ENTITY foxgame.prefs.flotaTime "함대 도착 시간 표시 (편도/왕복)">
+<!ENTITY foxgame.prefs.movementsTime "Show custom time and retreat time on movements page">
+<!ENTITY foxgame.prefs.eventListTime "Show custom time on event list">
+<!ENTITY foxgame.prefs.phalanxTime "센서 보고에 시간 표시">
+<!ENTITY foxgame.prefs.shipyardTime "Show shipyard's queue finishing time">
+<!ENTITY foxgame.prefs.buildingsTime "건물 완료 시간 표시">
+<!ENTITY foxgame.prefs.researchTime "연구 완료 시간 표시">
+<!ENTITY foxgame.prefs.formatDate "Time &amp; Date format">
+<!ENTITY foxgame.prefs.selectHourFormat "Select Time format">
+<!ENTITY foxgame.prefs.hourFormat-24 "24H">
+<!ENTITY foxgame.prefs.hourFormat-12 "12H (AM/PM)">
+<!ENTITY foxgame.prefs.personalFormat "Custom format">
+<!ENTITY foxgame.prefs.typeHourFormat "Type Time format">
+<!ENTITY foxgame.prefs.formatHelp "Format help">
+<!ENTITY foxgame.prefs.selectDateFormat "Select Date format">
+<!ENTITY foxgame.prefs.dateFormat-dm "Day/Month">
+<!ENTITY foxgame.prefs.dateFormat-md "Month/Day">
+<!ENTITY foxgame.prefs.typeDateFormat "Type Date format">
+<!-- User Highlight -->
+<!ENTITY foxgame.prefs.player "Player">
+<!ENTITY foxgame.prefs.alliance "Alliance">
+<!ENTITY foxgame.prefs.priority "Priority">
+<!ENTITY foxgame.prefs.name "Name">
+<!ENTITY foxgame.prefs.type "종류">
+<!-- User Highlight dialog -->
+<!ENTITY foxgame.prefs.selectType "Select type">
+<!ENTITY foxgame.prefs.nameRegEx "Name (Supports regular expressions)">
+<!-- Calculator dialog -->
+<!ENTITY foxgame.calc.ratio "Ratio">
+<!ENTITY foxgame.calc.sell "Sell">
+<!ENTITY foxgame.calc.buy "Buy">
+<!ENTITY foxgame.prefs.resources.metal "Metal">
+<!ENTITY foxgame.prefs.resources.crystal "Crystal">
+<!ENTITY foxgame.prefs.resources.deut "Deuterium">
+<!ENTITY foxgame.calc.mix "Mix">

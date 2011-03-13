@@ -1,0 +1,78 @@
+<!-- en-US -->
+
+<!ENTITY foxgame.prefs.preferences "Nastavení FoxGame">
+<!ENTITY foxgame.prefs.removePlanets "Vylepšený přehled galaxie">
+<!ENTITY foxgame.prefs.flotaTime "Zobraz čas příletu flotily (vzdálenost 1 a 2)">
+<!ENTITY foxgame.prefs.flotaReturnTime "Zobraz čas ústupu">
+<!ENTITY foxgame.prefs.replicateDeleteOptions "Přidej dodatečné možnosti mazání zpráv">
+<!ENTITY foxgame.prefs.selectUniverse "Vyber vesmír">
+<!ENTITY foxgame.prefs.highlightPrivates "Barva PM:">
+<!ENTITY foxgame.prefs.server "Server">
+<!ENTITY foxgame.prefs.universe "Vesmír">
+<!ENTITY foxgame.prefs.activate "Aktivovat">
+<!ENTITY foxgame.prefs.buildingTime "Zobraz v hangáru čas dokončení fronty">
+<!ENTITY foxgame.prefs.addOverviewTime "Zobraz v přehledu u událostí čas">
+<!ENTITY foxgame.prefs.removeOverviewTime "Odstranit v přehledu odpočítávání">
+<!ENTITY foxgame.prefs.buildingsTime "Zobraz čas dokončení stavby">
+<!ENTITY foxgame.prefs.researchTime "Zobraz čas dokončení výzkumu">
+<!ENTITY foxgame.prefs.colorPicker "Výběr barev">
+<!ENTITY foxgame.prefs.colorPicker2 "Vyber barvu:">
+<!ENTITY foxgame.prefs.color "Barva:">
+<!ENTITY foxgame.prefs.colorButton "Vyber">
+<!ENTITY foxgame.prefs.highlightAllyMessages "Barva aliance:">
+<!ENTITY foxgame.prefs.highlightBigDebris "Zvýrazni velké DF">
+<!ENTITY foxgame.prefs.debrisMin "Minimální velikost pro zvýraznění:">
+
+<!ENTITY foxgame.prefs.infosDeltas "Zobraz v informacích o budově rozdíly mezi jednotlivými úrovněmi budovy">
+<!ENTITY foxgame.prefs.autoCopy "Autokopírování: Kdykoli je vybrán text, hledají se souřadnice a pokud zde jsou, objeví se poté jako cíl mise.">
+<!ENTITY foxgame.prefs.messageSignature "Označení PM">
+<!ENTITY foxgame.prefs.msgSignText "Podpis">
+<!ENTITY foxgame.prefs.type "Typ">
+<!ENTITY foxgame.prefs.add "Přidat">
+<!ENTITY foxgame.prefs.edit "Upravit">
+<!ENTITY foxgame.prefs.phalanxTime "Zobraz čas v reportech senzoru Phalangy.">
+<!ENTITY foxgame.prefs.milosButtons "Přidej do přehledu galaxie tlačítko do přehledu galaxie k poslání informace do databáze.">
+<!ENTITY foxgame.prefs.statButtons "Přidej do pořadí (statistik) tlačítko k poslání informace do databáze.">
+<!ENTITY foxgame.prefs.reportButtons "Přidej do špionážních zpráv tlačítko k poslání informace do databáze.">
+<!ENTITY foxgame.tabs.dbs "Databáze">
+<!ENTITY foxgame.prefs.selectDBType "Vyber typ DB:">
+<!ENTITY foxgame.prefs.user "Uživatel:">
+<!ENTITY foxgame.prefs.pass "Heslo:">
+<!ENTITY foxgame.prefs.ally "Aliance:">
+<!ENTITY foxgame.prefs.url "URL:">
+<!ENTITY foxgame.prefs.DBOptions "Nastavení databáze">
+
+<!ENTITY foxgame.prefs.replicateReportOptions "Přidej do horní části dodatečné ovládání špionážních zpráv">
+<!ENTITY foxgame.prefs.missionPreference "Vyber přednostní typ mise">
+<!ENTITY foxgame.prefs.attack "Útok">
+<!ENTITY foxgame.prefs.spy "Špionáž">
+<!ENTITY foxgame.prefs.recollect "Těžba z DF">
+<!ENTITY foxgame.prefs.transport "Transport">
+<!ENTITY foxgame.prefs.deploy "Rozmístění">
+<!ENTITY foxgame.prefs.delete "Smazat">
+<!ENTITY foxgame.prefs.deleteAll "Resetovat">
+<!ENTITY foxgame.prefs.missionPreference.description "Foxgame vybere v obrazovce výběru mise požadovaný typ mise. Pokud není mise s nejvyšší prioritou nalezena, vybere druhou nejdůležitější misi atd.">
+<!ENTITY foxgame.prefs.selectTimeMode "Vyber si styl zobrazení času:">
+<!ENTITY foxgame.prefs.clientTime "Místní čas">
+<!ENTITY foxgame.prefs.serverTime "Čas serveru">
+<!ENTITY foxgame.prefs.commonTime "Místní hodiny/Minuty a vteřiny na serveru">
+<!ENTITY foxgame.prefs.serverDiffTime "Čas serveru + X hodin">
+<!ENTITY foxgame.prefs.selectTimeDiff "Nastav si tvou změnu času">
+
+<!ENTITY foxgame.tabs.general "Obecné">
+<!ENTITY foxgame.tabs.time "Nastavení času">
+
+
+<!ENTITY foxgame.about.title "O aplikaci FoxGame">
+
+<!-- The final string will be "Before" locale "After" -->
+<!ENTITY foxgame.about.translationByBefore "">
+<!ENTITY foxgame.about.translationByAfter " Překlad:">
+<!-- The final string will be "Traducido a de-DE por: -->
+
+<!ENTITY foxgame.about.createdBy "Vytvořil:">
+<!ENTITY foxgame.about.iconDesign "Design ikon:">
+<!ENTITY foxgame.about.homePage "Webové stránky:">
+
+<!ENTITY foxgame.menu.configure "Nastavení FoxGame">
+<!-- EOF -->

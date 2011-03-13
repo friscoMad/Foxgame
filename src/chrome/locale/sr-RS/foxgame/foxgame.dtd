@@ -1,0 +1,112 @@
+<!ENTITY foxgame.about.title "О">
+<!ENTITY foxgame.about.createdBy "Израдио:">
+<!ENTITY foxgame.about.iconDesign "Дизајн иконица:">
+<!ENTITY foxgame.about.homePage "Wеб страна:">
+<!ENTITY foxgame.tabs.general "Опште">
+<!ENTITY foxgame.tabs.time "Подешавање времена">
+<!ENTITY foxgame.tabs.messages "Поруке">
+<!ENTITY foxgame.tabs.galaxy "Галаксија">
+<!ENTITY foxgame.tabs.userHighlight "Highlight">
+<!ENTITY foxgame.menu.configure "Подеси ФоксИгру">
+<!ENTITY foxgame.menu.calculator "Trade Calculator">
+<!ENTITY foxgame.title.preferences "FoxGame Preferences">
+<!-- Common -->
+<!ENTITY foxgame.prefs.activate "Активирај">
+<!ENTITY foxgame.prefs.add "Додај">
+<!ENTITY foxgame.prefs.edit "Измени">
+<!ENTITY foxgame.prefs.delete "Избриши">
+<!ENTITY foxgame.prefs.up "Помери нагоре">
+<!ENTITY foxgame.prefs.down "Помери надоле">
+<!ENTITY foxgame.prefs.deleteAll "Ресетуј">
+<!ENTITY foxgame.prefs.color "Боја:">
+<!-- General 1 -->
+<!ENTITY foxgame.prefs.hidePlanet "Hide planet image on most pages">
+<!ENTITY foxgame.prefs.hideOverviewPlanet "Hide planet image with all info on overview">
+<!ENTITY foxgame.prefs.showEnergyInfo "Прикажи информацију о енергији у зградама">
+<!ENTITY foxgame.prefs.showCargoNeeded "Прикажи број неопходних бродова да би се транспортовали сви ресурси на планети">
+<!ENTITY foxgame.prefs.showFleetCargo "Прикажи капацитет терета за одабрану флоту">
+<!ENTITY foxgame.prefs.showRankDiffs "Прикажи број рангова унапредјених или изгубљених на статистици">
+<!ENTITY foxgame.prefs.planetButtons "Прикажи тастере са претходну/следећу планету">
+<!ENTITY foxgame.prefs.phalanxRangeInfo "Додај домет фаланге на страници за приказ зграда">
+<!ENTITY foxgame.prefs.showProdPercent "Прикажи проценат завршетка зграда и истраживања">
+<!ENTITY foxgame.prefs.showEnergyResources "Додај информацију о енергији у приказу за одабир ресурса">
+<!ENTITY foxgame.prefs.fleetOverviewInfo "Show flying resource overview on movements page">
+<!ENTITY foxgame.prefs.changePlanetList "Separate planets and moons on fleet sending select">
+<!ENTITY foxgame.prefs.addConstructionName "Show currently building name below planets in right sidebar">
+<!ENTITY foxgame.prefs.showEventList "Include event list on overview">
+<!ENTITY foxgame.prefs.autoCopy "АутоматскоКопирање: Аутоматски одабрати одредиште за мисије, базирано на последње ископираним координатама">
+<!ENTITY foxgame.prefs.autoCopyTooltip "Кадгод селектујете теxт (у било ком фајерефоx језичку, свуда осим у делу за унос неких података) у коме се налазе координате, ФоксИгра це сместити те координате у меморију и користити их касније кад год одете на приказ екрана мисије, подразумеване координате це бити уписане тј. оне које сте копирали (односно увек осим у слуцају да сте кликнули на линк за мисију).">
+<!-- General 2 -->
+<!ENTITY foxgame.prefs.selectUniverse "Одабери универзум">
+<!ENTITY foxgame.prefs.server "Сервер">
+<!ENTITY foxgame.prefs.universe "Универзум">
+<!ENTITY foxgame.prefs.skinTitle "Use OGame skin">
+<!ENTITY foxgame.prefs.skinUrl "Skin URL:">
+<!ENTITY foxgame.prefs.missionPreference "Одабери приоритете за мисије">
+<!ENTITY foxgame.prefs.attack "Напад">
+<!ENTITY foxgame.prefs.spy "Шпијунирај">
+<!ENTITY foxgame.prefs.recollect "Поновно сакупи">
+<!ENTITY foxgame.prefs.transport "Транспортуј">
+<!ENTITY foxgame.prefs.deploy "Станица">
+<!ENTITY foxgame.prefs.conf "Конфедерација">
+<!ENTITY foxgame.prefs.exp "Експедиција">
+<!ENTITY foxgame.prefs.update "Update">
+<!ENTITY foxgame.prefs.updateServerList "Download a new list of servers and universes from Foxgame Server">
+<!-- Galaxy -->
+<!ENTITY foxgame.prefs.removePlanets "Смањен преглед галаксије">
+<!ENTITY foxgame.prefs.addDebrisNumbers "Прикажи величину рушевина уместо слику рушевина">
+<!ENTITY foxgame.prefs.showPlayerRank "Прикажи рангирање играчау у приказу галаксије">
+<!ENTITY foxgame.prefs.showAllyRank "Прикажи пријатељске рангове и чланове у приказу галаксије">
+<!ENTITY foxgame.prefs.addSpySpace "Align vertically galaxy commands (spy, pm...)">
+<!ENTITY foxgame.prefs.highlightBigDebris "Посебно означи велике рушевине">
+<!ENTITY foxgame.prefs.debrisMin "Минимална величина за означавање">
+<!-- Messages -->
+<!ENTITY foxgame.prefs.fastReply "Додај опцију за брз одговор у Личним и Кружним порукама">
+<!ENTITY foxgame.prefs.dragoSimLink "Додај везу ка ДрагоСим-у у извештајима шпијунаже">
+<!ENTITY foxgame.prefs.speedSimLink "Додај везу ка СпеедСим-у у извештајима шпијунаже">
+<!ENTITY foxgame.prefs.addRaid "Приказати величину пљачке и број потребних бродова">
+<!ENTITY foxgame.prefs.raidSize "Size of the ship:">
+<!ENTITY foxgame.prefs.messageSignature "ПМ Потпис">
+<!ENTITY foxgame.prefs.msgSignText "Потпис">
+<!-- Time/Date -->
+<!ENTITY foxgame.prefs.selectTimeMode "Одаберите врсту времена:">
+<!ENTITY foxgame.prefs.clientTime "Локално време">
+<!ENTITY foxgame.prefs.serverTime "Време сервера">
+<!ENTITY foxgame.prefs.commonTime "Локални сати/серверски минути и секунде">
+<!ENTITY foxgame.prefs.serverDiffTime "Серверско време + X сати">
+<!ENTITY foxgame.prefs.selectTimeDiff "Одаберите вашу временску разлику">
+<!ENTITY foxgame.prefs.flotaTime "Приказати време приспећа флоте (1 и 2 дистанце)">
+<!ENTITY foxgame.prefs.movementsTime "Show custom time and retreat time on movements page">
+<!ENTITY foxgame.prefs.eventListTime "Show custom time on event list">
+<!ENTITY foxgame.prefs.phalanxTime "Прикази време у извештајима фаланге.">
+<!ENTITY foxgame.prefs.shipyardTime "Show shipyard's queue finishing time">
+<!ENTITY foxgame.prefs.buildingsTime "Приказати време завршетка изградње зграде">
+<!ENTITY foxgame.prefs.researchTime "Приказати време завршетка истраживања">
+<!ENTITY foxgame.prefs.formatDate "Приказ времена &amp; датума">
+<!ENTITY foxgame.prefs.selectHourFormat "Одабери облик времена">
+<!ENTITY foxgame.prefs.hourFormat-24 "24Ч">
+<!ENTITY foxgame.prefs.hourFormat-12 "12Ч (АМ/ПМ)">
+<!ENTITY foxgame.prefs.personalFormat "Прилагођени облик">
+<!ENTITY foxgame.prefs.typeHourFormat "Откуцај облик  времена">
+<!ENTITY foxgame.prefs.formatHelp "Помоћ око формата">
+<!ENTITY foxgame.prefs.selectDateFormat "Одабери формат Датума">
+<!ENTITY foxgame.prefs.dateFormat-dm "Дан/Месец">
+<!ENTITY foxgame.prefs.dateFormat-md "Месец/Дан">
+<!ENTITY foxgame.prefs.typeDateFormat "Откуцај формат Датума">
+<!-- User Highlight -->
+<!ENTITY foxgame.prefs.player "Player">
+<!ENTITY foxgame.prefs.alliance "Alliance">
+<!ENTITY foxgame.prefs.priority "Приоритет">
+<!ENTITY foxgame.prefs.name "Name">
+<!ENTITY foxgame.prefs.type "Тип">
+<!-- User Highlight dialog -->
+<!ENTITY foxgame.prefs.selectType "Select type">
+<!ENTITY foxgame.prefs.nameRegEx "Name (Supports regular expressions)">
+<!-- Calculator dialog -->
+<!ENTITY foxgame.calc.ratio "Ratio">
+<!ENTITY foxgame.calc.sell "Sell">
+<!ENTITY foxgame.calc.buy "Buy">
+<!ENTITY foxgame.prefs.resources.metal "Метал">
+<!ENTITY foxgame.prefs.resources.crystal "Кристал">
+<!ENTITY foxgame.prefs.resources.deut "Деутеријум">
+<!ENTITY foxgame.calc.mix "Mix">

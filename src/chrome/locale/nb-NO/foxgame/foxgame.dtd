@@ -1,0 +1,112 @@
+<!ENTITY foxgame.about.title "Om">
+<!ENTITY foxgame.about.createdBy "Laget av:">
+<!ENTITY foxgame.about.iconDesign "Ikondesign:">
+<!ENTITY foxgame.about.homePage "Webside:">
+<!ENTITY foxgame.tabs.general "Generelt">
+<!ENTITY foxgame.tabs.time "Tidsinnstillinger">
+<!ENTITY foxgame.tabs.messages "Meldinger">
+<!ENTITY foxgame.tabs.galaxy "Galakse">
+<!ENTITY foxgame.tabs.userHighlight "Highlight">
+<!ENTITY foxgame.menu.configure "Konfigurer FoxGame">
+<!ENTITY foxgame.menu.calculator "Trade Calculator">
+<!ENTITY foxgame.title.preferences "FoxGame Preferences">
+<!-- Common -->
+<!ENTITY foxgame.prefs.activate "Aktiver">
+<!ENTITY foxgame.prefs.add "Legg til">
+<!ENTITY foxgame.prefs.edit "Editer">
+<!ENTITY foxgame.prefs.delete "Slett">
+<!ENTITY foxgame.prefs.up "Flytt opp">
+<!ENTITY foxgame.prefs.down "Flytt ned">
+<!ENTITY foxgame.prefs.deleteAll "Nullstill">
+<!ENTITY foxgame.prefs.color "Farge:">
+<!-- General 1 -->
+<!ENTITY foxgame.prefs.hidePlanet "Hide planet image on most pages">
+<!ENTITY foxgame.prefs.hideOverviewPlanet "Hide planet image with all info on overview">
+<!ENTITY foxgame.prefs.showEnergyInfo "Vis ekstra energi- info på bygninger">
+<!ENTITY foxgame.prefs.showCargoNeeded "Vis antall skip som trengs for å transportere alle ressurser på en planet">
+<!ENTITY foxgame.prefs.showFleetCargo "Vis kapasitet til valgt flåte">
+<!ENTITY foxgame.prefs.showRankDiffs "Vis antall rang tjent eller tapt i statistikk">
+<!ENTITY foxgame.prefs.planetButtons "Vis knapper for forrige/neste planet">
+<!ENTITY foxgame.prefs.phalanxRangeInfo "Legg til rekkevidde for phalanx på bygningssiden">
+<!ENTITY foxgame.prefs.showProdPercent "Vis prosentvis fremdrift for bygninger og forskning">
+<!ENTITY foxgame.prefs.showEnergyResources "Legg energi- info til ressurs- bildet">
+<!ENTITY foxgame.prefs.fleetOverviewInfo "Show flying resource overview on movements page">
+<!ENTITY foxgame.prefs.changePlanetList "Separate planets and moons on fleet sending select">
+<!ENTITY foxgame.prefs.addConstructionName "Show currently building name below planets in right sidebar">
+<!ENTITY foxgame.prefs.showEventList "Include event list on overview">
+<!ENTITY foxgame.prefs.autoCopy "Autokopier: Automatisk merking av destinasjon ut fra siste kopierte koordinat">
+<!ENTITY foxgame.prefs.autoCopyTooltip "Uansett når du markerer tekst (i hvilken som helst firefox fane, bortsett fra input controls) som inneholder koordinater vil Foxgame lagre dem til senere bruk for oppdrags- bildet og sette disse som standard (hvis du ikke har klikket på en oppdragslink)">
+<!-- General 2 -->
+<!ENTITY foxgame.prefs.selectUniverse "Velg univers">
+<!ENTITY foxgame.prefs.server "Server">
+<!ENTITY foxgame.prefs.universe "Univers">
+<!ENTITY foxgame.prefs.skinTitle "Use OGame skin">
+<!ENTITY foxgame.prefs.skinUrl "Skin URL:">
+<!ENTITY foxgame.prefs.missionPreference "Velg prioritering for oppdragstype">
+<!ENTITY foxgame.prefs.attack "Angrip">
+<!ENTITY foxgame.prefs.spy "Spioner">
+<!ENTITY foxgame.prefs.recollect "Samle inn påny">
+<!ENTITY foxgame.prefs.transport "Transporter">
+<!ENTITY foxgame.prefs.deploy "Stasjoner (Anvendelse)">
+<!ENTITY foxgame.prefs.conf "Konføderasjon">
+<!ENTITY foxgame.prefs.exp "Ekspedisjon">
+<!ENTITY foxgame.prefs.update "Update">
+<!ENTITY foxgame.prefs.updateServerList "Download a new list of servers and universes from Foxgame Server">
+<!-- Galaxy -->
+<!ENTITY foxgame.prefs.removePlanets "Redusert galaksevisning">
+<!ENTITY foxgame.prefs.addDebrisNumbers "Vis mengde vrakgods istedenfor bilde">
+<!ENTITY foxgame.prefs.showPlayerRank "Vis rang til spillere i galaksen">
+<!ENTITY foxgame.prefs.showAllyRank "Vis allierte medlemmer og rang i galaksen">
+<!ENTITY foxgame.prefs.addSpySpace "Align vertically galaxy commands (spy, pm...)">
+<!ENTITY foxgame.prefs.highlightBigDebris "Uthev store mengder vrakgods">
+<!ENTITY foxgame.prefs.debrisMin "Minste størrelse som skal utheves">
+<!-- Messages -->
+<!ENTITY foxgame.prefs.fastReply "Legg til hurtigsvar- mulighet for PM og sirk.">
+<!ENTITY foxgame.prefs.dragoSimLink "Legg til link for DragoSim i spionasjerapporter">
+<!ENTITY foxgame.prefs.speedSimLink "Legg til link for Speedsim i spionasjerapporter">
+<!ENTITY foxgame.prefs.addRaid "Vis raidstørrelse og antall skip som trengs">
+<!ENTITY foxgame.prefs.raidSize "Size of the ship:">
+<!ENTITY foxgame.prefs.messageSignature "PM signatur">
+<!ENTITY foxgame.prefs.msgSignText "Signatur">
+<!-- Time/Date -->
+<!ENTITY foxgame.prefs.selectTimeMode "Velg tidsformat:">
+<!ENTITY foxgame.prefs.clientTime "Lokaltid">
+<!ENTITY foxgame.prefs.serverTime "Servertid">
+<!ENTITY foxgame.prefs.commonTime "Lokal time/Server min og sek.">
+<!ENTITY foxgame.prefs.serverDiffTime "Server tid + X timer">
+<!ENTITY foxgame.prefs.selectTimeDiff "Velg din tidsforskjell">
+<!ENTITY foxgame.prefs.flotaTime "Vis ankomstid for flåte (tur- retur)">
+<!ENTITY foxgame.prefs.movementsTime "Show custom time and retreat time on movements page">
+<!ENTITY foxgame.prefs.eventListTime "Show custom time on event list">
+<!ENTITY foxgame.prefs.phalanxTime "Vis tid i phalanx- rapporter">
+<!ENTITY foxgame.prefs.shipyardTime "Show shipyard's queue finishing time">
+<!ENTITY foxgame.prefs.buildingsTime "Vis tidspunkt for når bygning er ferdig">
+<!ENTITY foxgame.prefs.researchTime "Vis tidspunkt for når forskning er ferdig">
+<!ENTITY foxgame.prefs.formatDate "Tid &amp; Datoformat">
+<!ENTITY foxgame.prefs.selectHourFormat "Sett tidsformat">
+<!ENTITY foxgame.prefs.hourFormat-24 "24timer">
+<!ENTITY foxgame.prefs.hourFormat-12 "12 timer (AM/PM)">
+<!ENTITY foxgame.prefs.personalFormat "Egendefinert format">
+<!ENTITY foxgame.prefs.typeHourFormat "Skriv tidsformat">
+<!ENTITY foxgame.prefs.formatHelp "Format hjelp">
+<!ENTITY foxgame.prefs.selectDateFormat "Velg datoformat">
+<!ENTITY foxgame.prefs.dateFormat-dm "Dag/måned">
+<!ENTITY foxgame.prefs.dateFormat-md "Måned/år">
+<!ENTITY foxgame.prefs.typeDateFormat "Skriv datoformat">
+<!-- User Highlight -->
+<!ENTITY foxgame.prefs.player "Player">
+<!ENTITY foxgame.prefs.alliance "Alliance">
+<!ENTITY foxgame.prefs.priority "Prioritet">
+<!ENTITY foxgame.prefs.name "Name">
+<!ENTITY foxgame.prefs.type "Type">
+<!-- User Highlight dialog -->
+<!ENTITY foxgame.prefs.selectType "Select type">
+<!ENTITY foxgame.prefs.nameRegEx "Name (Supports regular expressions)">
+<!-- Calculator dialog -->
+<!ENTITY foxgame.calc.ratio "Ratio">
+<!ENTITY foxgame.calc.sell "Sell">
+<!ENTITY foxgame.calc.buy "Buy">
+<!ENTITY foxgame.prefs.resources.metal "Metall">
+<!ENTITY foxgame.prefs.resources.crystal "Krystall">
+<!ENTITY foxgame.prefs.resources.deut "Deuterium">
+<!ENTITY foxgame.calc.mix "Mix">

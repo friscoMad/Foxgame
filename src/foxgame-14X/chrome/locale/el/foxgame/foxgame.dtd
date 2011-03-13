@@ -1,0 +1,79 @@
+﻿<!-- gr -->
+
+<!ENTITY foxgame.prefs.preferences "Προτιμήσεις FoxGame">
+<!ENTITY foxgame.prefs.removePlanets "Μειωμένη Προβολή Γαλαξία">
+<!ENTITY foxgame.prefs.flotaTime "Ένδειξη χρόνου άφιξης στόλου (αποστάσεις 1 και 2)">
+<!ENTITY foxgame.prefs.flotaReturnTime "Ένδειξη χρόνου υποχώρησης στόλου">
+<!ENTITY foxgame.prefs.replicateDeleteOptions "Προσθήκη επιπλέον επιλογών διαγραφής μηνυμάτων">
+<!ENTITY foxgame.prefs.selectUniverse "Επιλογή Σύμπαντος">
+<!ENTITY foxgame.prefs.highlightPrivates "Υπογράμμιση Προσωπικών Μηνυμάτων">
+<!ENTITY foxgame.prefs.server "Server">
+<!ENTITY foxgame.prefs.universe "Σύμπαν">
+<!ENTITY foxgame.prefs.activate "Ενεργοποίηση">
+<!ENTITY foxgame.prefs.buildingTime "Ένδειξη απομένωντος χρόνου κατασκευών Ναυπηγείου">
+<!ENTITY foxgame.prefs.addOverviewTime "Ένδειξη ωρας γεγονότων στην επισκόπηση">
+<!ENTITY foxgame.prefs.removeOverviewTime "Αφαίρεση της αντίστροφης μέτρησης στην επισκόπηση">
+<!ENTITY foxgame.prefs.buildingsTime "Ένδειξη απομένωντος χρόνου κτιριακών κατασκευών">
+<!ENTITY foxgame.prefs.researchTime "Ένδειξη απομένωντος χρόνου ερευνών">
+<!ENTITY foxgame.prefs.colorPicker "Επιλογή χρώματος">
+<!ENTITY foxgame.prefs.colorPicker2 "Διαλέξτε ένα χρώμα :">
+<!ENTITY foxgame.prefs.color "Χρώμα :">
+<!ENTITY foxgame.prefs.colorButton "Επιλογή">
+<!ENTITY foxgame.prefs.highlightAllyMessages "Υπογράμμιση Συμμαχικών Μηνυμάτων">
+<!ENTITY foxgame.prefs.highlightBigDebris "Υπογράμμιση Μεγάλων Πεδίων Συντριμιών">
+<!ENTITY foxgame.prefs.debrisMin "Ελάχιστο μέγεθος για υπογράμμιση :">
+
+<!ENTITY foxgame.prefs.infosDeltas "Παρουσίαση των διαφορών μεταξύ των επιπέδων των κτιρίων στις πληροφορίες κτιρίου">
+<!ENTITY foxgame.prefs.autoCopy "Αυτόματη Αντιγραφή: Όταν ένα κείμενο επιλέγεται, ψάχνει για συντεταγμένες. Αν υπάρχουν, θα εμφανιστούν σαν στόχος του στόλου για την επόμενη αποστολή που θα επιλεγεί.">
+<!ENTITY foxgame.prefs.messageSignature "Υπογραφή Προσωπικών Μηνυμάτων">
+<!ENTITY foxgame.prefs.msgSignText "Υπογραφή">
+<!ENTITY foxgame.prefs.type "Τύπος">
+<!ENTITY foxgame.prefs.add "Προσθήκη">
+<!ENTITY foxgame.prefs.edit "Επεξεργασία">
+<!ENTITY foxgame.prefs.phalanxTime "Ένδειξη χρόνου στις αναφορές Φάλαγγας">
+<!ENTITY foxgame.prefs.milosButtons "Προσθήκη κουμπιών στην επισκόπηση γαλαξία για αποστολή των πληροφοριών στις βάσεις δεδομένων.">
+<!ENTITY foxgame.prefs.statButtons "Προσθήκη κουμπιών στις βαθμολογίες για αποστολή των πληροφοριών στις βάσεις δεδομένων.">
+<!ENTITY foxgame.prefs.reportButtons "Προσθήκη κουμπιών στις αναφορές κατασκοπείας για αποστολή των πληροφοριών στις βάσεις δεδομένων.">
+<!ENTITY foxgame.tabs.dbs "Βάσεις Δεδομένων">
+<!ENTITY foxgame.prefs.selectDBType "Επιλέξτε τύπο βάσης δεδομένων :">
+<!ENTITY foxgame.prefs.user "Χρήστης :">
+<!ENTITY foxgame.prefs.pass "Κωδικός :">
+<!ENTITY foxgame.prefs.ally "Συμμαχία :">
+<!ENTITY foxgame.prefs.url "URL:">
+<!ENTITY foxgame.prefs.DBOptions "Επιλογές Βάσης Δεδομένων">
+
+<!ENTITY foxgame.prefs.replicateReportOptions "Προσθήκη έξτρα ελέγχου για την κατασκοπεία στην κορυφή">
+<!ENTITY foxgame.prefs.missionPreference "Επιλογή προτεραιοτήτων για τους τύπους αποστολών">
+<!ENTITY foxgame.prefs.attack "Επίθεση">
+<!ENTITY foxgame.prefs.spy "Κατασκοπεία">
+<!ENTITY foxgame.prefs.recollect "Ανάκτηση">
+<!ENTITY foxgame.prefs.transport "Μεταφορά">
+<!ENTITY foxgame.prefs.deploy "Σταθμός">
+<!ENTITY foxgame.prefs.delete "Διαγραφή">
+<!ENTITY foxgame.prefs.deleteAll "Διαγραφή όλων">
+<!ENTITY foxgame.prefs.missionPreference.description "Το Foxgame θα επιλέξεθ τον επιθυμητό τύπο αποστολής στην οθόνη επιλογής αποστολής. Αν η επιλογή με τη μεγαλύτερη προτεραιότητα δεν βρεθεί, θα προσπαθήσει να επιλέξει την επόμενη κ.ο.κ.">
+<!ENTITY foxgame.prefs.selectTimeMode "Επιλέξτε λειτουργία χρόνου :">
+<!ENTITY foxgame.prefs.clientTime "Τοπικός χρόνος">
+<!ENTITY foxgame.prefs.serverTime "Server χρόνου">
+<!ENTITY foxgame.prefs.commonTime "Τοπική ώρα/Server λεπτά και δευτερόλεπτα">
+<!ENTITY foxgame.prefs.serverDiffTime "Ώρα Server + X ώρες">
+<!ENTITY foxgame.prefs.selectTimeDiff "Επιλέξτε τη διαφορά ώρας">
+
+<!ENTITY foxgame.tabs.general "Γενικά">
+<!ENTITY foxgame.tabs.time "Προτιμήσεις χρόνου">
+
+
+<!ENTITY foxgame.about.title "Περι το FoxGame">
+
+<!-- The final string will be "Before" locale "After" -->
+<!ENTITY foxgame.about.translationByBefore "">
+<!ENTITY foxgame.about.translationByAfter " Μετάφραση : ">
+<!-- The final string will be "Traducido a de-DE por: -->
+
+<!ENTITY foxgame.about.createdBy "Δημιουργός :">
+<!ENTITY foxgame.about.iconDesign "Σχεδιασμός Εικόνων :">
+<!ENTITY foxgame.about.homePage "Ιστοσελίδα :">
+
+<!ENTITY foxgame.menu.configure "Τροποποιήστε το FoxGame">
+
+<!-- EOF -->

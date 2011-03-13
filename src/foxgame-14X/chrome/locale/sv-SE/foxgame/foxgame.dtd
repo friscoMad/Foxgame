@@ -1,0 +1,79 @@
+<!-- sv - SE -->
+
+<!ENTITY foxgame.prefs.preferences "FoxGame Inställningar">
+<!ENTITY foxgame.prefs.removePlanets "Reducerad galax sida">
+<!ENTITY foxgame.prefs.flotaTime "Visa flottans ankomst tid">
+<!ENTITY foxgame.prefs.flotaReturnTime "Visa flottans återvänds tid">
+<!ENTITY foxgame.prefs.replicateDeleteOptions "Lägg till extra ta bort meddelande val">
+<!ENTITY foxgame.prefs.selectUniverse "Välj Universum">
+<!ENTITY foxgame.prefs.highlightPrivates "Markera Personliga Meddelanden">
+<!ENTITY foxgame.prefs.server "Server">
+<!ENTITY foxgame.prefs.universe "Universum">
+<!ENTITY foxgame.prefs.activate "Aktivera">
+<!ENTITY foxgame.prefs.buildingTime "Visa när skeppsvarven är klar med sin kö">
+<!ENTITY foxgame.prefs.addOverviewTime "Visa vilken tid en händelse är klar på översikt">
+<!ENTITY foxgame.prefs.removeOverviewTime "Ta bort nedräkning på översikt">
+<!ENTITY foxgame.prefs.buildingsTime "Visa när byggnader är klara">
+<!ENTITY foxgame.prefs.researchTime "Visa när forskningen är klar">
+<!ENTITY foxgame.prefs.colorPicker "Färg Sortiment">
+<!ENTITY foxgame.prefs.colorPicker2 "Välj en färg:">
+<!ENTITY foxgame.prefs.color "Färg:">
+<!ENTITY foxgame.prefs.colorButton "Välj">
+<!ENTITY foxgame.prefs.highlightAllyMessages "Markera Allierade Meddelanden">
+<!ENTITY foxgame.prefs.highlightBigDebris "Markera Stora Skräpfält">
+<!ENTITY foxgame.prefs.debrisMin "Minsta storlek för att markera:">
+
+<!ENTITY foxgame.prefs.infosDeltas "Visa skillnaden mellan levlarna i byggnads info.">
+<!ENTITY foxgame.prefs.autoCopy "AutoKopiera: När en text är markerad, söker han för kordinationer och om det är några kommer de att dyka upp som destination för flott uppdrags.">
+<!ENTITY foxgame.prefs.messageSignature "PM Signatur">
+<!ENTITY foxgame.prefs.msgSignText "Signatur">
+<!ENTITY foxgame.prefs.type "Sort">
+<!ENTITY foxgame.prefs.add "Lägg till">
+<!ENTITY foxgame.prefs.edit "Ändra">
+<!ENTITY foxgame.prefs.phalanxTime "Visa tid i rapporter.">
+<!ENTITY foxgame.prefs.milosButtons "Lägg till knappar på galax sidan för att sända info till databasen.">
+<!ENTITY foxgame.prefs.statButtons "Lägg till knappar på ranker för att sända info till databasen.">
+<!ENTITY foxgame.prefs.reportButtons "Lägg till knappar i spionrapporter för att sända info till databasen.">
+<!ENTITY foxgame.tabs.dbs "Databaser">
+<!ENTITY foxgame.prefs.selectDBType "Välj Databas:">
+<!ENTITY foxgame.prefs.user "Användare:">
+<!ENTITY foxgame.prefs.pass "Lösenord:">
+<!ENTITY foxgame.prefs.ally "Allians:">
+<!ENTITY foxgame.prefs.url "URL:">
+<!ENTITY foxgame.prefs.DBOptions "Databas inställningar">
+
+<!ENTITY foxgame.prefs.replicateReportOptions "Lägg till extra spionrapport kontroll på toppen">
+<!ENTITY foxgame.prefs.missionPreference "Välj uppdragens prioritet">
+<!ENTITY foxgame.prefs.attack "Attackera">
+<!ENTITY foxgame.prefs.spy "Spionera">
+<!ENTITY foxgame.prefs.recollect "Återvinna">
+<!ENTITY foxgame.prefs.transport "Transporta">
+<!ENTITY foxgame.prefs.deploy "Utplacera">
+<!ENTITY foxgame.prefs.delete "Ta bort">
+<!ENTITY foxgame.prefs.deleteAll "Återställ">
+<!ENTITY foxgame.prefs.missionPreference.description "Foxgame kommer välja den begärda uppdragstypen på uppdrags sidan. Om uppdragets prioritet inte hittas, kommer det att leta efter andra alternativet och så vidare.">
+<!ENTITY foxgame.prefs.selectTimeMode "Fälj tids visning:">
+<!ENTITY foxgame.prefs.clientTime "Lokal tid">
+<!ENTITY foxgame.prefs.serverTime "Server tid">
+<!ENTITY foxgame.prefs.commonTime "Lokal timme/Server minuter och sekunder">
+<!ENTITY foxgame.prefs.serverDiffTime "Server tid + X timmar">
+<!ENTITY foxgame.prefs.selectTimeDiff "Välj din tids skillnad">
+
+<!ENTITY foxgame.tabs.general "General">
+<!ENTITY foxgame.tabs.time "Tids inställningar">
+
+
+<!ENTITY foxgame.about.title "Om FoxGame">
+
+<!-- The final string will be "Before" locale "After" -->
+<!ENTITY foxgame.about.translationByBefore "">
+<!ENTITY foxgame.about.translationByAfter " Översättning:">
+<!-- The final string will be "Traducido a de-DE por: -->
+
+<!ENTITY foxgame.about.createdBy "Skapad av:">
+<!ENTITY foxgame.about.iconDesign "Ikon Design:">
+<!ENTITY foxgame.about.homePage "Hemsida:">
+
+<!ENTITY foxgame.menu.configure "Konfiguera FoxGame">
+
+<!-- EOF -->

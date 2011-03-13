@@ -1,0 +1,79 @@
+<!-- sl-SI -->
+
+<!ENTITY foxgame.prefs.preferences "FoxGame Možnosti">
+<!ENTITY foxgame.prefs.removePlanets "Zmanjšan pogled na galaksijo">
+<!ENTITY foxgame.prefs.flotaTime "Pokaži čas prihoda flote (1 in 2 razdalji)">
+<!ENTITY foxgame.prefs.flotaReturnTime "Pokaži čas za umik">
+<!ENTITY foxgame.prefs.replicateDeleteOptions "Dodaj dodatno možnost za brisanje sporočil">
+<!ENTITY foxgame.prefs.selectUniverse "Izberi vesolje">
+<!ENTITY foxgame.prefs.highlightPrivates "Označi zasebna sporočila">
+<!ENTITY foxgame.prefs.server "Strežnik">
+<!ENTITY foxgame.prefs.universe "Vesolje">
+<!ENTITY foxgame.prefs.activate "Aktiviraj">
+<!ENTITY foxgame.prefs.buildingTime "pokaži končni čas v hangarjevi čakalni vrsti">
+<!ENTITY foxgame.prefs.addOverviewTime "Pokaži čas dogodkov v pregledu">
+<!ENTITY foxgame.prefs.removeOverviewTime "Odstrani odštevanje v pregledu">
+<!ENTITY foxgame.prefs.buildingsTime "Pokaži čas izgradnje zgradbe">
+<!ENTITY foxgame.prefs.researchTime "Pokaži končni čas raziskave">
+<!ENTITY foxgame.prefs.colorPicker "Izbiranje barve">
+<!ENTITY foxgame.prefs.colorPicker2 "Izberi barvo:">
+<!ENTITY foxgame.prefs.color "Barva:">
+<!ENTITY foxgame.prefs.colorButton "Izberi">
+<!ENTITY foxgame.prefs.highlightAllyMessages "Označi sporočila zaveznikov">
+<!ENTITY foxgame.prefs.highlightBigDebris "Označi velika polja razbitin">
+<!ENTITY foxgame.prefs.debrisMin "Najmanjša velikost označitve:">
+
+<!ENTITY foxgame.prefs.infosDeltas "Pokaži razlike med gradbenimi nivoji v informacijah zgradbe.">
+<!ENTITY foxgame.prefs.autoCopy "Avtomatsko kopiranje: Ko je izbran tekst, išče za koordinate in če so se bodo potem prikazale kot cilj na misiji flote.">
+<!ENTITY foxgame.prefs.messageSignature "Podpis v ZS">
+<!ENTITY foxgame.prefs.msgSignText "Podpis">
+<!ENTITY foxgame.prefs.type "Tip">
+<!ENTITY foxgame.prefs.add "Dodaj">
+<!ENTITY foxgame.prefs.edit "Uredi">
+<!ENTITY foxgame.prefs.phalanxTime "Pokaži čas v phalanx poročilih.">
+<!ENTITY foxgame.prefs.milosButtons "Dodaj gumbe za pošiljanje informacij v podatkovne baze v galaksijskem pogledu.">
+<!ENTITY foxgame.prefs.statButtons "Dodaj gumbe za pošiljanje informacij v podatkovne baze pri činih.">
+<!ENTITY foxgame.prefs.reportButtons "Dodaj gumbe za pošiljanje informacij v podatkovne baze pri vohunskih poročilih.">
+<!ENTITY foxgame.tabs.dbs "Podatkovne baze">
+<!ENTITY foxgame.prefs.selectDBType "Izberi tip podatkovne baze:">
+<!ENTITY foxgame.prefs.user "Uporabnik:">
+<!ENTITY foxgame.prefs.pass "Geslo:">
+<!ENTITY foxgame.prefs.ally "Zavezništvo:">
+<!ENTITY foxgame.prefs.url "URL:">
+<!ENTITY foxgame.prefs.DBOptions "Nastavitve podatkovne baze">
+
+<!ENTITY foxgame.prefs.replicateReportOptions "Dodaj dodatno kontroliranje vohunskega poročila na vrhu">
+<!ENTITY foxgame.prefs.missionPreference "Izberi prioriteto za tip misije">
+<!ENTITY foxgame.prefs.attack "Napad">
+<!ENTITY foxgame.prefs.spy "Vohunstvo">
+<!ENTITY foxgame.prefs.recollect "Ponovno pobiranje">
+<!ENTITY foxgame.prefs.transport "Transport">
+<!ENTITY foxgame.prefs.deploy "Postaja">
+<!ENTITY foxgame.prefs.delete "Zbrii">
+<!ENTITY foxgame.prefs.deleteAll "Resetiraj">
+<!ENTITY foxgame.prefs.missionPreference.description "Foxgame bo poskušal izbrati željen tip misije v meniju za izbiranje misij. Če misija z največjo prioriteto ni bila najdena, bo poskušal izbrati naslednjo opcijo in tako naprej.">
+<!ENTITY foxgame.prefs.selectTimeMode "Izberi način časa:">
+<!ENTITY foxgame.prefs.clientTime "Lokalni čas">
+<!ENTITY foxgame.prefs.serverTime "Strežniški čas">
+<!ENTITY foxgame.prefs.commonTime "Lokalne ura/Strežnik minute in sekunde">
+<!ENTITY foxgame.prefs.serverDiffTime "Strežniški čas + x ur">
+<!ENTITY foxgame.prefs.selectTimeDiff "Izberi svojo časovno razliko">
+
+<!ENTITY foxgame.tabs.general "Splošno">
+<!ENTITY foxgame.tabs.time "Možnosti časa">
+
+
+<!ENTITY foxgame.about.title "O Foxgame-u">
+
+<!-- The final string will be "pred" locale "za" -->
+<!ENTITY foxgame.about.translationByBefore "">
+<!ENTITY foxgame.about.translationByAfter " Prevod:">
+<!-- The final string will be "Traducido a de-DE por: -->
+
+<!ENTITY foxgame.about.createdBy "Ustvaril je:">
+<!ENTITY foxgame.about.iconDesign "zasnovanje ikon:">
+<!ENTITY foxgame.about.homePage "Spletna stran:">
+
+<!ENTITY foxgame.menu.configure "Konfiguriraj FoxGame">
+
+<!-- EOF -->

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://mozapps/skin/pref/pref.css" type="text/css"?>
+
+<!DOCTYPE dialog SYSTEM "chrome://foxgame/locale/foxgame.dtd">
+
+<dialog xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+	title="&foxgame.prefs.DBOptions;"
+	id="foxgame-tree"
+	buttons="accept, cancel"
+	ondialogaccept="return devolver_resultado();"
+	onload="iniciar(); window.sizeToContent();"
+	orient="vertical"
+	autostretch="always"
+	persist="screenX screenY"
+	flex="1">
+
+<script type="application/x-javascript" src="chrome://foxgame/content/foxgameCommon.js"/>
+<script type="application/x-javascript" src="chrome://foxgame/content/foxgameOptions.js"/>
+
+<script>
+function iniciar() {
+	var datos = window.arguments[0];
+	try {
+		fillListFromXml("fgServerPopup", "fgServer-", fgUniversesXml, "index", "url", "url");
+		if (datos == '') {
+			document.getElementById("fgSelectDBType").value = "EspRep";
+			return;
+		}
+
+		document.getElementById("fgServer").selectedItem = document.getElementById("fgServer-" + datos.server);
+		loadUnis();
+		document.getElementById("fgUni").selectedItem=document.getElementById("fgUni-" + datos.uni);
+		document.getElementById("fgSelectDBType").value = datos.type;
+		document.getElementById('fgGalaxieTool').setAttribute('hidden','true');
+		document.getElementById('fgMilos').setAttribute('hidden','true');
+		document.getElementById('fgOGSpy').setAttribute('hidden','true');
+		switch(datos.type) {
+		case "GalaxieTool":
+			document.getElementById('fgGalaxieTool').setAttribute('hidden','false');
+			var temp = datos.other.split('[]');
+			document.getElementById("fgGTUser").value = temp[0];
+			document.getElementById("fgGTPass").value = temp[1];
+			document.getElementById("fgGTUrl").value = temp[2];  
+			break;
+		case "Milos":
+			document.getElementById('fgMilos').setAttribute('hidden','false');
+			var temp = datos.other.split('[]');
+			document.getElementById("fgMUser").value = temp[0];
+			document.getElementById("fgMPass").value = temp[1];
+			document.getElementById("fgMAlly").value = temp[2];  
+			break;
+		case "OGSpy":
+			document.getElementById('fgOGSpy').setAttribute('hidden','false');
+			document.getElementById("fgOGSUrl").value = datos.other;  
+			break;
+		}
+		window.sizeToContent();
+
+	} catch (e) {
+		foxgamedebug(e);
+	}
+}
+function devolver_resultado() {
+	var result = window.arguments[1];
+	try {
+		if (document.getElementById("fgServer").value  == '' || document.getElementById("fgUni").value == '' || document.getElementById("fgSelectDBType").value == '')
+			return false;
+		result.server = document.getElementById("fgServer").value;
+		result.uni = document.getElementById("fgUni").value;
+		result.type = document.getElementById("fgSelectDBType").value;
+		if (result.type == "EspRep") 
+		{
+			result.other = "";
+			return true;
+		}
+		if (result.type == "Milos") {
+			if (document.getElementById("fgMUser").value == "" || document.getElementById("fgMAlly").value == "" || document.getElementById("fgMPass").value == "")
+				return false;
+			var temp = document.getElementById("fgUni").selectedItem.label.split(".");
+			result.other = document.getElementById("fgMUser").value+"[]"+document.getElementById("fgMPass").value+"[]"+document.getElementById("fgMAlly").value+"[]"+temp[0];
+		} else if (result.type == "GalaxieTool") {
+			if (document.getElementById("fgGTUser").value == "" || document.getElementById("fgGTUrl").value == "" || document.getElementById("fgGTPass").value == "")
+				return false;
+			result.other = document.getElementById("fgGTUser").value+"[]"+document.getElementById("fgGTPass").value+"[]"+document.getElementById("fgGTUrl").value;
+		} else if (result.type == "OGSpy") {
+			if (document.getElementById("fgOGSUrl").value == "")
+				return false;
+			result.other = document.getElementById("fgOGSUrl").value;
+		}
+		return true; 
+	} catch (e) {
+		foxgamedebug(e);
+		return true;
+	}
+}
+function update_type() {
+document.getElementById('fgGalaxieTool').setAttribute('hidden','true');
+document.getElementById('fgMilos').setAttribute('hidden','true');
+document.getElementById('fgOGSpy').setAttribute('hidden','true');
+if (document.getElementById('fgSelectDBType').value == "Milos")
+	document.getElementById('fgMilos').setAttribute('hidden','false');
+else if (document.getElementById('fgSelectDBType').value == "GalaxieTool")
+	document.getElementById('fgGalaxieTool').setAttribute('hidden','false');
+else if (document.getElementById('fgSelectDBType').value == "OGSpy")
+	document.getElementById('fgOGSpy').setAttribute('hidden','false');
+window.sizeToContent();
+}
+</script>
+
+	<vbox flex="1">
+		<hbox>
+			<groupbox>
+				<caption label="&foxgame.prefs.selectUniverse;"/>
+				<vbox>
+ 					<hbox align="center">
+						<menulist sizetopopup="always" size="35" id="fgServer" oncommand="loadUnis(); window.sizeToContent();" label="&foxgame.prefs.server;">
+   						<menupopup id="fgServerPopup">
+	     					</menupopup>
+						</menulist>
+						<menulist sizetopopup="always" size="35" id="fgUni" label="&foxgame.prefs.universe;" oncommand=" window.sizeToContent();">
+   						<menupopup id="fgUniPopup">
+	     					</menupopup>
+						</menulist>
+    					</hbox>
+				</vbox>
+			</groupbox>
+		</hbox>
+		<hbox>
+			<caption label="&foxgame.prefs.selectDBType;" control="fgSelectDBType" />
+			<menulist id="fgSelectDBType"  sizetopopup="always" size="25" oncommand="update_type();" >
+			<menupopup id="fgSelectDBTypePopup">
+				<menuitem id="selectmode0" value="Milos" label="Milos" />
+				<menuitem id="selectmode1" value="EspRep" label="EspRep" />
+				<menuitem id="selectmode2" value="GalaxieTool" label="GalaxieTool" />
+				<menuitem id="selectmode3" value="OGSpy" label="OGSPy" />
+			</menupopup>
+			</menulist>
+		</hbox>
+		<vbox id="fgGalaxieTool" hidden="true">
+			<hbox>
+				<vbox>
+				<spring flex="1" />
+				<label control="fgGTUser" value="&foxgame.prefs.user;"/>
+				<spring flex="1" />
+				</vbox>
+				<textbox id="fgGTUser"/>
+			</hbox>
+			<hbox>
+				<vbox>
+				<spring flex="1" />
+				<label control="fgGTPass" value="&foxgame.prefs.pass;"/>
+				<spring flex="1" />
+				</vbox>
+				<textbox id="fgGTPass" type="password"/>
+			</hbox>
+			<hbox>
+				<vbox>
+				<spring flex="1" />
+				<label control="fgGTUrl" value="&foxgame.prefs.url;"/>
+				<spring flex="1" />
+				</vbox>
+				<textbox id="fgGTUrl" size="50"/>
+			</hbox>
+		</vbox>
+		<vbox id="fgOGSpy" hidden="true">
+			<hbox>
+				<vbox>
+				<spring flex="1" />
+				<label control="fgOGSUrl" value="&foxgame.prefs.url;"/>
+				<spring flex="1" />
+				</vbox>
+				<textbox id="fgOGSUrl" size="50"/>
+			</hbox>
+		</vbox>
+		<vbox id="fgMilos" hidden="true">
+			<hbox>
+				<vbox>
+				<spring flex="1" />
+				<label control="fgMUser" value="&foxgame.prefs.user;"/>
+				<spring flex="1" />
+				</vbox>
+				<textbox id="fgMUser"/>
+			</hbox>
+			<hbox>
+				<vbox>
+				<spring flex="1" />
+				<label control="fgMPass" value="&foxgame.prefs.pass;"/>
+				<spring flex="1" />
+				</vbox>
+				<textbox id="fgMPass" type="password"/>
+			</hbox>
+			<hbox>
+				<vbox>
+				<spring flex="1" />
+				<label control="fgMAlly" value="&foxgame.prefs.ally;"/>
+				<spring flex="1" />
+				</vbox>
+				<textbox id="fgMAlly"/>
+			</hbox>
+		</vbox>
+	</vbox>
+</dialog>

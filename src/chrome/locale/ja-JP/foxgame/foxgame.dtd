@@ -1,0 +1,112 @@
+<!ENTITY foxgame.about.title "About">
+<!ENTITY foxgame.about.createdBy "製作:">
+<!ENTITY foxgame.about.iconDesign "アイコンデザイン:">
+<!ENTITY foxgame.about.homePage "ウェブページ:">
+<!ENTITY foxgame.tabs.general "一般">
+<!ENTITY foxgame.tabs.time "時刻設定">
+<!ENTITY foxgame.tabs.messages "メッセージ">
+<!ENTITY foxgame.tabs.galaxy "銀河">
+<!ENTITY foxgame.tabs.userHighlight "Highlight">
+<!ENTITY foxgame.menu.configure "FoxGame設定">
+<!ENTITY foxgame.menu.calculator "Trade Calculator">
+<!ENTITY foxgame.title.preferences "FoxGame Preferences">
+<!-- Common -->
+<!ENTITY foxgame.prefs.activate "有効化">
+<!ENTITY foxgame.prefs.add "追加">
+<!ENTITY foxgame.prefs.edit "編集">
+<!ENTITY foxgame.prefs.delete "消去">
+<!ENTITY foxgame.prefs.up "上へ">
+<!ENTITY foxgame.prefs.down "下へ">
+<!ENTITY foxgame.prefs.deleteAll "リセット">
+<!ENTITY foxgame.prefs.color "色">
+<!-- General 1 -->
+<!ENTITY foxgame.prefs.hidePlanet "Hide planet image on most pages">
+<!ENTITY foxgame.prefs.hideOverviewPlanet "Hide planet image with all info on overview">
+<!ENTITY foxgame.prefs.showEnergyInfo "建造物ページで追加のエネルギー情報表示">
+<!ENTITY foxgame.prefs.showCargoNeeded "惑星の全資源を輸送するのに必要な艦隊を表示">
+<!ENTITY foxgame.prefs.showFleetCargo "選択された艦隊の容量を表示">
+<!ENTITY foxgame.prefs.showRankDiffs "統計値中でランク数の上がり下がりを表示">
+<!ENTITY foxgame.prefs.planetButtons "前/次の惑星へのボタンを表示">
+<!ENTITY foxgame.prefs.phalanxRangeInfo "建造物ページでセンサーの範囲を表示">
+<!ENTITY foxgame.prefs.showProdPercent "建造物とリサーチの完了度を表示">
+<!ENTITY foxgame.prefs.showEnergyResources "資源ページにエネルギー情報を追加">
+<!ENTITY foxgame.prefs.fleetOverviewInfo "Show flying resource overview on movements page">
+<!ENTITY foxgame.prefs.changePlanetList "Separate planets and moons on fleet sending select">
+<!ENTITY foxgame.prefs.addConstructionName "Show currently building name below planets in right sidebar">
+<!ENTITY foxgame.prefs.showEventList "Include event list on overview">
+<!ENTITY foxgame.prefs.autoCopy "自動コピー: 最後にコピーした座標に基づき自動的にミッションに対するターゲットを選択">
+<!ENTITY foxgame.prefs.autoCopyTooltip "座標を含むテキストを選択した場合(input controlsを除き、どのFirefoxのタブであっても），Foxgameはその座標を記録し，後でユーザがミッション画面をクリックしたときにデフォルトの座標として表示する.">
+<!-- General 2 -->
+<!ENTITY foxgame.prefs.selectUniverse "宇宙の選択">
+<!ENTITY foxgame.prefs.server "サーバ">
+<!ENTITY foxgame.prefs.universe "宇宙">
+<!ENTITY foxgame.prefs.skinTitle "Use OGame skin">
+<!ENTITY foxgame.prefs.skinUrl "Skin URL:">
+<!ENTITY foxgame.prefs.missionPreference "ミッションタイプ優先順位選択">
+<!ENTITY foxgame.prefs.attack "攻撃">
+<!ENTITY foxgame.prefs.spy "スパイ">
+<!ENTITY foxgame.prefs.recollect "Recollect">
+<!ENTITY foxgame.prefs.transport "輸送">
+<!ENTITY foxgame.prefs.deploy "配置">
+<!ENTITY foxgame.prefs.conf "同盟">
+<!ENTITY foxgame.prefs.exp "探索">
+<!ENTITY foxgame.prefs.update "Update">
+<!ENTITY foxgame.prefs.updateServerList "Download a new list of servers and universes from Foxgame Server">
+<!-- Galaxy -->
+<!ENTITY foxgame.prefs.removePlanets "省略銀河ビュー">
+<!ENTITY foxgame.prefs.addDebrisNumbers "DFイメージの代わりにDFサイズを表示">
+<!ENTITY foxgame.prefs.showPlayerRank "銀河ビュー中でプレーヤのランクを表示">
+<!ENTITY foxgame.prefs.showAllyRank "銀河ビュー中で同盟ランクと同盟員数を表示">
+<!ENTITY foxgame.prefs.addSpySpace "Align vertically galaxy commands (spy, pm...)">
+<!ENTITY foxgame.prefs.highlightBigDebris "巨大DFを強調表示">
+<!ENTITY foxgame.prefs.debrisMin "強調表示最小DFサイズ">
+<!-- Messages -->
+<!ENTITY foxgame.prefs.fastReply "PMと回覧への返信オプション追加">
+<!ENTITY foxgame.prefs.dragoSimLink "スパイレポート中にDragoSimへのリンク追加">
+<!ENTITY foxgame.prefs.speedSimLink "スパイレポート中にSpeedSimへのリンク追加">
+<!ENTITY foxgame.prefs.addRaid "略奪サイズと必要な艦隊数を表示">
+<!ENTITY foxgame.prefs.raidSize "Size of the ship:">
+<!ENTITY foxgame.prefs.messageSignature "プライベートメッセージ署名">
+<!ENTITY foxgame.prefs.msgSignText "署名">
+<!-- Time/Date -->
+<!ENTITY foxgame.prefs.selectTimeMode "時刻モードを選択:">
+<!ENTITY foxgame.prefs.clientTime "現地時刻">
+<!ENTITY foxgame.prefs.serverTime "サーバ時刻">
+<!ENTITY foxgame.prefs.commonTime "現地時間/サーバ分と秒">
+<!ENTITY foxgame.prefs.serverDiffTime "サーバ時刻+X時間">
+<!ENTITY foxgame.prefs.selectTimeDiff "時差を選択">
+<!ENTITY foxgame.prefs.flotaTime "艦隊到着時刻表示（片道および往復）">
+<!ENTITY foxgame.prefs.movementsTime "Show custom time and retreat time on movements page">
+<!ENTITY foxgame.prefs.eventListTime "Show custom time on event list">
+<!ENTITY foxgame.prefs.phalanxTime "センサーレポート中に時刻表示">
+<!ENTITY foxgame.prefs.shipyardTime "Show shipyard's queue finishing time">
+<!ENTITY foxgame.prefs.buildingsTime "建造完了時刻表示">
+<!ENTITY foxgame.prefs.researchTime "リサーチ完了時刻表示">
+<!ENTITY foxgame.prefs.formatDate "時刻日付書式">
+<!ENTITY foxgame.prefs.selectHourFormat "時刻書式選択">
+<!ENTITY foxgame.prefs.hourFormat-24 "24H">
+<!ENTITY foxgame.prefs.hourFormat-12 "12H (AM/PM)">
+<!ENTITY foxgame.prefs.personalFormat "カスタム書式">
+<!ENTITY foxgame.prefs.typeHourFormat "時刻書式入力">
+<!ENTITY foxgame.prefs.formatHelp "書式ヘルプ">
+<!ENTITY foxgame.prefs.selectDateFormat "日付書式選択">
+<!ENTITY foxgame.prefs.dateFormat-dm "日/月">
+<!ENTITY foxgame.prefs.dateFormat-md "月/日">
+<!ENTITY foxgame.prefs.typeDateFormat "日付書式入力">
+<!-- User Highlight -->
+<!ENTITY foxgame.prefs.player "Player">
+<!ENTITY foxgame.prefs.alliance "Alliance">
+<!ENTITY foxgame.prefs.priority "プライオリティ">
+<!ENTITY foxgame.prefs.name "Name">
+<!ENTITY foxgame.prefs.type "タイプ">
+<!-- User Highlight dialog -->
+<!ENTITY foxgame.prefs.selectType "Select type">
+<!ENTITY foxgame.prefs.nameRegEx "Name (Supports regular expressions)">
+<!-- Calculator dialog -->
+<!ENTITY foxgame.calc.ratio "Ratio">
+<!ENTITY foxgame.calc.sell "Sell">
+<!ENTITY foxgame.calc.buy "Buy">
+<!ENTITY foxgame.prefs.resources.metal "メタル">
+<!ENTITY foxgame.prefs.resources.crystal "クリスタル">
+<!ENTITY foxgame.prefs.resources.deut "デューテリウム">
+<!ENTITY foxgame.calc.mix "Mix">

@@ -1,0 +1,79 @@
+<!-- en-US -->
+
+<!ENTITY foxgame.prefs.preferences "FoxGame Preferences">
+<!ENTITY foxgame.prefs.removePlanets "Reduced galaxy view">
+<!ENTITY foxgame.prefs.flotaTime "Show fleet arrival time (1 and 2 distances)">
+<!ENTITY foxgame.prefs.flotaReturnTime "Show fleet retreat time">
+<!ENTITY foxgame.prefs.replicateDeleteOptions "Add extra message deletion options">
+<!ENTITY foxgame.prefs.selectUniverse "Select Universe">
+<!ENTITY foxgame.prefs.highlightPrivates "Highlight Private Messages">
+<!ENTITY foxgame.prefs.server "Server">
+<!ENTITY foxgame.prefs.universe "Universe">
+<!ENTITY foxgame.prefs.activate "Activate">
+<!ENTITY foxgame.prefs.buildingTime "Show hangar's queue finishing time">
+<!ENTITY foxgame.prefs.addOverviewTime "Show event hours in overview">
+<!ENTITY foxgame.prefs.removeOverviewTime "Removes countdown in overview">
+<!ENTITY foxgame.prefs.buildingsTime "Show building construction finishing time">
+<!ENTITY foxgame.prefs.researchTime "Show research finishing time">
+<!ENTITY foxgame.prefs.colorPicker "Color Selection">
+<!ENTITY foxgame.prefs.colorPicker2 "Pick a color:">
+<!ENTITY foxgame.prefs.color "Color:">
+<!ENTITY foxgame.prefs.colorButton "Choose">
+<!ENTITY foxgame.prefs.highlightAllyMessages "Highlight Ally Messages">
+<!ENTITY foxgame.prefs.highlightBigDebris "Highlight Big Debris Fields">
+<!ENTITY foxgame.prefs.debrisMin "Minimal size to highlight:">
+
+<!ENTITY foxgame.prefs.infosDeltas "Display the differences between building levels in buildings info.">
+<!ENTITY foxgame.prefs.autoCopy "AutoCopy: Whenever a text is selected, it searches for coordinates if they are they will appear as the destination on the fleet mission afterwards.">
+<!ENTITY foxgame.prefs.messageSignature "PM Signature">
+<!ENTITY foxgame.prefs.msgSignText "Signature">
+<!ENTITY foxgame.prefs.type "Type">
+<!ENTITY foxgame.prefs.add "Add">
+<!ENTITY foxgame.prefs.edit "Edit">
+<!ENTITY foxgame.prefs.phalanxTime "Show time in phalanx reports.">
+<!ENTITY foxgame.prefs.milosButtons "Add buttons on galaxy view to send the info to databases.">
+<!ENTITY foxgame.prefs.statButtons "Add buttons on ranks to send the info to databases.">
+<!ENTITY foxgame.prefs.reportButtons "Add buttons to spy reports to send the info to databases.">
+<!ENTITY foxgame.tabs.dbs "Databases">
+<!ENTITY foxgame.prefs.selectDBType "Select DB type:">
+<!ENTITY foxgame.prefs.user "User:">
+<!ENTITY foxgame.prefs.pass "Password:">
+<!ENTITY foxgame.prefs.ally "Alliance:">
+<!ENTITY foxgame.prefs.url "URL:">
+<!ENTITY foxgame.prefs.DBOptions "Database settings">
+
+<!ENTITY foxgame.prefs.replicateReportOptions "Add extra spy report control on the top">
+<!ENTITY foxgame.prefs.missionPreference "Choose mission type priorities">
+<!ENTITY foxgame.prefs.attack "Attack">
+<!ENTITY foxgame.prefs.spy "Spy">
+<!ENTITY foxgame.prefs.recollect "Recollect">
+<!ENTITY foxgame.prefs.transport "Transport">
+<!ENTITY foxgame.prefs.deploy "Station">
+<!ENTITY foxgame.prefs.delete "Delete">
+<!ENTITY foxgame.prefs.deleteAll "Reset">
+<!ENTITY foxgame.prefs.missionPreference.description "Foxgame will select the desired mission type in mission selection screen. If the mission with most priority is not found, it will try to select the second option and so on.">
+<!ENTITY foxgame.prefs.selectTimeMode "Choose time mode:">
+<!ENTITY foxgame.prefs.clientTime "Local time">
+<!ENTITY foxgame.prefs.serverTime "Server time">
+<!ENTITY foxgame.prefs.commonTime "Local hour/Server mins and secs">
+<!ENTITY foxgame.prefs.serverDiffTime "Server time + X hours">
+<!ENTITY foxgame.prefs.selectTimeDiff "Select your time difference">
+
+<!ENTITY foxgame.tabs.general "General">
+<!ENTITY foxgame.tabs.time "Time Preferences">
+
+
+<!ENTITY foxgame.about.title "About FoxGame">
+
+<!-- The final string will be "Before" locale "After" -->
+<!ENTITY foxgame.about.translationByBefore "">
+<!ENTITY foxgame.about.translationByAfter " Translation:">
+<!-- The final string will be "Traducido a de-DE por: -->
+
+<!ENTITY foxgame.about.createdBy "Created by:">
+<!ENTITY foxgame.about.iconDesign "Icon Design:">
+<!ENTITY foxgame.about.homePage "Web Page:">
+
+<!ENTITY foxgame.menu.configure "Configure FoxGame">
+
+<!-- EOF -->

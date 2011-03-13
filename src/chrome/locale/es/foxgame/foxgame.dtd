@@ -1,0 +1,112 @@
+<!ENTITY foxgame.about.title "Acerca de">
+<!ENTITY foxgame.about.createdBy "Creada por:">
+<!ENTITY foxgame.about.iconDesign "Diseño del logo:">
+<!ENTITY foxgame.about.homePage "Pagina web:">
+<!ENTITY foxgame.tabs.general "General">
+<!ENTITY foxgame.tabs.time "Opciones de hora">
+<!ENTITY foxgame.tabs.messages "Mensajes">
+<!ENTITY foxgame.tabs.galaxy "Galaxia">
+<!ENTITY foxgame.tabs.userHighlight "Resaltado">
+<!ENTITY foxgame.menu.configure "Configurar FoxGame">
+<!ENTITY foxgame.menu.calculator "Calculadora de Cambio">
+<!ENTITY foxgame.title.preferences "Opciones de Foxgame">
+<!-- Common -->
+<!ENTITY foxgame.prefs.activate "Activar">
+<!ENTITY foxgame.prefs.add "Añadir">
+<!ENTITY foxgame.prefs.edit "Editar">
+<!ENTITY foxgame.prefs.delete "Borrar">
+<!ENTITY foxgame.prefs.up "Subir">
+<!ENTITY foxgame.prefs.down "Bajar">
+<!ENTITY foxgame.prefs.deleteAll "Limpiar">
+<!ENTITY foxgame.prefs.color "Color:">
+<!-- General 1 -->
+<!ENTITY foxgame.prefs.hidePlanet "Ocultar la imagen del planeta en casi todas las páginas.">
+<!ENTITY foxgame.prefs.hideOverviewPlanet "Ocultar la imagen del planeta con toda la informacion en la pagina principal.">
+<!ENTITY foxgame.prefs.showEnergyInfo "Mostrar información de energía en los edificios.">
+<!ENTITY foxgame.prefs.showCargoNeeded "Informar de la flota necesaria para transportar todos los recursos de un planeta.">
+<!ENTITY foxgame.prefs.showFleetCargo "Informar de la capacidad de la flota seleccionada.">
+<!ENTITY foxgame.prefs.showRankDiffs "Mostrar las subidas o bajadas en las estadísticas.">
+<!ENTITY foxgame.prefs.planetButtons "Mostrar botones de planeta anterior/siguiente.">
+<!ENTITY foxgame.prefs.phalanxRangeInfo "Añadir el alcance del phalanx en la pantalla de edificios.">
+<!ENTITY foxgame.prefs.showProdPercent "Mostrar el porcentaje completado de los edificios e investigaciones.">
+<!ENTITY foxgame.prefs.showEnergyResources "Mostrar energía final en la pantalla de recursos.">
+<!ENTITY foxgame.prefs.fleetOverviewInfo "Mostrar los recursos en vuelo en la página de movimientos.">
+<!ENTITY foxgame.prefs.changePlanetList "Separa los planetas y las lunas en la pantalla de envio de flotas.">
+<!ENTITY foxgame.prefs.addConstructionName "Mostrar los edificios en construccion debajo de los planetas.">
+<!ENTITY foxgame.prefs.showEventList "Insertar la lista de eventos en la pantalla principal.">
+<!ENTITY foxgame.prefs.autoCopy "Activa la autoselección de destino de mision con las cordenadas previamente seleccionadas.">
+<!ENTITY foxgame.prefs.autoCopyTooltip "Cada vez que selecciones un texto (en cualquier pestaña, de cualquier lugar menos en los campos de formularios) que contenta unas coordenadas Foxgame las almacenará y las marcará como destino siempre cuando vayas a la página de mision y fueran a aparecer las coordenadas por defecto (esto es cuando no has seguido un vinculo de mision).">
+<!-- General 2 -->
+<!ENTITY foxgame.prefs.selectUniverse "Selección de universo">
+<!ENTITY foxgame.prefs.server "Servidor">
+<!ENTITY foxgame.prefs.universe "Universo">
+<!ENTITY foxgame.prefs.skinTitle "Usar Skin para Ogame">
+<!ENTITY foxgame.prefs.skinUrl "URL del Skin:">
+<!ENTITY foxgame.prefs.missionPreference "Selección de prioridades de misión">
+<!ENTITY foxgame.prefs.attack "Atacar">
+<!ENTITY foxgame.prefs.spy "Espiar">
+<!ENTITY foxgame.prefs.recollect "Recolectar">
+<!ENTITY foxgame.prefs.transport "Transportar">
+<!ENTITY foxgame.prefs.deploy "Desplegar">
+<!ENTITY foxgame.prefs.conf "Confederación">
+<!ENTITY foxgame.prefs.exp "Expedición">
+<!ENTITY foxgame.prefs.update "Actualizar">
+<!ENTITY foxgame.prefs.updateServerList "Descarga una nueva lista de servidores y universos desde el servidor de Foxgame">
+<!-- Galaxy -->
+<!ENTITY foxgame.prefs.removePlanets "Activar la visión reducida de la galaxia">
+<!ENTITY foxgame.prefs.addDebrisNumbers "Mostrar el tamaño de los escombros en vez de la imagen.">
+<!ENTITY foxgame.prefs.showPlayerRank "Mostrar rankings en la galaxia.">
+<!ENTITY foxgame.prefs.showAllyRank "Mostrar información de alianzas en la galaxia.">
+<!ENTITY foxgame.prefs.addSpySpace "Alinea verticalmente las acciones en la galaxia (espiar, mensaje...)">
+<!ENTITY foxgame.prefs.highlightBigDebris "Resaltar campos de escombros grandes">
+<!ENTITY foxgame.prefs.debrisMin "Tamaño mínimo para resaltar:">
+<!-- Messages -->
+<!ENTITY foxgame.prefs.fastReply "Añadir la opción de respuesta rápida para privados y circulares.">
+<!ENTITY foxgame.prefs.dragoSimLink "Añadir enlace a DragoSim en los espionajes.">
+<!ENTITY foxgame.prefs.speedSimLink "Añadir enlace a SpeedSim en los espionajes.">
+<!ENTITY foxgame.prefs.addRaid "Mostrar recursos a robar y flota necesaria en espionajes">
+<!ENTITY foxgame.prefs.raidSize "Tamaño de la nave">
+<!ENTITY foxgame.prefs.messageSignature "Firma en los mensajes">
+<!ENTITY foxgame.prefs.msgSignText "Texto de la firma">
+<!-- Time/Date -->
+<!ENTITY foxgame.prefs.selectTimeMode "Elige el modo de hora:">
+<!ENTITY foxgame.prefs.clientTime "Hora local">
+<!ENTITY foxgame.prefs.serverTime "Hora de servidor">
+<!ENTITY foxgame.prefs.commonTime "Hora local/Minutos y segungos de servidor">
+<!ENTITY foxgame.prefs.serverDiffTime "Hora de servidor + X Horas">
+<!ENTITY foxgame.prefs.selectTimeDiff "Escoge tu diferencia horaria:">
+<!ENTITY foxgame.prefs.flotaTime "Mostrar hora personalizada en las pantallas de flota.">
+<!ENTITY foxgame.prefs.movementsTime "Mostar hora personalizada y hora de retorno en caso de cancelar en los movimientos.">
+<!ENTITY foxgame.prefs.eventListTime "Mostrar hora personalizada en la lista de eventos.">
+<!ENTITY foxgame.prefs.phalanxTime "Mostrar hora personalizada de llegada en el phalanx.">
+<!ENTITY foxgame.prefs.shipyardTime "Mostrar hora de finalización del hangar.">
+<!ENTITY foxgame.prefs.buildingsTime "Muestra la hora de finalización de los edificios">
+<!ENTITY foxgame.prefs.researchTime "Visualiza la hora de finalización de las investigaciones">
+<!ENTITY foxgame.prefs.formatDate "Formato de día y hora">
+<!ENTITY foxgame.prefs.selectHourFormat "Seleccione el formato de hora:">
+<!ENTITY foxgame.prefs.hourFormat-24 "24H">
+<!ENTITY foxgame.prefs.hourFormat-12 "12H (AM/PM)">
+<!ENTITY foxgame.prefs.personalFormat "Formato propio">
+<!ENTITY foxgame.prefs.typeHourFormat "Formato de hora:">
+<!ENTITY foxgame.prefs.formatHelp "Ayuda">
+<!ENTITY foxgame.prefs.selectDateFormat "Seleccione el formato de fecha:">
+<!ENTITY foxgame.prefs.dateFormat-dm "Día/Mes">
+<!ENTITY foxgame.prefs.dateFormat-md "Mes/Dia">
+<!ENTITY foxgame.prefs.typeDateFormat "Formato de fecha:">
+<!-- User Highlight -->
+<!ENTITY foxgame.prefs.player "Jugador">
+<!ENTITY foxgame.prefs.alliance "Alianza">
+<!ENTITY foxgame.prefs.priority "Prioridad">
+<!ENTITY foxgame.prefs.name "Nombre">
+<!ENTITY foxgame.prefs.type "Tipo">
+<!-- User Highlight dialog -->
+<!ENTITY foxgame.prefs.selectType "Selecciona el tipo">
+<!ENTITY foxgame.prefs.nameRegEx "Nombre (Acepta expresiones regulares)">
+<!-- Calculator dialog -->
+<!ENTITY foxgame.calc.ratio "Ratio">
+<!ENTITY foxgame.calc.sell "Vender">
+<!ENTITY foxgame.calc.buy "Comprar">
+<!ENTITY foxgame.prefs.resources.metal "Metal">
+<!ENTITY foxgame.prefs.resources.crystal "Cristal">
+<!ENTITY foxgame.prefs.resources.deut "Deuterio">
+<!ENTITY foxgame.calc.mix "Mezcla">

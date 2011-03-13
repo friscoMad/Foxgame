@@ -1,0 +1,112 @@
+<!ENTITY foxgame.about.title "FoxGame Hakkinda">
+<!ENTITY foxgame.about.createdBy "Yaratici:">
+<!ENTITY foxgame.about.iconDesign "Ikon Dizayn:">
+<!ENTITY foxgame.about.homePage "Web sayfasi:">
+<!ENTITY foxgame.tabs.general "Genel">
+<!ENTITY foxgame.tabs.time "Zaman Secenekleri">
+<!ENTITY foxgame.tabs.messages "Mesaj">
+<!ENTITY foxgame.tabs.galaxy "Galaksi">
+<!ENTITY foxgame.tabs.userHighlight "Highlight">
+<!ENTITY foxgame.menu.configure "FoxGame'yi ayarla">
+<!ENTITY foxgame.menu.calculator "Trade Calculator">
+<!ENTITY foxgame.title.preferences "FoxGame Preferences">
+<!-- Common -->
+<!ENTITY foxgame.prefs.activate "Calistir">
+<!ENTITY foxgame.prefs.add "Ekle">
+<!ENTITY foxgame.prefs.edit "Duzenle">
+<!ENTITY foxgame.prefs.delete "Sil">
+<!ENTITY foxgame.prefs.up "Move Up">
+<!ENTITY foxgame.prefs.down "Move Down">
+<!ENTITY foxgame.prefs.deleteAll "Sifirla">
+<!ENTITY foxgame.prefs.color "Renk:">
+<!-- General 1 -->
+<!ENTITY foxgame.prefs.hidePlanet "Hide planet image on most pages">
+<!ENTITY foxgame.prefs.hideOverviewPlanet "Hide planet image with all info on overview">
+<!ENTITY foxgame.prefs.showEnergyInfo "Binalarin enerji bilgilerini göster">
+<!ENTITY foxgame.prefs.showCargoNeeded "Gezegendeki madeni ta&amp;#351;&amp;#305;yacak gemi miktar&amp;#305;n&amp;#305; belirt">
+<!ENTITY foxgame.prefs.showFleetCargo "Seçilen filonun kargo kapasitesini göster">
+<!ENTITY foxgame.prefs.showRankDiffs "istatistik ekran&amp;#305;nda yükselmeleri göster">
+<!ENTITY foxgame.prefs.planetButtons "Önceki sonraki gezegen butonlar&amp;#305;n&amp;#305; göster">
+<!ENTITY foxgame.prefs.phalanxRangeInfo "Bina ekran&amp;#305;nda radar menzilini göster">
+<!ENTITY foxgame.prefs.showProdPercent "bina ve ara&amp;#351;t&amp;#305;rmalar&amp;#305;n ilerleme durumunu göster">
+<!ENTITY foxgame.prefs.showEnergyResources "Add energy info to resources select">
+<!ENTITY foxgame.prefs.fleetOverviewInfo "Show flying resource overview on movements page">
+<!ENTITY foxgame.prefs.changePlanetList "Separate planets and moons on fleet sending select">
+<!ENTITY foxgame.prefs.addConstructionName "Show currently building name below planets in right sidebar">
+<!ENTITY foxgame.prefs.showEventList "Include event list on overview">
+<!ENTITY foxgame.prefs.autoCopy "OtomatikKopya: Bir metin kopyalandiginda eger icinde hedef koordinati varsa filo gonderme ekranina otomatik olarak ekle.">
+<!ENTITY foxgame.prefs.autoCopyTooltip "Whenever you select a text (in any firefox tab, everywhere except input controls) with coordinates in it Foxgame will store that coords and use later when you go to the mission screen when it would be shown the default coords (that is whenever you did not clicked in a mission link).">
+<!-- General 2 -->
+<!ENTITY foxgame.prefs.selectUniverse "Evren sec">
+<!ENTITY foxgame.prefs.server "Sunucu">
+<!ENTITY foxgame.prefs.universe "Evren">
+<!ENTITY foxgame.prefs.skinTitle "Use OGame skin">
+<!ENTITY foxgame.prefs.skinUrl "Skin URL:">
+<!ENTITY foxgame.prefs.missionPreference "Gorev turu onceliklerini sec">
+<!ENTITY foxgame.prefs.attack "Saldir">
+<!ENTITY foxgame.prefs.spy "Casusluk">
+<!ENTITY foxgame.prefs.recollect "Sokmek">
+<!ENTITY foxgame.prefs.transport "Nakliye">
+<!ENTITY foxgame.prefs.deploy "Konuslandir">
+<!ENTITY foxgame.prefs.conf "ittifak">
+<!ENTITY foxgame.prefs.exp "Ke&amp;#351;if">
+<!ENTITY foxgame.prefs.update "Update">
+<!ENTITY foxgame.prefs.updateServerList "Download a new list of servers and universes from Foxgame Server">
+<!-- Galaxy -->
+<!ENTITY foxgame.prefs.removePlanets "Sadelestirilmis galaksi ekrani">
+<!ENTITY foxgame.prefs.addDebrisNumbers "Harabe resmi yerine miktari göster">
+<!ENTITY foxgame.prefs.showPlayerRank "Galaksi ekraninda oyuncunun sirasini göster">
+<!ENTITY foxgame.prefs.showAllyRank "Galaksi ekraninda ittifak sirasini göster">
+<!ENTITY foxgame.prefs.addSpySpace "Align vertically galaxy commands (spy, pm...)">
+<!ENTITY foxgame.prefs.highlightBigDebris "Buyuk Harabe alanlarini belirginlestir">
+<!ENTITY foxgame.prefs.debrisMin "belirginlestirme icin en kucuk boyut:">
+<!-- Messages -->
+<!ENTITY foxgame.prefs.fastReply "Kolay cevaplama özelliklerini göster">
+<!ENTITY foxgame.prefs.dragoSimLink "Casus raporuna DragoSim k&amp;#305;sayolu ekle">
+<!ENTITY foxgame.prefs.speedSimLink "Casus raporuna SpeedSim k&amp;#305;sayolu ekle">
+<!ENTITY foxgame.prefs.addRaid "casus raporunda gerekli gemi miktar&amp;#305;n&amp;#305; hesapla">
+<!ENTITY foxgame.prefs.raidSize "Size of the ship:">
+<!ENTITY foxgame.prefs.messageSignature "Kisisel imza">
+<!ENTITY foxgame.prefs.msgSignText "Imza">
+<!-- Time/Date -->
+<!ENTITY foxgame.prefs.selectTimeMode "Zaman modunu seciniz:">
+<!ENTITY foxgame.prefs.clientTime "Yerel saat">
+<!ENTITY foxgame.prefs.serverTime "Sunucu zamani">
+<!ENTITY foxgame.prefs.commonTime "Yerel saat/sunucu dak + san.">
+<!ENTITY foxgame.prefs.serverDiffTime "Sunucu saati + X saat">
+<!ENTITY foxgame.prefs.selectTimeDiff "Zaman farkini seciniz">
+<!ENTITY foxgame.prefs.flotaTime "Filo varis saatlerini goster(tek ve cift yonlu)">
+<!ENTITY foxgame.prefs.movementsTime "Show custom time and retreat time on movements page">
+<!ENTITY foxgame.prefs.eventListTime "Show custom time on event list">
+<!ENTITY foxgame.prefs.phalanxTime "Radar taramasinda saati goster.">
+<!ENTITY foxgame.prefs.shipyardTime "Show shipyard's queue finishing time">
+<!ENTITY foxgame.prefs.buildingsTime "Bina insaati bitis saatini goster">
+<!ENTITY foxgame.prefs.researchTime "Arastirma bitis saatini goster">
+<!ENTITY foxgame.prefs.formatDate "Saat Tarih Format&amp;#305;">
+<!ENTITY foxgame.prefs.selectHourFormat "Saat Format&amp;#305;">
+<!ENTITY foxgame.prefs.hourFormat-24 "24S">
+<!ENTITY foxgame.prefs.hourFormat-12 "12S(ÖÖ/ÖS)">
+<!ENTITY foxgame.prefs.personalFormat "El ile ayarlama">
+<!ENTITY foxgame.prefs.typeHourFormat "Type Time format">
+<!ENTITY foxgame.prefs.formatHelp "El ile ayarlama yard&amp;#305;m&amp;#305;">
+<!ENTITY foxgame.prefs.selectDateFormat "Tarih Format&amp;#305;">
+<!ENTITY foxgame.prefs.dateFormat-dm "Gün/Ay">
+<!ENTITY foxgame.prefs.dateFormat-md "Ay/Gün">
+<!ENTITY foxgame.prefs.typeDateFormat "Type Date format">
+<!-- User Highlight -->
+<!ENTITY foxgame.prefs.player "Player">
+<!ENTITY foxgame.prefs.alliance "Alliance">
+<!ENTITY foxgame.prefs.priority "Sürat">
+<!ENTITY foxgame.prefs.name "Name">
+<!ENTITY foxgame.prefs.type "Yaz">
+<!-- User Highlight dialog -->
+<!ENTITY foxgame.prefs.selectType "Select type">
+<!ENTITY foxgame.prefs.nameRegEx "Name (Supports regular expressions)">
+<!-- Calculator dialog -->
+<!ENTITY foxgame.calc.ratio "Ratio">
+<!ENTITY foxgame.calc.sell "Sell">
+<!ENTITY foxgame.calc.buy "Buy">
+<!ENTITY foxgame.prefs.resources.metal "Metal">
+<!ENTITY foxgame.prefs.resources.crystal "Kristal">
+<!ENTITY foxgame.prefs.resources.deut "Deuterium">
+<!ENTITY foxgame.calc.mix "Mix">

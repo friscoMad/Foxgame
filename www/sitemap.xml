@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.google.com/schemas/sitemap/0.84"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.google.com/schemas/sitemap/0.84
+http://www.google.com/schemas/sitemap/0.84/sitemap.xsd">
+<url>
+	<loc>http://foxgame.mozdev.org</loc>
+</url>
+<url>
+	<loc>http://foxgame.mozdev.org/project.css</loc>
+	<lastmod>2005-12-22T20:17:14+01:00</lastmod>
+</url>
+<url>
+	<loc>http://foxgame.mozdev.org/index.en.html</loc>
+</url>
+<url>
+	<loc>http://foxgame.mozdev.org/installation.en.html</loc>
+</url>
+<url>
+	<loc>http://foxgame.mozdev.org/changelog.en.html</loc>
+</url>
+<url>
+	<loc>http://foxgame.mozdev.org/source.en.html</loc>
+</url>
+<url>
+	<loc>http://foxgame.mozdev.org/screenshots.en.html</loc>
+</url>
+<url>
+	<loc>http://foxgame.mozdev.org/bugs.en.html</loc>
+</url>
+<url>
+	<loc>http://foxgame.mozdev.org/index.html</loc>
+</url>
+<url>
+	<loc>http://foxgame.mozdev.org/installation.html</loc>
+</url>
+<url>
+	<loc>http://foxgame.mozdev.org/changelog.html</loc>
+</url>
+<url>
+	<loc>http://foxgame.mozdev.org/screenshots.html</loc>
+</url>
+<url>
+	<loc>http://foxgame.mozdev.org/source.html</loc>
+</url>
+<url>
+	<loc>http://foxgame.mozdev.org/bugs.html</loc>
+</url>
+<url>
+	<loc>http://foxgame.mozdev.org/screens/galaxy.JPG</loc>
+	<lastmod>2006-03-24T11:29:37+01:00</lastmod>
+</url>
+<url>
+	<loc>http://foxgame.mozdev.org/screens/flota.JPG</loc>
+	<lastmod>2006-01-02T18:16:56+01:00</lastmod>
+</url>
+<url>
+	<loc>http://foxgame.mozdev.org/screens/messages.JPG</loc>
+	<lastmod>2006-03-24T11:29:37+01:00</lastmod>
+</url>
+<url>
+	<loc>http://foxgame.mozdev.org/explicacion.html</loc>
+</url>
+<url>
+	<loc>http://foxgame.mozdev.org/mail.jpg</loc>
+	<lastmod>2006-02-23T18:41:55+01:00</lastmod>
+</url>
+<url>
+	<loc>http://foxgame.mozdev.org/mail2.jpg</loc>
+	<lastmod>2006-02-23T18:41:55+01:00</lastmod>
+</url>
+<url>
+	<loc>http://foxgame.mozdev.org/log.jpg</loc>
+	<lastmod>2006-02-23T18:41:55+01:00</lastmod>
+</url>
+</urlset>

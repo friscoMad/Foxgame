@@ -1,0 +1,78 @@
+<!-- pl-PL -->
+
+<!ENTITY foxgame.prefs.preferences "Preferencje FoxGame">
+<!ENTITY foxgame.prefs.removePlanets "Zredukowany widok galaktyki">
+<!ENTITY foxgame.prefs.flotaTime "Pokaż czas przybycia flot (1 i 2 odcinki)">
+<!ENTITY foxgame.prefs.flotaReturnTime "Pokaż czas powrotu flot">
+<!ENTITY foxgame.prefs.replicateDeleteOptions "Pokaż dodatkowe opcje wiadomości">
+<!ENTITY foxgame.prefs.selectUniverse "Wybierz Uniwersum">
+<!ENTITY foxgame.prefs.highlightPrivates "Koloruj Wiadomości Prywatne">
+<!ENTITY foxgame.prefs.server "Serwer">
+<!ENTITY foxgame.prefs.universe "Universum">
+<!ENTITY foxgame.prefs.activate "Aktywuj">
+<!ENTITY foxgame.prefs.buildingTime "Pokaż czas zakończenia produkcji w stoczni">
+<!ENTITY foxgame.prefs.addOverviewTime "Pokaż godziny zdarzeń w Podglądzie">
+<!ENTITY foxgame.prefs.removeOverviewTime "Usuń odliczanie w Podglądzie">
+<!ENTITY foxgame.prefs.buildingsTime "Pokaż czas zakończenia budowy">
+<!ENTITY foxgame.prefs.researchTime "Pokaż czas zakończenia badań">
+<!ENTITY foxgame.prefs.colorPicker "Wybór Koloru">
+<!ENTITY foxgame.prefs.colorPicker2 "Wybierz kolor:">
+<!ENTITY foxgame.prefs.color "Kolor:">
+<!ENTITY foxgame.prefs.colorButton "Wybierz">
+<!ENTITY foxgame.prefs.highlightAllyMessages "Koloruj Wiadomości Sojuszu">
+<!ENTITY foxgame.prefs.highlightBigDebris "Koloruj Duże Pola Zniszczeń">
+<!ENTITY foxgame.prefs.debrisMin "Minimalne Pole Zniszczeń :">
+<!ENTITY foxgame.tabs.general "Ogólne">
+<!ENTITY foxgame.tabs.time "Opcje Czasu">
+<!ENTITY foxgame.about.title "O FoxGame">
+
+<!ENTITY foxgame.prefs.infosDeltas "Pokaż różnice pomiędzy poszczególnymi poziomami budynków w szczegółach.">
+<!ENTITY foxgame.prefs.autoCopy "AutoKopiowanie: Za każdym razem, kiedy zostanie zaznaczony tekst, bedą wyszukiwane koordynaty planet,
+jesli bedą, zostaną automatycznie dodane przy wysyłaniu floty.">
+<!ENTITY foxgame.prefs.messageSignature "Podpis PW">
+<!ENTITY foxgame.prefs.msgSignText "Podpis">
+<!ENTITY foxgame.prefs.type "Typ">
+<!ENTITY foxgame.prefs.add "Dodaj">
+<!ENTITY foxgame.prefs.edit "Edycja">
+<!ENTITY foxgame.prefs.phalanxTime "Pokaż czas w raportach falangi.">
+<!ENTITY foxgame.prefs.milosButtons "Dołącz opcje które pozwalają na oglądanie danych z baz w widoku galaktyki">
+<!ENTITY foxgame.prefs.statButtons "Dołącz opcje które pozwalają na wysyłanie danych w widoku galaktyki.">
+<!ENTITY foxgame.prefs.reportButtons "Dołącz opcje które pozwalają na wysyłanie raportów szpiegowskich w widoku galaktyki.">
+<!ENTITY foxgame.tabs.dbs "Bazy">
+<!ENTITY foxgame.prefs.selectDBType "Wybierz typ Bazy:">
+<!ENTITY foxgame.prefs.user "Użytkownik:">
+<!ENTITY foxgame.prefs.pass "Hasło:">
+<!ENTITY foxgame.prefs.ally "Sojusz:">
+<!ENTITY foxgame.prefs.url "URL:">
+<!ENTITY foxgame.prefs.DBOptions "Ustawienia Bazy Danych">
+
+<!ENTITY foxgame.prefs.replicateReportOptions "Dodaj opcje o raportach szpiegowskich na górze">
+<!ENTITY foxgame.prefs.missionPreference "Wybierz priorytet misji">
+<!ENTITY foxgame.prefs.attack "Napadaj">
+<!ENTITY foxgame.prefs.spy "Szpieguj">
+<!ENTITY foxgame.prefs.recollect "Zbieraj">
+<!ENTITY foxgame.prefs.transport "Transportuj">
+<!ENTITY foxgame.prefs.deploy "Stacjonuj">
+<!ENTITY foxgame.prefs.delete "Usuń">
+<!ENTITY foxgame.prefs.deleteAll "Kasuj ustawienia">
+<!ENTITY foxgame.prefs.missionPreference.description "Jeśli istnieje lista priorytetów, foxgame będzie zaznaczał w tej kolejności typ misji przy jej wyborze. Jeśli nie będzie pierwszej z listy, zaznaczy następną która jest w kolejności itd.">
+<!ENTITY foxgame.prefs.selectTimeMode "Przedstawienie czasu">
+<!ENTITY foxgame.prefs.clientTime "Czas lokalny">
+<!ENTITY foxgame.prefs.serverTime "Czas serwera">
+<!ENTITY foxgame.prefs.commonTime "Godzina lokalna/minuty i sekundy serwera">
+<!ENTITY foxgame.prefs.serverDiffTime "Czas serwera + różnica czasu (X godzin)">
+<!ENTITY foxgame.prefs.selectTimeDiff "wybierz różnicę czasową">
+
+<!-- The final string will be "Before" locale "After" -->
+<!ENTITY foxgame.about.translationByBefore "">
+<!ENTITY foxgame.about.translationByAfter " tlumaczenie:">
+<!-- The final string will be "de-DE translation: -->
+
+
+<!ENTITY foxgame.about.createdBy "Stworzone przez:">
+<!ENTITY foxgame.about.iconDesign "Projekt ikon:">
+<!ENTITY foxgame.about.iconDesigner "Brak ikon">
+<!ENTITY foxgame.about.homePage "Strona oficjalna:">
+
+<!ENTITY foxgame.menu.configure "Konfiguracja FoxGame">
+<!-- EOF -->
